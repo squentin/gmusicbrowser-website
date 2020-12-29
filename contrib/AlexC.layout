@@ -1,0 +1,47 @@
+[AlexC-base]
+
+Type=G
+Default		= Window size=1120x820,sticky=0
+
+VBall		= MBMenu HBStatus _HPmain HPEnd
+
+MBMenu		= MainMenuItem PSortItem PFilterItem QueueItem
+HBStatus	= Prev Stop Play Next LabelTime Length _Scale -Quit -Pref
+HPEnd		= HPAbout Equalizer
+	HPAbout		= _AABox1(aa=artist) _AABox2(aa=album)
+
+
+HPmain		= VBpart1 _HPpart
+	VBpart1		= _QueueList
+	HPpart		= VBpart2 VBpart3
+		VBpart2		= _VPcenter
+		VBpart3		= _Context
+
+VPcenter	= HBcenterup _VBcenterdown
+	HBcenterup	= _Cover _HPfilter
+		HPfilter	= _FPane1(nb=1,hide=1,pages=artist) _FPane2(nb=2,hide=1,pages=album)
+	VBcenterdown	= HBSearch _SongTree
+		HBSearch	= SimpleSearch ResetFilter Refresh PlayFilter FLock -TogButton(icon=gtk-dialog-info,widget=HPEnd) -Total
+
+[AlexC-base-compact]
+
+Type=G
+Default		= Window size=1120x820,sticky=0
+
+VBall		= MBMenu HBStatus _HPmain HPEnd
+
+MBMenu		= MainMenuItem PSortItem PFilterItem QueueItem
+HBStatus	= Prev Stop Play Next LabelTime Length _Scale -Quit -Pref
+HPEnd		= HPAbout Equalizer
+	HPAbout		= _AABox1(aa=artist) _AABox2(aa=album)
+
+
+HPmain		= VPleft VPcenter
+	VPleft		= QueueList Context
+
+VPcenter	= HBcenterup _VBcenterdown
+	HBcenterup	= _Cover _HPfilter
+		HPfilter	= _FPane1(nb=1,hide=1,pages=artist) _FPane2(nb=2,hide=1,pages=album)
+	VBcenterdown	= HBSearch _SongTree
+		HBSearch	= SimpleSearch ResetFilter Refresh PlayFilter FLock -TogButton(icon=gtk-dialog-info,widget=HPEnd) -Total
+

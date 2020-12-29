@@ -1,0 +1,63 @@
+[itunes++]
+
+### based on itunes-like-plus
+
+####General
+Type		= G
+Default		= Window size=1120x820 VPfp_list 120 HPfp0 300 VPfp_list 200_550
+
+###main layout with notebook tabs
+VBmain		= MBmenu HBupper _TBupper
+
+## 
+HBupper		= _VBupper -HBRight
+## Notebook with 3 tabs
+TBupper		= _"Queue" VBQueueList _"Library" HPfp_list_src _"Context" Context
+
+VBupper		= _HBHeader
+# HBRight		= -ArtistPic(hover_layout=ArtistPopup,hover_delay=100,tooltip=%a) -10Cover(hover_layout=CoverPopup,hover_delay=100,tooltip=%l)
+HBRight		= 20VB_search
+VB_search	= _Filler 20SimpleSearch
+
+HBHeader	= HBButtons _ABInfo
+
+HBButtons	= Prev(size=dnd) Play(size=dialog) Next(size=dnd) Stop(size=small-toolbar) Vol(size=small-toolbar,button=1) 10Filler0
+
+ABInfo		= FRInfo(shadow=etched-out)
+FRInfo		= VBInfo
+VBInfo		= _HBSongInfo HBScale
+HBSongInfo	= _VBSongInfo -Filler1
+VBSongInfo	= _2HBTitle _2HBAlbum
+
+HBTitle		= LockArtist _Title_by -Stars
+HBAlbum		= LockAlbum _Album -Date
+HBScale		= _Scale LabelTime -Length
+
+MBmenu		= MainMenuItem PSortItem PFilterItem QueueItem
+
+VBQueueList	= 3_QueueList(activate=playlist) HBQueueAct
+HBQueueAct	= EditListButtons 10QueueActions
+
+HPfp_list_src	= VPfilter_cover_artist _VPfp_list
+VPfp_list	= HPfp0 _VBlist
+
+VPfilter_cover_artist	= _FPane3(nb=1,hide=0) _VP_cover_artist
+# VP_cover_artist		= _ArtistPic(hover_layout=ArtistPopup,hover_delay=100,tooltip=%a) _Cover(hover_layout=CoverPopup,hover_delay=100,tooltip=%l)
+VP_cover_artist		= _Cover
+
+VBlist		= HBstatus _SongTree
+HBstatus	= Sort(button=1) Filter(button=1) Refresh ResetFilter PlayFilter QueueFilter -Total
+MBlist		= HistItem LSortItem PlayItem
+HPfp0		= FPane0(nb=2,hide=1,pages=genre) HPfp1
+HPfp1		= FPane1(nb=3,hide=1,pages=artist) FPane2(nb=4,hide=1,pages=album)
+VSize1		= 47 HBHeader
+HSize1		= HBButtons HBRight
+HSize2		= LockArtist LockAlbum Filler1
+VolumeScroll	= HBupper
+
+[CoverPopup]
+VBmain		= Cover(minsize=300,maxsize=300,click1=CloseWindow)
+
+[ArtistPopup]
+VBmain		= ArtistPic(minsize=300,maxsize=300,click1=CloseWindow)
+

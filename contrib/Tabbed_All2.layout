@@ -1,0 +1,44 @@
+[Tabbed_All2]
+Type=G
+Default         = Window size=1200x800,sticky=0 FPane0 page=artist FPane1 page=album
+HBIndic         = MBmenu Sort 10Filter Queue 10Pos
+MBmenu          = MainMenuItem PSortItem PFilterItem QueueItem
+VBleft          = HBIndic HBButtons
+HBButtons       = Quit Pref Vol Prev Stop Play Next LabelTime Length 4_Scale
+HBupper         = VBleft _VBright 5-Cover
+HBTitle         = Filler0 _Title -Stars
+HBArtist        = LockArtist _Artist
+HBAlbum         = LockAlbum _Album -Date
+VBright         = 2HBTitle 2HBArtist 2HBAlbum
+VBmain          = HBupper _TBlist HPfp
+TBlist          = "Browser" VBbig2 "Context" Context "Queue" VBQueue "Playlist" VBSongs
+VBbig2          = HBstatus _HPbig2
+HPbig2          = _VPlistAA
+HBstatus        = SimpleSearch(group=1) 10MBlist ResetFilter(group=1) Refresh(group=1) PlayFilter(group=1) FLock(group=1) -Total(group=1)
+MBlist          = HistItem(group=1) LSortItem(group=1) PlayItem(group=1)
+VolumeScroll    = HBupper
+
+
+HPbig2		= _VPlistAA HPfp
+HPfp            = FPane0(group=1,nb=1) FPane1(group=1,nb=2)
+VPlistAA        = _SongList1(group=1) HBAA1
+HBAA1           = _AABox11(group=1,aa=artist) _AABox12(group=1,aa=album)
+
+#VBSongs        = Total2 _VPSongsa
+VBSongs         = HBSongs _VPSongsa
+HBSongs		= MBlist2 -Total2(group=2)
+MBlist2         = LSortItem2(group=2) PlayItem2(group=2)
+VPSongsa        = _SongList2(mode=playlist, group=2) HBAA2
+HBAA2           = EditListButtons(group=2)
+
+VBQueue         = HBQueue _VPQueuea
+HBQueue		= MBlist3 -Total3(group=3)
+MBlist3		= LSortItem3(group=3) PlayItem3(group=3)
+VPQueuea        = _QueueList3(group=3) HBAA3
+HBAA3           = EditListButtons2(group=3) 4QueueActions(group=3)
+
+
+
+
+
+

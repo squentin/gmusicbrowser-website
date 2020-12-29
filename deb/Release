@@ -1,0 +1,25 @@
+Archive: stable
+Origin: http://gmusicbrowser.org/download.html
+Label: gmusicbrowser
+Architecture: any
+Date: Wed, 18 Nov 2020 23:31:36 +0000
+MD5Sum:
+ 7a50640ffac0abb81f449d0891c3c686            11479 Packages
+ 44e8276e6d3626950abb145b1a4aa2ad             2928 Packages.bz2
+ 64e70e2a19a833fe2ea58e923b14fc56             2613 Packages.gz
+ 985358db9d559fe283d0a609f6638486             2430 Packages.lzma
+SHA1:
+ ebe430c08511293bac8eab173e30c1e5f2363556            11479 Packages
+ b3ada71db0737148a11789c7fbf0452ee7ba25b1             2928 Packages.bz2
+ f0071d3d203318cc0d1582ca33abc19824612a5e             2613 Packages.gz
+ 92a6bf4212fc8fcc521fbee4d08af63b67f44b6b             2430 Packages.lzma
+SHA256:
+ 5a73c16456ba250c29b0c4aaa93624047607a80fc233e9963661ad377ccbd19d            11479 Packages
+ 9818be65e62f1663320c6d5b78e493e5ddc15ae25e8b9e31eec5b76ce39de0db             2928 Packages.bz2
+ c9b3fef216a4ffd109e766c83c9c550758243cb37cebb7aa6c564b4973ec4155             2613 Packages.gz
+ f3512e67bb9e2b0871160e0ed852b1f88e90c75b635798ba7bddc989109fadc6             2430 Packages.lzma
+SHA512:
+ ce36a03e0a90305bd4a26aa5c1eb78a5f428c84fa0d982f8588217277e1553f221e7fa67c991898f9cad582e44f127331e1a11f65eb103b03030966d19bb2158            11479 Packages
+ 2bdf58f87543ee756fd1ed69cd92abe031487f765edccf926930a26e48e931f27e1809f5b2c1509c816ca94589a082f6b349cc5266b1beb9d496be85c48b0bc2             2928 Packages.bz2
+ c79cd51a627182b6ebe528af355ccfdfc06867b90833b23328bc6dd9d5675590888310bd358a3fc273b94184d1ac5444061273b53b3c0242e505826669ee52f9             2613 Packages.gz
+ 6319dfcca0de118249ac7eff1d41f9cd717ccb4940fe955fb18d11cb29daa3f20c65ecaf3ddf2b3db2d08eb32f55d22503ddc2b96d001ebda323634686ac7f40             2430 Packages.lzma

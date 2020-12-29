@@ -1,0 +1,21 @@
+[Tabbed Playlist]
+Type=G
+Default		= size=850x675 FPane0 page=artist FPane1 page=album,albumpsize=32 HPPanes 275_280 VPPanes 200_250
+HBButtons   = Vol Prev Stop Play Next Playlist Pref Quit -BContext
+HBIndic     = Sort 10Filter Queue 10Pos
+HBTitle     = Filler0 _Title
+HBArtist    = LockArtist _Artist
+HBAlbum     = LockAlbum _Album -Date
+HBTime      = LabelTime Length _Scale
+VBmain      = HBButtons HBIndic _VBText -HBTime
+VBText      = HBTitle HBArtist HBAlbum
+HBmain      = _VBmain 2Filler1 -Cover
+HSize0      = Filler0 LockArtist LockAlbum Sort
+VBSongs     = _SongList2(mode=playlist, group=1)
+VPPanes     = _FPane1(nb=2,hide=1,pages=album) SongList
+HPPanes     = _FPane0(nb=1, pages=artist) _VPPanes
+HBSearch        = 20Label(Search anything:) 5SimpleSearch ResetFilter
+VBSearch        = HBSearch _HPPanes
+TBlist      = "Playlist" VBSongs "Browser" VBSearch "Context" Context
+VBmain2     = HBmain 3Filler2 _TBlist
+VolumeScroll    = HBmain

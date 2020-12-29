@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 18 Mar 2015 23:35:00 +0200
+Source: gmusicbrowser
+Binary: gmusicbrowser
+Architecture: source all
+Version: 1.1.14
+Distribution: utopic
+Urgency: low
+Maintainer: Quentin Sculo <squentin@free.fr>
+Changed-By: Quentin Sculo <squentin@free.fr>
+Description:
+ gmusicbrowser - very customizable jukebox for large collections of music files
+Changes:
+ gmusicbrowser (1.1.14) utopic; urgency=low
+ .
+   * new version
+   * removed libgstreamer-interfaces-perl from suggested packages
+   * moved libgstreamer-perl from recommended to suggested packages
+   * added libglib-object-introspection-perl and gir1.2-gstreamer-1.0 to recommended packages
+Checksums-Sha1:
+ 05ae8417a3ca4974220b3e5c51812f9f3261a91b 819 gmusicbrowser_1.1.14.dsc
+ e125ac3edbdeb34391001afda8b66f720b984613 1248924 gmusicbrowser_1.1.14.tar.gz
+ 2c837c3c6247bd7a30f0b5d06173b782aa67ebfe 952712 gmusicbrowser_1.1.14_all.deb
+Checksums-Sha256:
+ 0056c6824bfabcdc8d3076e446f7d1c83178a413dc009b04c52e04165cf5adc2 819 gmusicbrowser_1.1.14.dsc
+ 79304d5f2124fa79d76302e586e095a54b54ae17443d0f190a2a7e9c45cfc819 1248924 gmusicbrowser_1.1.14.tar.gz
+ be7859cd03c6d5ce6c17d7337cf588b640803607f959674e356358f90bfaead3 952712 gmusicbrowser_1.1.14_all.deb
+Files:
+ 82ce6b631d04a929c0cb938cd03c52b4 952712 sound optional gmusicbrowser_1.1.14_all.deb
+ 83a8a3995951080aacf7edf55beb073f 819 sound optional gmusicbrowser_1.1.14.dsc
+ 383859cc1e9463f1bf65ee1391d65a47 1248924 sound optional gmusicbrowser_1.1.14.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlUKBG0ACgkQL+UnWArdgVF7tQCdEP3KappmGIRE4D+s0o7Of9Nt
+0J4AoIWEmy7e6RHvnt0p7ul3+QOoz/nQ
+=+79p
+-----END PGP SIGNATURE-----

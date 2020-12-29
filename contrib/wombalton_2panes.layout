@@ -1,0 +1,47 @@
+[wombalton: Two Panes]
+
+####General
+Type		= G
+Title		= gmusicbrowser playing %S by %a from %l
+Default		= Window size=750x550 FPane0 page=genres FPane1 artistpsize=32,artistinfo=1 FPane2 albumpsize=32,albuminfo=1 SongList follow=1,cols=playandqueue_titleaa QueueList follow=1,cols=playandqueue_titleaa SongTree follow=1,sort=1_11_12_13_0,grouping='album|pic',cols=playandqueue_track_titleaa_length_rating SimpleSearch fields=9s_10s_11s_17s_23s_16s,wordsplit=1
+
+###main layout (left and right container)
+HPmain     	= VBleft VBright
+
+##left container
+VBleft		= VBcon _TBlist0
+
+#controls
+VBcon      	= HBTitle HBArtist HBAlbum HBTime HBIndic HBButtons
+
+HBButtons	= Pref Vol Fullscreen ChooseRandAlbum TogButton0(icon=gmb-list,label="right side",widget=VBright,resize=h) -Next -Play -Stop -Prev
+HBIndic     	= Pos -Sort -10Filter -Queue
+HBTime      	= _Scale LabelTime Length
+HBTitle		= _Title(font=16) -Stars
+HBArtist	= LockArtist _Artist -Label0(markup=%g)
+HBAlbum		= LockAlbum _Album  -Date
+
+#left tabs
+TBlist0		= "Playlist" VBTab0 "Queue" VBTab1
+VBTab0		= _SongList(mode=playlist,group=1) EditListButtons(group=1,small=1)
+VBTab1		= _QueueList(group=2) EditListButtons2(group=2,small=1)
+
+##right container
+VBright		= VBinfo _TBlist
+
+#info
+VBinfo		= HBbox
+HBbox		= 7_AABox0(aa=album) 7_AABox1(aa=artist)
+
+#right tabs
+TBlist      	= "Browser" VBBro "Context" Context(followselection=1)
+
+
+#Browser
+VBBro	        = HBSearch _VPPanes
+HBSearch        = 5_SimpleSearch ResetFilter PlayFilter QueueFilter -Total
+VPPanes		= HPPanes0 _SongTree(activate=queue)
+HPPanes0	= FPane0(nb=2,hide=1) HPPanes
+HPPanes    	= FPane1(nb=3,pages=artist,hide=1) FPane2(nb=4,pages=album,hide=1)
+
+#####end two sides

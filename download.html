@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>gmusicbrowser - download</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css">
+</head>
+
+<body id="section_download">
+
+<div id="header">
+	<h1><img style="width: 48px; height: 48px;" alt="application icon" src="icons/icon.png">gmusicbrowser</h1>
+	<ul>
+	<li id="menu_main">	<a href="/">Main</a></li>
+	<li id="menu_ss">	<a href="screenshots.html">Screenshots</a></li>
+	<li id="menu_download">	<a href="download.html">Download</a></li>
+	<li id="menu_guide">	<a href="guide.html">Guide</a></li>
+	<li id="menu_faq">	<a href="faq.html">FAQ</a></li>
+	<li id="menu_dev">	<a href="devel.html">Development</a></li>
+	<li id="menu_forums">	<a href="https://forum.gmusicbrowser.org">Forums</a></li>
+	<li id="menu_wiki">	<a href="https://wiki.gmusicbrowser.org/">Wiki</a></li>
+	</ul>
+</div>
+
+<div id="content">
+	<h4>Latest stable version : <b>1.1.16</b> (released on 18-11-2020) <small><i>(<a href="release-notes.txt">release notes</a>)</i></small></h4>
+<!--	<small><i>(You can also check the <a href="devel.html">development version</a> for a more recent version)</i></small><br>
+-->
+	<ul>
+		<li>source/executable tarball : <a href="download/gmusicbrowser-1.1.16.tar.gz">gmusicbrowser-1.1.16.tar.gz</a></li>
+		<li>deb : <a href="download/gmusicbrowser_1.1.16_all.deb">gmusicbrowser_1.1.16_all.deb</a></li>
+		<li>fedora : package in <a href="https://apps.fedoraproject.org/packages/gmusicbrowser">official fedora repository</a>, maintained by <a href="http://blog.famillecollet.com/">Remi Collet</a></li>
+		<li>repo for openSUSE : <a href="http://software.opensuse.org/package/gmusicbrowser">openSUSE</a></li>
+		<li>archlinux : <a href="https://aur.archlinux.org/packages/gmusicbrowser/">see this page</a></li>
+		<li>gentoo : <a href="http://packages.gentoo.org/package/media-sound/gmusicbrowser">see this page</a></li>
+	</ul>
+<!--
+	<ul>
+		<li>rpm (mandriva) : <a href="download/gmusicbrowser-1.0.2-1.noarch.rpm">gmusicbrowser-1.0.2-1.noarch.rpm</a> or in official repository</li>
+		<li>deb : <a href="deb/gmusicbrowser_1.0.2_all.deb">gmusicbrowser_1.0.2_all.deb</a></li>
+		<li>ubuntu : <a href="https://apps.ubuntu.com/cat/gmusicbrowser"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png"  title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a></li>
+	</ul>
+-->
+
+	(You can also use the <a href="http://sourceforge.net/projects/gmusicbrowser/files/">sourceforge mirrors</a>)<br>
+<br>
+<br>
+	Daily build ppa by aboettger : <a href="https://launchpad.net/~andreas-boettger/+archive/gmusicbrowser-daily">https://launchpad.net/~andreas-boettger/+archive/gmusicbrowser-daily</a>
+<br>
+<br>
+	For debian/ubuntu users, a very basic repository is available by adding this line to your /etc/apt/sources.list :<br>
+	&nbsp;&nbsp;&nbsp;<code>deb http://gmusicbrowser.org/deb ./</code><br>
+	<b>Warning: key updated on 19-11-2020</b><br>To check the authenticity of the package, you need to import <a href="squentin.key.asc">this key</a> into your trusted software providers list.<br>
+   &nbsp;&nbsp;&nbsp;<code>wget http://gmusicbrowser.org/squentin.key.asc -O - | sudo apt-key add -</code><br>	
+<br><br>
+You can run it without installation (if the dependencies are installed) by just :<ul class=compact>
+	<li>untar : &nbsp;<code>tar -xzvf gmusicbrowser-1.1.16.tar.gz</code></li>
+	<li>run : &nbsp;&nbsp;&nbsp;<code>gmusicbrowser-1.1.16/gmusicbrowser.pl</code></li>
+</ul>
+<br>
+<h4>Dependencies :</h4>
+You might want/need to install (from your favorite distribution repository) :<br>
+<ul>
+ <li>to use mpg123/ogg123/flac123
+ <ul>	<li>mpg123 or mpg321 to play mp3 files</li>
+	<li>ogg123 to play ogg and flac files (found in a package names vorbis-tools)</li>
+	<li>flac123 to play flac files (deprecated)</li>
+	<li>amixer to control the volume (found in a package named alsa-utils)</li>
+ </ul></li>
+ <li>to use gstreamer-0.10
+ <ul>	<li>gstreamer perl bindings &gt;0.06 <small>(package named libgstreamer-perl or perl-GStreamer)</small></li>
+	<li>gstreamer-0.10 library and gstreamer-plugins-base</li>
+	<li>gstreamer-0.10-plugins-ugly to play mp3 files</li>
+	<li>gstreamer-0.10-plugins-bad to play mpc files</li>
+	<li>gstreamer-0.10-plugins-good to play flac files</li>
+	<li>note that some codec may be packaged by themselves in some distribution, with names like gstreamer0.10-flac or gstreamer0.10-musepack</li>
+	<li>some additional gstreamer plugins may also be required, depending on which output you want to use, like oss, alsa, pulseaudio, esd.</li>
+ </ul></li>
+ <li>to use gstreamer-1.x
+ <ul>	<li>requires gmusicbrowser 1.1.14 or later</li>
+ 	<li>Glib::Object::Introspection perl module <small>(package named libglib-object-introspection-perl or perl-Glib-Object-Introspection)</small></li>
+	<li>gstreamer-1.x introspection data <small>(package gir1.2-gstreamer-1.0 in debian/ubuntu)</small></li>
+	<li>gstreamer-1.x library and gstreamer-1.0-plugins-base</li>
+	<li>gstreamer-1.0 plugins to play various file formats</li>
+ </ul></li>
+
+ <li>to use mplayer <ul><li>mplayer</li></ul>
+ <li>to use mpv <ul><li>mpv</li></ul>
+</li>
+<!--
+ <li>to consult wikipedia pages and search google for lyrics, one of :
+ <ul>	<li>gtk2-mozembed perl bindings <small>(package named libgtk2-mozembed-perl or perl-Gtk2-MozEmbed) (see <a href="https://wiki.gmusicbrowser.org/doku.php?id=install:mozembed">this page</a>)</small></li>
+	<li>gtk2-webkit perl bindings <small>(package named perl-Gtk2-WebKit)</small></li>
+ </ul></li>
+-->
+ <li>to control gmusicbrowser through DBus or use the included gnome multimedia keys plugin (for gnome &gt;= 2.18)
+ <ul>	<li>DBus perl bindings <small>(package named libnet-dbus-perl or perl-Net-DBus)</small></li>
+</ul>
+ <li>to use the notify plugin
+ <ul>	<li>libnotify perl bindings <small>(package named libgtk2-notify-perl or perl-Gtk2-Notify)</small></li>
+</ul>
+
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.gmusicbrowser.org/" : "http://stats.gmusicbrowser.org/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.gmusicbrowser.org/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+[Sonata-like]
+Type=G
+Default	= Window sticky=1
+VolumeScroll	= HBmain
+HSize0		= LockArtist LockAlbum Sort
+
+HBmain		= _Cover VBmain
+ VBmain		= HBButtons _VBText
+   HBButtons	= Prev Stop Play Next _ABtime Pref
+     ABtime	= (xalign=0,yscale=0) TimeBar
+   VBText	= HBTitle HBArtist HBAlbum
+     HBTitle	= Sort _Title LabelsIcons
+     HBArtist	= LockArtist _Artist(markup=<small>%a</small>)
+     HBAlbum	= LockAlbum _Album(markup=<small><i>%l</i></small>) -Date(markup=<small><i>%y</i></small>)
+
+[simple with big cover]
+Type=G
+Default			= Window size=850x510 FPane1 artistinfo=1,albumpsize=32,albuminfo=1
+VolumeScroll		= HPmain
+Title           	= %n. %S - %l (%y) - %a
+
+HPmain			= _VBcontrolbrowser TBlibrary 
+HSize0			= 420 TBlibrary
+HSize1			= LockArtist LockAlbum Sort
+
+VBcontrolbrowser	= HBcontrolpic _Cover
+ HBcontrolpic		= _VBcontrol 2Filler1 -ArtistPic
+  VBcontrol		= HBbuttonstimebar _VBtext
+   HBbuttonstimebar	= Prev Stop Play Next _ABtime Pref
+     ABtime		= (xalign=0,yscale=0) TimeBar
+   VBtext		= HBtitle HBartist HBalbum
+     HBtitle		= Sort _Title -Stars
+     HBartist		= LockArtist _Artist(markup=<small>%a</small>)
+     HBalbum		= LockAlbum _Album(markup=<small><i>%l</i></small>) -Date(markup=<small><i>%y</i></small>)
+
+TBlibrary		= Library VPbrowse Queue VBque Context Context
+ VPbrowse		= HPartistalbum  VBundersearch
+   HPartistalbum 	= FPane0(hide=1,pages=artist,nb=2) FPane1(hide=1,pages=album,nb=3)
+   VBundersearch	= HBsearch _SongList
+     HBsearch		= _SimpleSearch ResetFilter Sort(button=1) Filter(button=1) MBsort
+       MBsort 		= LSortItem
+   VBque		= _QueueList(group=1,shrinkonhide=v) HBQueueButtons
+     HBQueueButtons	= EditListButtons(group=1) QueueActions
+

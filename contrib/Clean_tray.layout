@@ -1,0 +1,11 @@
+[Clean]
+Type=T
+HBTitle			= _Title _LabelTime
+HSize0			= 35 LabelTime
+HBArtist		= 10_Artist -Date
+HBAlbum         = 10_Album
+VBText          = _HBTitle 2Filler0 _HBArtist 2Filler1 _HBAlbum
+HBmain          = _VBText 2Filler2 _Cover
+HBTime		    = _Scale
+VBMain          = HBmain -HBTime
+VolumeScroll    = HBmain

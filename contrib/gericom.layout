@@ -1,0 +1,45 @@
+[gericom]
+Type=G
+Default         = Window size=1120x820,sticky=0  FPane0 page=artist
+VBleft          =  HBButtons
+HBButtons       = Prev Stop Play Next
+HBupper         = VBleft  -Quit -Pref -_HBstatus2
+VBmain          = HBupper _TBlist
+TBlist          = "Music Library" VBbig2 "Now Playing" VBSongs "Lyrics" Context
+VBbig2          =  HBstatus3 _HPbig HBstatus
+HBstatus        = _HPfp3
+HBstatus2        =  LabelTime Length 4_Scale
+HBstatus3        =  SimpleSearch ResetFilter Refresh PlayFilter FLock -Total
+VolumeScroll    = HBupper HPfp3
+
+HPbig          =  HPfp _VPlistAA
+HPfp            = _FPane0(nb=1)
+VPlistAA        = HBAA1 _SongList
+HBAA1           = _Cover _HPfp1
+HPfp1		= _FPane1(nb=3,hide=1,pages=artist) _FPane2(nb=4,hide=1,pages=album)
+HPfp3		= _AABox11(aa=artist) _AABox12(aa=album)
+
+VBSongs         = HBSongs _VPSongsa
+HBSongs         = MBlist2 -Total2(group=2)
+MBlist2         = LSortItem2(group=2) PlayItem2(group=2)
+VPSongsa        = _SongList2(mode=playlist, group=2) HBAA2
+HBAA2           = _Equalizer
+
+
+[gericom-simplified]
+Type=G
+Default         = Window size=820x820,sticky=0 hidden=HBAA1 FPane0 page=artist
+VBleft          =  HBButtons
+HBButtons       = Prev Stop Play Next
+HBupper         = VBleft -Quit -Pref -Album -Artist -Title -_HBstatus2
+VBmain          = HBupper _TBlist
+TBlist          = "Music Library" VBbig2
+VBbig2          = _HPbig HBstatus
+HBstatus        = SimpleSearch -Total
+HBstatus2        = LabelTime Length 4_Scale
+VolumeScroll    = HBupper HBAA1
+HPbig          =  HPfp _VPlistAA
+HPfp            = _FPane0(nb=1)
+VPlistAA        =  HBAA1 _SongList
+HBAA1           = _Cover _HPfp1
+HPfp1		= _FPane1(nb=3,hide=1,pages=artist) _FPane2(nb=4,hide=1,pages=album)

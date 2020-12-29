@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>gmusicbrowser development</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css">
+</head>
+
+<body id="section_dev">
+
+<div id="header">
+	<h1><img style="width: 48px; height: 48px;" alt="application icon" src="icons/icon.png">gmusicbrowser</h1>
+	<ul>
+	<li id="menu_main">	<a href="/">Main</a></li>
+	<li id="menu_ss">	<a href="screenshots.html">Screenshots</a></li>
+	<li id="menu_download">	<a href="download.html">Download</a></li>
+	<li id="menu_guide">	<a href="guide.html">Guide</a></li>
+	<li id="menu_faq">	<a href="faq.html">FAQ</a></li>
+	<li id="menu_dev">	<a href="devel.html">Development</a></li>
+	<li id="menu_forums">	<a href="https://forum.gmusicbrowser.org">Forums</a></li>
+	<li id="menu_wiki">	<a href="https://wiki.gmusicbrowser.org/">Wiki</a></li>
+	</ul>
+</div>
+
+<div id="content">
+
+<a href="contrib.html">Contributed icons and layouts</a><br>
+<a href="layout_doc.html">layouts documentation</a><br>
+<a href="translations.html">translations</a><br>
+<a href="https://wiki.gmusicbrowser.org/doku.php?id=customization:songtree">SongTree syntax for custom column or group</a><br>
+<br>
+
+<!--
+ <b>No development version at the moment.</b> Use the stable version.<br>
+-->
+
+<b>git repository : </b>on <a href="http://github.com/squentin/gmusicbrowser">github</a> and <a href="https://sourceforge.net/p/gmusicbrowser/code/">sourceforge</a>. See <a href="https://wiki.gmusicbrowser.org/doku.php?id=guide:git">this mini-guide</a> on using git to get the latest gmusicbrowser version in the wiki.<br>
+There is currently 2 git branches: master for the gtk3 version and v1.1.x for the gtk2 version.<br>
+<b>IRC : </b><a href="irc://chat.freenode.net/gmusicbrowser">#gmusicbrowser</a> IRC channel on Freenode.<br>
+<br><br>
+Future development versions will be announced on the mailing-list <a href="http://sourceforge.net/mail/?group_id=147463">gmusicbrowser-announce</a> (<a href="http://dir.gmane.org/gmane.comp.audio.gmusicbrowser.announce">RSS feeds are available via gmane</a>)<br>
+<br>
+<h4>New gtk3 beta : <a href="download/gmusicbrowser-1.1.99.1.tar.gz">gmusicbrowser-1.1.99.1.tar.gz</a> (released on 19-11-2020)</h4>
+<a href="download/gmusicbrowser_1.1.99.1_all.deb">gtk3 beta for debian/ubuntu</a><br>
+
+<br>
+Probably outdated links:<br>
+<a href="http://download.opensuse.org/repositories/home:/neocrust/openSUSE_12.3/">repo for openSUSE 12.3</a><a href="https://build.opensuse.org/project/show?project=home:neocrust">(OBS page)</a><br>
+<a href="download/gmusicbrowser-1.1.7-1.noarch.rpm">1.1.7 rpm for mandriva</a><br>
+<a href="http://blog.famillecollet.com/post/2011/03/20/gmusicbrowser-1.1.7">1.1.7 rpm for fedora</a>.<br>
+<a href="http://download.zenwalk.org/people/jp/gmusicbrowser/gmusicbrowser-1.1.7-i486-72.1.txz">1.1.7 package for zenwalk</a><br>
+<a href="download/gmusicbrowser-1.1.6.ebuild">1.1.6 gentoo ebuild</a>, <a href="download/gmusicbrowser-9999.ebuild">ebuild for git master branch</a><br>
+<a href="http://aur.archlinux.org/packages.php?ID=11511">1.1.8 package for arch linux</a><br>
+
+ochosi has set up <a href="https://launchpad.net/~shimmerproject/+archive/ppa">this ubuntu ppa</a> which tracks git master. <i>Note that it contains some small changes from my branch, in particular the default layout and icons.</i><br>
+<br>
+<br>
+<br>
+
+<!-- <b>This is a release candidate for the next stable release.</b><br>
+-->
+
+<br>
+<br>
+<br>
+<!-- Piwik -->
+
+<!-- old amarok import :
+<h4>Import stats from amarok</h4>
+<a href="files/amarok2gmb.pl">amarok2gmb.pl</a><br>
+Barely tested script to import rating, lastplay, playcount and labels from amarok.<br>
+The script look for a sqlite database at ~/.kde/share/apps/amarok/collection.db, it needs the perl sqlite module (probably libdbd-sqlite-perl). If you use a postgresql or mysql database, the script will need some slight alteration a the correct perl module.<br>
+Gmusicbrowser needs to be running, with the perl dbus module (libnet-dbus-perl) installed, and due to changes I made to the dbus namespace I use, you need version &gt;=0.9642.<br>
+To run it, simply type "perl amarok2gmb.pl"<br>
+It will print an error for any problem importing a value.<br>
+-->
+
+</div>
+
+</body>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.gmusicbrowser.org/" : "http://stats.gmusicbrowser.org/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.gmusicbrowser.org/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</html>

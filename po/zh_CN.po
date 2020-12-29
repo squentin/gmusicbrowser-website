@@ -1,0 +1,7452 @@
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: gmusicbrowser\n"
+"Report-Msgid-Bugs-To: squentin@free.fr\n"
+"POT-Creation-Date: 2020-11-18 23:50+01:00\n"
+"PO-Revision-Date: 2017-09-19 10:29+0000\n"
+"Last-Translator: squentin <squentin@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/squentin/"
+"gmusicbrowser/language/zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: plugins/albuminfo.pm:111
+#, fuzzy
+msgid " Context pane layout "
+msgstr "打开网页布局"
+
+#: plugins/albuminfo.pm:99
+msgid " Fields "
+msgstr ""
+
+#: plugins/albuminfo.pm:87
+msgid " Review "
+msgstr ""
+
+#: gmusicbrowser_layout.pm:310 gmusicbrowser_layout.pm:311
+#: gmusicbrowser_layout.pm:312 gmusicbrowser_layout.pm:332
+#: gmusicbrowser_layout.pm:333 gmusicbrowser_layout.pm:334
+#, perl-brace-format
+msgid " of {length}"
+msgstr " of {length}"
+
+#: gmusicbrowser_layout.pm:1884
+#, perl-format
+msgid "%S by %a"
+msgstr "%S 来自 %a"
+
+#: gmusicbrowser_songs.pm:3275 gmusicbrowser_songs.pm:3276
+#: gmusicbrowser_songs.pm:3277
+#, perl-format
+msgid "%d Album"
+msgid_plural "%d Albums"
+msgstr[0] "%d专辑"
+
+#: gmusicbrowser_songs.pm:3275 gmusicbrowser_songs.pm:3276
+#, perl-format
+msgid "%d Artist"
+msgid_plural "%d Artists"
+msgstr[0] "%d艺术家"
+
+#: plugins/artistinfo.pm:575
+#, perl-format
+msgid "%d Upcoming Event"
+msgid_plural "%d Upcoming Events"
+msgstr[0] ""
+
+#: gmusicbrowser.pl:617 gmusicbrowser_list.pm:8141 gmusicbrowser_songs.pm:886
+#, perl-format
+msgid "%d album"
+msgid_plural "%d albums"
+msgstr[0] "%d专辑"
+
+#: gmusicbrowser.pl:603 gmusicbrowser.pl:610 gmusicbrowser_list.pm:8152
+#: gmusicbrowser_songs.pm:3280
+#, perl-format
+msgid "%d artist"
+msgid_plural "%d artists"
+msgstr[0] "%d艺术家"
+
+#: gmusicbrowser.pl:5322 gmusicbrowser_layout.pm:4395
+#, perl-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d文件"
+
+#: gmusicbrowser_tags.pm:391
+#, perl-format, perl-brace-format
+msgid "%d file in {folder}"
+msgid_plural "%d files in {folder}"
+msgstr[0] "%d文件在 {folder}"
+
+#: gmusicbrowser.pl:6124
+#, fuzzy, perl-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "添加文件夹"
+
+#: gmusicbrowser.pl:1991
+#, perl-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d秒"
+
+#: gmusicbrowser.pl:597 gmusicbrowser.pl:605 gmusicbrowser.pl:3848
+#: gmusicbrowser.pl:3852 gmusicbrowser.pl:5709 gmusicbrowser.pl:6939
+#: gmusicbrowser.pl:7147 gmusicbrowser.pl:8809 gmusicbrowser_layout.pm:253
+#: gmusicbrowser_list.pm:250 gmusicbrowser_list.pm:1719
+#: gmusicbrowser_songs.pm:3274 plugins/audioscrobbler.pm:197
+#, perl-format
+msgid "%d song"
+msgid_plural "%d songs"
+msgstr[0] "%d歌曲"
+
+#: gmusicbrowser.pl:6123
+#, fuzzy, perl-format
+msgid "%d song added"
+msgid_plural "%d songs added"
+msgstr[0] "%d歌曲"
+
+#: gmusicbrowser.pl:3857 gmusicbrowser_layout.pm:249
+#: gmusicbrowser_layout.pm:252
+#, perl-format
+msgid "%d song in queue"
+msgid_plural "%d songs in queue"
+msgstr[0] "队列中有 %d 首歌曲"
+
+#: gmusicbrowser_list.pm:274
+#, perl-format
+msgid "%d song in the library"
+msgid_plural "%d songs in the library"
+msgstr[0] "音乐库中有 %d 首歌曲"
+
+#: gmusicbrowser_list.pm:263
+#, perl-format
+msgid "%d song selected"
+msgid_plural "%d songs selected"
+msgstr[0] "选择了 %d 首歌曲"
+
+#: plugins/audioscrobbler.pm:90
+#, fuzzy, perl-format
+msgid "%d song waiting to be sent"
+msgid_plural "%d songs waiting to be sent"
+msgstr[0] "队列中有 %d 首歌曲"
+
+#: gmusicbrowser_songs.pm:54 gmusicbrowser_songs.pm:158
+#: gmusicbrowser_songs.pm:226
+#, perl-format
+msgid "%s fuzzy match with %s"
+msgstr ""
+
+#: layouts/contrib.layout:615
+#, fuzzy, perl-format
+msgid "%t by %a (%m)"
+msgstr "%S 来自 %a"
+
+#: gmusicbrowser.pl:5215
+#, perl-brace-format
+msgid "'{file}' exists. Overwrite ?"
+msgstr "'{file}' 存在。覆盖吗？"
+
+#: gmusicbrowser.pl:7100
+#, fuzzy, perl-format
+msgid "(%d song excluded)"
+msgid_plural "(%d songs excluded)"
+msgstr[0] "选择了 %d 首歌曲"
+
+#: plugins/appindicator.pm:50
+msgid "(The middle-click action doesn't work correctly in some desktops)"
+msgstr ""
+
+#: gmusicbrowser.pl:3673
+msgid "(case insensitive)"
+msgstr "(区分大小写)"
+
+#: gmusicbrowser_tags.pm:389
+#, perl-brace-format
+msgid "(common parent folder : {common})"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:2001
+msgid "(other)"
+msgstr "(其他)"
+
+#: plugins/audioscrobbler.pm:61
+msgid "(see http://www.last.fm)"
+msgstr "(见http://www.last.fm)"
+
+#: gmusicbrowser_gstreamer-1.x.pm:500
+msgid "(unstable)"
+msgstr ""
+
+#: gmusicbrowser.pl:6816
+msgid ""
+"- When selecting a song, the playlist filter will be reset if the song is "
+"not in it\n"
+"- Skip to another song when removing the current song from the playlist"
+msgstr ""
+
+#: gmusicbrowser.pl:8950
+msgid "0 chance"
+msgstr "0机会"
+
+#: plugins/artistinfo.pm:295
+msgid "0 means 'show all'"
+msgstr ""
+
+#: gmusicbrowser.pl:8948
+#, perl-brace-format
+msgid "1 chance in {probability}"
+msgstr "1机会概率在{probability}"
+
+#: layouts/browser.layout:34
+msgid "3 Filter panes"
+msgstr "3个过滤器窗格"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "32x32 PNG file icon"
+msgstr "32x32 PNG文件图标"
+
+#: gmusicbrowser.pl:2316
+msgid "50 Last Added"
+msgstr "最近添加的50个"
+
+#: gmusicbrowser.pl:2315
+msgid "50 Last Played"
+msgstr "最近播放的50个"
+
+#: gmusicbrowser.pl:2314
+msgid "50 Most Played"
+msgstr "最多播放的50个"
+
+#: gmusicbrowser_songs.pm:245 gmusicbrowser_songs.pm:265
+#: gmusicbrowser_songs.pm:266
+msgid "<Unknown>"
+msgstr ""
+
+#: gmusicbrowser.pl:601
+#, perl-format
+msgid ""
+"<b>%t</b>\n"
+"<small><small>by</small> %a\n"
+"<small>from</small> %l</small>"
+msgstr ""
+"<b>%t</b>\n"
+"<small><small>by</small> %a\n"
+"<small>from</small> %l</small>"
+
+#: layouts/contrib.layout:209
+#, perl-format
+msgid "<big><big>by %a</big></big>"
+msgstr ""
+
+#: gmusicbrowser_list.pm:725 plugins/notify.pm:22
+#, perl-format
+msgid "<i>by</i> %a\\n<i>from</i> %l"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:5378
+msgid "Abort"
+msgstr "中止"
+
+#: gmusicbrowser_gstreamer-1.x.pm:807
+msgid "Abort ReplayGain analysis"
+msgstr "中止ReplayGain分析"
+
+#: gmusicbrowser_songs.pm:1998
+msgid "Abort mass-tagging"
+msgstr "中止大规模修改标签"
+
+#: gmusicbrowser_layout.pm:57 layouts/makeitlooklike.layout:69
+#: layouts/makeitlooklike.layout:275 layouts/makeitlooklike.layout:452
+msgid "About"
+msgstr "大约"
+
+#: gmusicbrowser.pl:5327 gmusicbrowser_layout.pm:4400
+#, perl-brace-format
+msgid ""
+"About to delete {files}\n"
+"Are you sure ?"
+msgstr ""
+"要删除的文件{files}\n"
+"你肯定吗？"
+
+#: gmusicbrowser.pl:1991
+msgid "About to turn off the computer in :"
+msgstr "计划关闭计算机在："
+
+#: gmusicbrowser.pl:1604
+#, fuzzy
+msgid "Action"
+msgstr "选项"
+
+#: plugins/notify.pm:64
+msgid "Actions are not supported by current notification daemon"
+msgstr ""
+
+#: gmusicbrowser.pl:8184 gmusicbrowser.pl:8470 gmusicbrowser.pl:8688
+#: gmusicbrowser_tags.pm:1313 plugins/desktopwidget.pm:36
+msgid "Add"
+msgstr "添加"
+
+#: layouts/makeitlooklike.layout:417
+msgid "Add Files ..."
+msgstr ""
+
+#: layouts/contrib.layout:320 layouts/contrib.layout:588
+#: layouts/contrib.layout:734 layouts/shimmer.layout:24
+#: layouts/shimmer.layout:72
+msgid "Add Music"
+msgstr ""
+
+#: plugins/rip.pm:11
+msgid "Add a button to rip a CD"
+msgstr "添加一个按钮用于提取一张CD"
+
+#: layouts/contrib.layout:667 layouts/contrib.layout:668
+#: layouts/contrib.layout:669
+#, fuzzy
+msgid "Add a filter"
+msgstr "添加文件夹"
+
+#: gmusicbrowser.pl:6874
+msgid "Add a fullscreen button"
+msgstr "添加全屏按钮"
+
+#: gmusicbrowser.pl:6874
+msgid "Add a fullscreen button to layouts that can accept extra buttons"
+msgstr "添加全屏按钮布局用来存放额外的按钮"
+
+#: gmusicbrowser_list.pm:7704
+msgid "Add a group"
+msgstr "添加群组"
+
+#: gmusicbrowser.pl:1644
+msgid "Add a label to the current song"
+msgstr "添加一个标签到当前歌曲"
+
+#: gmusicbrowser.pl:1637
+msgid "Add a list of files/folders to the playlist"
+msgstr "向播放列表添加文件或文件夹"
+
+#: gmusicbrowser_layout.pm:52
+#, fuzzy
+msgid "Add files or folders"
+msgstr "%d文件在 {folder}"
+
+#: gmusicbrowser.pl:1640
+msgid "Add files/folders to library"
+msgstr "添加文件或文件夹到音乐库"
+
+#: gmusicbrowser.pl:7043
+msgid "Add folder"
+msgstr "添加文件夹"
+
+#: layouts/contrib.layout:261 layouts/contrib.layout:417
+#: layouts/makeitlooklike.layout:47 layouts/makeitlooklike.layout:230
+#: layouts/makeitlooklike.layout:335
+#, fuzzy
+msgid "Add folder ..."
+msgstr "添加文件夹"
+
+#: gmusicbrowser.pl:8185
+msgid "Add multiple condition"
+msgstr "新增多个条件"
+
+#: gmusicbrowser.pl:5651
+msgid "Add new label"
+msgstr "添加新的标签"
+
+#: gmusicbrowser_tags.pm:1527
+#, fuzzy
+msgid "Add picture"
+msgstr "没有图片"
+
+#: gmusicbrowser.pl:8690
+msgid "Add rule : "
+msgstr "新增规则："
+
+#: gmusicbrowser.pl:6420
+msgid "Add shorcut key"
+msgstr "新增快捷键"
+
+#: gmusicbrowser_list.pm:1973
+#, fuzzy
+msgid "Add tab"
+msgstr "添加新的标签"
+
+#: plugins/albuminfo.pm:106
+#, fuzzy
+msgid "Add to existing values"
+msgstr "添加到列表"
+
+#: gmusicbrowser.pl:661
+msgid "Add to list"
+msgstr "添加到列表"
+
+#: layouts/makeitlooklike.layout:236
+#, fuzzy
+msgid "Add to queue"
+msgstr "队列中有 %d 首歌曲"
+
+#: plugins/albuminfo.pm:452
+#, perl-brace-format
+msgid "Add {value} to {field} for all tracks on this album."
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1119
+msgid "Added"
+msgstr "已添加"
+
+#: gmusicbrowser.pl:2318
+msgid "Added Today"
+msgstr "今天添加的"
+
+#: gmusicbrowser.pl:6801
+msgid ""
+"Additionally this format can be used :\n"
+" default number1 format1 number2 format2 ...\n"
+" dates more recent than number1 seconds will use format1, ..."
+msgstr ""
+
+#: plugins/fetch_cover.pm:11
+msgid ""
+"Adds a menu entry to artist/album context menu, allowing to search the "
+"picture/cover in google and save it."
+msgstr "向艺术家/专辑菜单中添加一个用来从Google搜索专辑封面(并保存)的菜单项。"
+
+#: gmusicbrowser_layout.pm:1658
+#, fuzzy
+msgid "Adds labels to the current song"
+msgstr "添加一个标签到当前歌曲"
+
+#: plugins/export.pm:11
+msgid "Adds menu entries to song contextual menu"
+msgstr "向音乐菜单中添加菜单项"
+
+#: gmusicbrowser.pl:5762
+msgid "Advanced"
+msgstr ""
+
+#: gmusicbrowser_list.pm:3734
+msgid "Advanced Search ..."
+msgstr "高级搜索..."
+
+#: gmusicbrowser.pl:5762 gmusicbrowser.pl:5801
+msgid "Advanced Tag Editing"
+msgstr "高级标签编辑"
+
+#: gmusicbrowser.pl:1238 gmusicbrowser_songs.pm:879 gmusicbrowser_tags.pm:1819
+#: gmusicbrowser_tags.pm:1857 gmusicbrowser_tags.pm:1872
+#: gmusicbrowser_tags.pm:1890 gmusicbrowser_tags.pm:1897
+#: gmusicbrowser_tags.pm:2143 plugins/albuminfo.pm:62
+#: plugins/fetch_cover.pm:103 layouts/desktop.layout:50 layouts/main.layout:96
+#: layouts/makeitlooklike.layout:94 layouts/makeitlooklike.layout:316
+#: layouts/pages.layout:15 layouts/search.layout:6 layouts/shimmer.layout:32
+msgid "Album"
+msgstr "专辑"
+
+#: layouts/songtree.layout:99
+#, fuzzy
+msgid "Album and artist"
+msgstr "专辑艺术家"
+
+#: layouts/songtree.layout:28
+msgid "Album and artist on the left side"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:920 gmusicbrowser_tags.pm:1818
+#: gmusicbrowser_tags.pm:1907
+msgid "Album artist"
+msgstr "专辑艺术家"
+
+#: gmusicbrowser_songs.pm:929
+#, fuzzy
+msgid "Album artist or artist"
+msgstr "专辑艺术家"
+
+#: plugins/albuminfo.pm:80
+#, fuzzy
+msgid "Album cover"
+msgstr "专辑模式"
+
+#: gmusicbrowser_songs.pm:1311
+#, fuzzy
+msgid "Album gain"
+msgstr "专辑艺术家"
+
+#: gmusicbrowser_songs.pm:940
+#, fuzzy
+msgid "Album has picture"
+msgstr "专辑图片"
+
+#: gmusicbrowser.pl:6740
+msgid "Album mode"
+msgstr "专辑模式"
+
+#: gmusicbrowser_songs.pm:1325
+#, fuzzy
+msgid "Album peak"
+msgstr "专辑模式"
+
+#: gmusicbrowser_list.pm:810 gmusicbrowser_songs.pm:903
+msgid "Album picture"
+msgstr "专辑图片"
+
+#: gmusicbrowser_list.pm:838
+msgid "Album picture & info"
+msgstr "专辑图片和信息"
+
+#: gmusicbrowser_layout.pm:497
+#, fuzzy
+msgid "Album pictures"
+msgstr "专辑图片"
+
+#: plugins/artistinfo.pm:465
+#, fuzzy
+msgid "Album playcount:"
+msgstr "依据播放次数"
+
+#: gmusicbrowser_songs.pm:1375
+#, fuzzy
+msgid "Album shuffle"
+msgstr "专辑图片"
+
+#: gmusicbrowser.pl:1237
+msgid "Album with picture"
+msgstr "专辑图片"
+
+#: gmusicbrowser_songs.pm:1346
+msgid "Album year(s)"
+msgstr "专辑年份"
+
+#: layouts/shimmer.layout:92
+#, fuzzy, perl-format
+msgid "Album: %l"
+msgstr "专辑"
+
+#: layouts/contrib.layout:292 layouts/shimmer.layout:16
+#: layouts/shimmer.layout:66 layouts/shimmer.layout:112
+#, perl-format
+msgid "Album: %l (%Y)"
+msgstr ""
+
+#: plugins/albuminfo.pm:9 plugins/albuminfo.pm:55
+#, fuzzy
+msgid "Albuminfo"
+msgstr "专辑"
+
+#: plugins/albuminfo.pm:10
+#, fuzzy
+msgid "Albuminfo plugin"
+msgstr "自动存储插件"
+
+#: layouts/contrib.layout:353 layouts/contrib.layout:594
+#, fuzzy
+msgid "Albums"
+msgstr "专辑"
+
+#: gmusicbrowser_songs.pm:2469 gmusicbrowser_songs.pm:5065
+#: layouts/makeitlooklike.layout:314
+msgid "All"
+msgstr "全部"
+
+#: gmusicbrowser_songs.pm:5054
+#, fuzzy
+msgid "All Songs"
+msgstr "显示歌曲"
+
+#: gmusicbrowser_songs.pm:882
+#, fuzzy
+msgid "All albums"
+msgstr "%d专辑"
+
+#: gmusicbrowser_songs.pm:851 gmusicbrowser_songs.pm:873
+#, fuzzy
+msgid "All artists"
+msgstr "专辑艺术家"
+
+#: gmusicbrowser.pl:5110 gmusicbrowser.pl:7122
+msgid "All files"
+msgstr "所有文件"
+
+#: gmusicbrowser_songs.pm:1025
+#, fuzzy
+msgid "All genres"
+msgstr "所有文件"
+
+#: gmusicbrowser_songs.pm:1040
+#, fuzzy
+msgid "All labels"
+msgstr "所有文件"
+
+#: gmusicbrowser_songs.pm:1057
+msgid "All moods"
+msgstr ""
+
+#: gmusicbrowser.pl:8323 gmusicbrowser.pl:8420 gmusicbrowser_songs.pm:5070
+msgid "All of :"
+msgstr "所有的："
+
+#: gmusicbrowser.pl:9943 gmusicbrowser_layout.pm:1584
+#: gmusicbrowser_songs.pm:4358
+#, fuzzy
+msgid "All songs"
+msgstr "删除所有的歌曲"
+
+#: gmusicbrowser_songs.pm:1067
+#, fuzzy
+msgid "All styles"
+msgstr "所有文件"
+
+#: gmusicbrowser_songs.pm:1078
+#, fuzzy
+msgid "All themes"
+msgstr "所有文件"
+
+#: plugins/albuminfo.pm:100
+msgid ""
+"Allmusic uses both Genres and Styles to describe albums. If you use only "
+"Genres, you may want to include Styles in allmusic's list of Genres."
+msgstr ""
+
+#: plugins/lullaby.pm:11
+msgid "Allow for scheduling fade-out and stop"
+msgstr ""
+
+#: plugins/mpris1.pm:11
+msgid "Allows controlling gmusicbrowser via DBus using the MPRIS v1.0 standard"
+msgstr ""
+
+#: plugins/mpris2.pm:11
+msgid "Allows controlling gmusicbrowser via DBus using the MPRIS v2.0 standard"
+msgstr ""
+
+#. Alt key
+#: gmusicbrowser.pl:1286
+#, fuzzy
+msgctxt "Keyboard"
+msgid "Alt"
+msgstr "全部"
+
+#: gmusicbrowser_list.pm:1753
+msgid "Always"
+msgstr ""
+
+#: gmusicbrowser.pl:6815
+msgid "Amount of volume changed by the mouse wheel"
+msgstr ""
+
+#: gmusicbrowser.pl:6676
+msgid ""
+"Analyse and add replaygain tags for all songs that don't have replaygain "
+"tags, or incoherent album replaygain tags"
+msgstr ""
+
+#: gmusicbrowser.pl:8323 gmusicbrowser.pl:8421 gmusicbrowser_songs.pm:5070
+msgid "Any of :"
+msgstr "任何一个："
+
+#: plugins/appindicator.pm:11
+#, fuzzy
+msgid "App Indicator plugin"
+msgstr "导出插件"
+
+#: plugins/appindicator.pm:10
+msgid "App indicator"
+msgstr ""
+
+#: gmusicbrowser.pl:644
+msgid "Append"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:984
+msgid "Append (only if not already present)"
+msgstr ""
+
+#: gmusicbrowser.pl:655 gmusicbrowser_list.pm:1708
+msgid "Append to playlist"
+msgstr "附加到播放列表"
+
+#: gmusicbrowser_tags.pm:2356 gmusicbrowser_tags.pm:2361
+#, fuzzy
+msgid "Application"
+msgstr "修改"
+
+#: gmusicbrowser.pl:7164
+#, perl-brace-format
+msgid "Are you sure you want to delete the '{label}' label ?"
+msgstr ""
+
+#: gmusicbrowser.pl:6460
+msgid "Arguments"
+msgstr "参数"
+
+#: gmusicbrowser_songs.pm:847 gmusicbrowser_tags.pm:1817
+#: gmusicbrowser_tags.pm:1856 gmusicbrowser_tags.pm:1871
+#: gmusicbrowser_tags.pm:1891 gmusicbrowser_tags.pm:1896
+#: gmusicbrowser_tags.pm:2143 plugins/albuminfo.pm:63 plugins/artistinfo.pm:159
+#: plugins/fetch_cover.pm:102 layouts/desktop.layout:49 layouts/main.layout:96
+#: layouts/makeitlooklike.layout:81 layouts/makeitlooklike.layout:315
+#: layouts/pages.layout:22 layouts/search.layout:6 layouts/shimmer.layout:31
+msgid "Artist"
+msgstr "艺术家"
+
+#: gmusicbrowser.pl:1236
+msgid "Artist & album"
+msgstr "艺术家及专辑"
+
+#: layouts/makeitlooklike.layout:154
+#, fuzzy
+msgid "Artist (Year - Album)"
+msgstr "艺术家及专辑"
+
+#: plugins/artistinfo.pm:538
+#, fuzzy
+msgid "Artist Biography"
+msgstr "艺术图片"
+
+#: gmusicbrowser_tags.pm:1830
+msgid "Artist URL"
+msgstr "艺术家URL"
+
+#: gmusicbrowser_songs.pm:944
+#, fuzzy
+msgid "Artist has picture"
+msgstr "艺术图片"
+
+#: gmusicbrowser_list.pm:818 gmusicbrowser_songs.pm:912
+msgid "Artist picture"
+msgstr "艺术图片"
+
+#: plugins/artistinfo.pm:283
+#, fuzzy, perl-format
+msgid "Artist picture size : %d"
+msgstr "艺术图片"
+
+#: plugins/artistinfo.pm:464
+#, fuzzy
+msgid "Artist playcount:"
+msgstr "依据播放次数"
+
+#: gmusicbrowser.pl:1254
+msgid "Artist,Album,Disc,Track"
+msgstr "艺术家，专辑，唱片，音轨"
+
+#: gmusicbrowser.pl:1255
+msgid "Artist,Date,Album,Disc,Track"
+msgstr "艺术家，日期，专辑，光盘，音轨"
+
+#: layouts/contrib.layout:294 layouts/shimmer.layout:16
+#: layouts/shimmer.layout:66 layouts/shimmer.layout:91
+#: layouts/shimmer.layout:114
+#, fuzzy, perl-format
+msgid "Artist: %a"
+msgstr "艺术家"
+
+#: plugins/artistinfo.pm:9 plugins/artistinfo.pm:84
+#, fuzzy
+msgid "Artistinfo"
+msgstr "艺术家"
+
+#: plugins/artistinfo.pm:10
+#, fuzzy
+msgid "Artistinfo plugin"
+msgstr "歌词插件"
+
+#: gmusicbrowser_songs.pm:872 layouts/contrib.layout:303
+#: layouts/contrib.layout:339 layouts/contrib.layout:537
+#, fuzzy
+msgid "Artists"
+msgstr "艺术家"
+
+#: gmusicbrowser.pl:8531
+msgid "Ascending order"
+msgstr ""
+
+#: plugins/fetch_cover.pm:75
+msgid "Ask confirmation only if file already exists"
+msgstr "只有当文件已经存在时要求确认"
+
+#: gmusicbrowser.pl:6297
+msgid "Audio"
+msgstr "音频"
+
+#: gmusicbrowser_songs.pm:30
+#, fuzzy
+msgid "Audio properties"
+msgstr "歌曲信息"
+
+#: gmusicbrowser_tags.pm:1889 gmusicbrowser_tags.pm:1901
+msgid "Author"
+msgstr "作者"
+
+#: plugins/lyrics.pm:96
+#, fuzzy
+msgid "Auto"
+msgstr "自动存储"
+
+#: gmusicbrowser_tags.pm:617
+msgid "Auto fill based on filenames ..."
+msgstr "根据文件名自动填充..."
+
+#: gmusicbrowser_tags.pm:516
+msgid "Auto fill only blank fields"
+msgstr "只自动填补空白区域"
+
+#: gmusicbrowser_layout.pm:34
+#, fuzzy
+msgid "Auto fill up to"
+msgstr "自动填充"
+
+#: gmusicbrowser_list.pm:3620
+#, fuzzy
+msgid "Auto filter"
+msgstr "修改过滤器"
+
+#: gmusicbrowser.pl:577
+#, fuzzy
+msgid "Auto-fill queue"
+msgstr "随机的队列"
+
+#: plugins/artistinfo.pm:54
+msgid "Auto-fill queue with similar artists (from last.fm)"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:557
+msgid "Auto-increment track numbers"
+msgstr ""
+
+#: plugins/albuminfo.pm:107
+msgid "Auto-save fields with data from allmusic"
+msgstr ""
+
+#: plugins/albuminfo.pm:96 plugins/artistinfo.pm:281 plugins/lyrics.pm:217
+msgid "Auto-save positive finds"
+msgstr "自动储存找到的"
+
+#: plugins/lyrics.pm:183
+msgid "Auto-scroll"
+msgstr "自动滚动"
+
+#: gmusicbrowser_list.pm:1734
+#, fuzzy
+msgid "Auto-select Pictures"
+msgstr "选择图片"
+
+#: gmusicbrowser.pl:7081
+msgid "Automatically remove current song if not found"
+msgstr ""
+
+#: plugins/autosave.pm:9
+msgid "Autosave"
+msgstr "自动存储"
+
+#: plugins/autosave.pm:10
+msgid "Autosave plugin"
+msgstr "自动存储插件"
+
+#: gmusicbrowser.pl:8485
+msgid "Available"
+msgstr "可用的"
+
+#: plugins/albuminfo.pm:592 plugins/artistinfo.pm:462
+#, fuzzy
+msgid "Average rating:"
+msgstr "歌曲评级"
+
+#: gmusicbrowser_songs.pm:1230
+msgid "BPM"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:209
+msgid "Bad session"
+msgstr "错误会话"
+
+#: gmusicbrowser.pl:5489
+msgid "Base Folder :"
+msgstr "相应的文件夹："
+
+#: gmusicbrowser_songs.pm:31
+#, fuzzy
+msgid "Basic fields"
+msgstr "选择字段"
+
+#: gmusicbrowser_list.pm:5373
+msgid "Begin with"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1662
+msgid "Below"
+msgstr ""
+
+#: plugins/artistinfo.pm:31 plugins/artistinfo.pm:303
+msgid "Biography"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1246
+msgid "Bitrate"
+msgstr "比特率"
+
+#: plugins/notify.pm:59
+msgid "Body :"
+msgstr ""
+
+#: plugins/notify.pm:66
+msgid "Body text is not supported by current notification daemon"
+msgstr ""
+
+#: layouts/browser.layout:3
+msgid "Browser"
+msgstr "浏览器"
+
+#: layouts/makeitlooklike.layout:257
+#, fuzzy
+msgid "Browser views"
+msgstr "浏览器"
+
+#: gmusicbrowser.pl:6861
+msgid "Browser window layout :"
+msgstr "浏览器窗口的布局："
+
+#: layouts/browser.layout:30
+msgid "Browser with SongTree"
+msgstr "浏览器歌曲文件树"
+
+#: layouts/desktop.layout:27
+#, fuzzy
+msgid "Buttons"
+msgstr "显示按钮"
+
+#: layouts/desktop.layout:16
+msgid "Buttons, Song & Cover"
+msgstr ""
+
+#: gmusicbrowser.pl:1633
+msgid "Can be relative by using + or -"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:3097
+msgid "Can be searched with :"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:3096
+msgid "Can be used as a variable with :"
+msgstr ""
+
+#: gmusicbrowser_server.pm:73
+msgid "Can't change the volume in non-gstreamer iceserver mode"
+msgstr "在非gstreamer解码模式下无法调节音量"
+
+#: gmusicbrowser_123.pm:363
+msgid ""
+"Can't change the volume. Needs amixer (packaged in alsa-utils) to change "
+"volume when using this audio backend."
+msgstr ""
+"不能改变音量，使用此音频后端时需要amixer(可以在软件包alsa-utils中找到它)来改"
+"变音量。"
+
+#: gmusicbrowser.pl:4927
+#, fuzzy, perl-brace-format
+msgid "Can't create folder: {path}"
+msgstr "无法写入文件夹'{folder}'."
+
+#: gmusicbrowser_gstreamer-1.x.pm:204
+#, perl-brace-format
+msgid "Can't create sink '{sink}'"
+msgstr "不能创建Sink'{sink}'"
+
+#: gmusicbrowser_123.pm:146
+#, fuzzy
+msgid "Can't play this file."
+msgstr "扫描此文件"
+
+#: gmusicbrowser.pl:5807
+msgid "Can't read file or invalid file"
+msgstr "无法读取文件或文件无效"
+
+#: gmusicbrowser.pl:5525
+#, perl-brace-format
+msgid "Can't write in base folder '{folder}'."
+msgstr "无法写入文件夹'{folder}'."
+
+#: gmusicbrowser_songs.pm:3113
+msgid "Cancel"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:315
+msgid "Capitalize"
+msgstr "字首大写"
+
+#: gmusicbrowser_tags.pm:316
+#, fuzzy
+msgid "Capitalize each word"
+msgstr "字首大写"
+
+#: gmusicbrowser.pl:8527
+#, fuzzy
+msgid "Case insensitive"
+msgstr "(区分大小写)"
+
+#: gmusicbrowser.pl:8527 gmusicbrowser.pl:9135 gmusicbrowser_list.pm:3615
+#, fuzzy
+msgid "Case sensitive"
+msgstr "(区分大小写)"
+
+#: gmusicbrowser_list.pm:5372
+#, fuzzy
+msgid "Case-sensitive"
+msgstr "(区分大小写)"
+
+#: layouts/makeitlooklike.layout:487
+msgid "Categories pane"
+msgstr ""
+
+#: plugins/lyrics.pm:30
+msgid "Centered"
+msgstr ""
+
+#: plugins/desktopwidget.pm:202
+msgid "Centered on"
+msgstr ""
+
+#: gmusicbrowser.pl:1596
+msgid "Change Display"
+msgstr "更改显示"
+
+#: plugins/titlebar.pm:60
+msgid "Change default text color"
+msgstr ""
+
+#: plugins/titlebar.pm:64
+msgid "Change default text font and size"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:281
+msgid "Change the context visibility"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1237
+msgid "Channels"
+msgstr "频道"
+
+#: layouts/contrib.layout:322 layouts/contrib.layout:590
+#: layouts/contrib.layout:736
+msgid "Check Collection"
+msgstr ""
+
+#: gmusicbrowser.pl:7070
+msgid "Check for updated/deleted songs on startup"
+msgstr "启动时检查歌曲的更新/删除"
+
+#: gmusicbrowser_list.pm:1728
+msgid "Check for updated/removed songs"
+msgstr "检查歌曲的更新/删除"
+
+#: gmusicbrowser.pl:7083
+msgid "Check real length of mp3"
+msgstr ""
+
+#: gmusicbrowser_123.pm:188 gmusicbrowser_mplayer.pm:119
+#: gmusicbrowser_mpv.pm:224
+#, fuzzy
+msgid "Check your audio settings"
+msgstr "检查歌曲的更新/删除"
+
+#: gmusicbrowser.pl:1155
+msgid "Checking length/bitrate"
+msgstr ""
+
+#: gmusicbrowser.pl:1153
+#, fuzzy
+msgid "Checking songs"
+msgstr "歌曲的长度"
+
+#: gmusicbrowser_list.pm:3415
+msgid "Choose Album From this Artist"
+msgstr "从这个艺术家选择专辑"
+
+#: gmusicbrowser_layout.pm:615
+msgid "Choose Artist/Album/Song"
+msgstr "选择艺术家/专辑/歌曲"
+
+#: gmusicbrowser.pl:5100
+msgid "Choose Picture"
+msgstr "选择图片"
+
+#: gmusicbrowser_layout.pm:621
+msgid "Choose Random Album"
+msgstr "选择随机专辑"
+
+#: gmusicbrowser.pl:9268
+#, fuzzy
+msgid "Choose a folder"
+msgstr "将文件添加至"
+
+#: gmusicbrowser.pl:4938
+msgid "Choose directory to copy files to"
+msgstr "选择目录，文件复制到"
+
+#: gmusicbrowser.pl:4939
+msgid "Choose directory to move files to"
+msgstr "将文件移动至"
+
+#: gmusicbrowser.pl:5073
+#, fuzzy
+msgid "Choose files"
+msgstr "选择图片"
+
+#: gmusicbrowser.pl:7123
+msgid "Choose folder to add"
+msgstr "将文件添加至"
+
+#: plugins/lyrics.pm:284
+msgid "Choose font for lyrics"
+msgstr ""
+
+#: plugins/lyrics.pm:42
+msgid "Choose font..."
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1044
+#, perl-brace-format
+msgid "Choose icon for label {name}"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:2762
+#, fuzzy
+msgid "Choose page to open"
+msgstr "将文件添加至"
+
+#: gmusicbrowser.pl:3916
+#, fuzzy, perl-format
+msgid "Choose picture for '%s'"
+msgstr "选择图片"
+
+#: gmusicbrowser.pl:5969
+msgid "Choose playlist files to import"
+msgstr ""
+
+#: gmusicbrowser.pl:8472 gmusicbrowser_list.pm:291
+msgid "Clear"
+msgstr "清除"
+
+#: gmusicbrowser.pl:1606
+#, fuzzy
+msgid "Clear playlist"
+msgstr "包含播放列表"
+
+#: gmusicbrowser.pl:1648
+#, fuzzy
+msgid "Clear playlist filter"
+msgstr "播放列表过滤器"
+
+#: gmusicbrowser.pl:1605 gmusicbrowser_layout.pm:32
+msgid "Clear queue"
+msgstr "清除队列"
+
+#: gmusicbrowser_tags.pm:489
+#, fuzzy
+msgid "Clear selected fields"
+msgstr "选择字段"
+
+#: plugins/artistinfo.pm:137
+msgid "Click to show fullsize image"
+msgstr ""
+
+#: plugins/albuminfo.pm:182
+msgid "Click to show larger image"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:146
+msgid "Client banned, contact gmusicbrowser's developer"
+msgstr "客户受禁止，请联系gmusicbrowser的开发者"
+
+#: gmusicbrowser_layout.pm:2490 gmusicbrowser_list.pm:4108
+#: gmusicbrowser_list.pm:4172
+msgid "Close"
+msgstr "关闭"
+
+#: gmusicbrowser.pl:1586
+msgid "Close Window"
+msgstr "关闭窗口"
+
+#: layouts/contrib.layout:664 layouts/contrib.layout:665
+#: layouts/contrib.layout:666
+#, fuzzy
+msgid "Close a filter"
+msgstr "播放过滤器"
+
+#: gmusicbrowser.pl:6847
+msgid "Close to tray"
+msgstr "最小化到托盘"
+
+#: layouts/makeitlooklike.layout:80
+msgid "Collection"
+msgstr ""
+
+#: gmusicbrowser.pl:6343 gmusicbrowser.pl:6459 gmusicbrowser_123.pm:291
+msgid "Command"
+msgstr "命令"
+
+#: plugins/rip.pm:49
+msgid "Command to launch when the button is pressed"
+msgstr "按下按钮加载命令"
+
+#: gmusicbrowser.pl:6825
+msgid "Command to open folders :"
+msgstr ""
+
+#: gmusicbrowser.pl:6824
+msgid "Command to open urls :"
+msgstr ""
+
+#: gmusicbrowser_123.pm:194 gmusicbrowser_mplayer.pm:110
+#, fuzzy
+msgid "Command used :"
+msgstr "命令："
+
+#: gmusicbrowser.pl:6779
+msgid ""
+"Command used when\n"
+"'turn off computer when queue empty'\n"
+"is selected"
+msgstr ""
+"当\n"
+" '队列为空时关闭计算机' \n"
+"被选定时执行"
+
+#: gmusicbrowser_mpv.pm:217
+#, fuzzy
+msgid "Command used:"
+msgstr "命令："
+
+#: plugins/nowplaying.pm:47
+#, fuzzy
+msgid "Command when playing song changed :"
+msgstr "播放歌曲时执行命令"
+
+#: plugins/nowplaying.pm:48
+msgid "Command when stopped :"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1087 gmusicbrowser_tags.pm:1879
+#: gmusicbrowser_tags.pm:1899 gmusicbrowser_tags.pm:2143
+msgid "Comment"
+msgstr "评论"
+
+#: gmusicbrowser_tags.pm:1823 gmusicbrowser_tags.pm:1861
+msgid "Comments"
+msgstr "评论"
+
+#: gmusicbrowser_songs.pm:961 gmusicbrowser_tags.pm:1851
+#: gmusicbrowser_tags.pm:1909
+#, fuzzy
+msgid "Compilation"
+msgstr "选项"
+
+#: gmusicbrowser_songs.pm:1181 gmusicbrowser_tags.pm:1839
+#: gmusicbrowser_tags.pm:1878
+msgid "Composer"
+msgstr "作曲家"
+
+#: gmusicbrowser_songs.pm:1204 gmusicbrowser_tags.pm:1875
+msgid "Conductor"
+msgstr "指挥者"
+
+#: gmusicbrowser.pl:6769
+msgid "Connect through a proxy"
+msgstr "通过代理连接"
+
+#: gmusicbrowser_layout.pm:654
+msgid "Connections from :"
+msgstr "连线自："
+
+#: layouts/contrib.layout:305 layouts/contrib.layout:573 layouts/main.layout:22
+#: layouts/main.layout:192
+msgid "Context"
+msgstr "相关信息"
+
+#: gmusicbrowser.pl:2545
+msgid "Continue anyway"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:265 layouts/makeitlooklike.layout:349
+msgid "Control"
+msgstr ""
+
+#: layouts/contrib.layout:56
+msgid "Conz Aishi (with Filter Panes)"
+msgstr ""
+
+#: layouts/contrib.layout:29
+msgid "Conz Glimm (different controls)"
+msgstr ""
+
+#: gmusicbrowser.pl:678
+msgid "Copy"
+msgstr "复制"
+
+#: gmusicbrowser.pl:4949 gmusicbrowser.pl:10123
+msgid "Copy failed"
+msgstr "复制失败"
+
+#: plugins/lyrics.pm:382
+msgid "Copy link address"
+msgstr "复制链接地址"
+
+#: gmusicbrowser_tags.pm:557
+msgid "Copy missing values from previous line"
+msgstr ""
+
+#: plugins/export.pm:88
+msgid "Copy to mounted portable player"
+msgstr "复制到已挂载的便携播放器"
+
+#: plugins/export.pm:24 plugins/export.pm:49
+msgid "Copy to portable player"
+msgstr "复制到便携播放器"
+
+#: gmusicbrowser.pl:10118
+#, fuzzy
+msgid "Copying"
+msgstr "版权所有"
+
+#: gmusicbrowser.pl:4951
+#, perl-format
+msgid "Copying file"
+msgid_plural "Copying %d files"
+msgstr[0] "正在复制  %d 文件"
+
+#: gmusicbrowser_tags.pm:1837 gmusicbrowser_tags.pm:1880
+msgid "Copyright"
+msgstr "版权所有"
+
+#: plugins/albuminfo.pm:81
+msgid "Cover Size : "
+msgstr ""
+
+#: gmusicbrowser.pl:6897
+msgid "Create ID3v2 tags as ID3v2.4"
+msgstr ""
+
+#. Ctrl key
+#: gmusicbrowser.pl:1285
+msgctxt "Keyboard"
+msgid "Ctrl"
+msgstr ""
+
+#: gmusicbrowser.pl:6816
+msgid "Current song must always be in the playlist"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:35 gmusicbrowser_tags.pm:1904
+#, fuzzy
+msgid "Custom"
+msgstr "自定义"
+
+#: gmusicbrowser_tags.pm:1829
+msgid "Custom Text"
+msgstr "自定义文本"
+
+#: gmusicbrowser_tags.pm:1831
+msgid "Custom URL"
+msgstr "自定义URL"
+
+#: plugins/rip.pm:49
+msgid "Custom command :"
+msgstr "自定义命令："
+
+#: plugins/webcontext.pm:493
+#, fuzzy
+msgid "Custom context pages :"
+msgstr "自定义命令："
+
+#: gmusicbrowser_tags.pm:760
+#, fuzzy
+msgid "Custom formats"
+msgstr "自定义命令："
+
+#: gmusicbrowser_gstreamer-1.x.pm:507
+#, fuzzy
+msgid "Custom pipeline"
+msgstr "自定义文本"
+
+#: gmusicbrowser_layout.pm:1542 gmusicbrowser_layout.pm:1569
+#: gmusicbrowser_layout.pm:1598 gmusicbrowser_list.pm:93
+msgid "Custom..."
+msgstr "自定义..."
+
+#: gmusicbrowser.pl:1251 gmusicbrowser_tags.pm:1822 gmusicbrowser_tags.pm:1860
+msgid "Date"
+msgstr "日期"
+
+#: gmusicbrowser.pl:6802
+#, fuzzy
+msgid "Date format :"
+msgstr "文件格式："
+
+#: gmusicbrowser_tags.pm:2346
+msgid "Date of purchase"
+msgstr "购买日期"
+
+#: gmusicbrowser_tags.pm:1883
+msgid "Debut Album"
+msgstr "首张专辑"
+
+#: gmusicbrowser.pl:1608
+msgid "Decrease Volume"
+msgstr "减少音量"
+
+#: layouts/makeitlooklike.layout:272 layouts/makeitlooklike.layout:356
+#, fuzzy
+msgid "Decrease volume"
+msgstr "减少音量"
+
+#: gmusicbrowser.pl:1342 gmusicbrowser_songs.pm:570
+#, fuzzy
+msgid "Default"
+msgstr "默认"
+
+#: layouts/fullscreen.layout:4
+#, fuzzy
+msgid "Default fullscreen"
+msgstr "默认的文件名"
+
+#: gmusicbrowser.pl:6759
+#, perl-format
+msgid "Default rating : %d %"
+msgstr ""
+
+#: plugins/desktopwidget.pm:200
+#, fuzzy
+msgid "Default text color"
+msgstr "默认文件夹"
+
+#: plugins/desktopwidget.pm:201
+msgid "Default text font"
+msgstr ""
+
+#: gmusicbrowser.pl:6849
+#, perl-format
+msgid "Delay before showing tray tip popup on mouse over : %d ms"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:240
+#, fuzzy
+msgid "Delete"
+msgstr "删除列表"
+
+#: gmusicbrowser.pl:1598
+#, fuzzy
+msgid "Delete Selected Songs"
+msgstr "队列中已选歌曲"
+
+#: gmusicbrowser_layout.pm:4193
+#, fuzzy
+msgid "Delete file"
+msgstr "删除列表"
+
+#: gmusicbrowser_layout.pm:2488
+msgid "Delete list"
+msgstr "删除列表"
+
+#: gmusicbrowser_layout.pm:5465
+#, fuzzy
+msgid "Delete preset"
+msgstr "删除列表"
+
+#: gmusicbrowser.pl:5338 gmusicbrowser_layout.pm:4410
+#, fuzzy
+msgid "Deletion failed"
+msgstr "连接失败"
+
+#: gmusicbrowser.pl:8531
+msgid "Descending order"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:2315 gmusicbrowser_tags.pm:2319
+#: gmusicbrowser_tags.pm:2332 gmusicbrowser_tags.pm:2335
+msgid "Descr."
+msgstr "描述."
+
+#: gmusicbrowser_tags.pm:1531 gmusicbrowser_tags.pm:1862
+#: gmusicbrowser_tags.pm:2324 gmusicbrowser_tags.pm:2329
+msgid "Description"
+msgstr "描述"
+
+#: plugins/desktopwidget.pm:9
+msgid "Desktop widgets"
+msgstr ""
+
+#: plugins/desktopwidget.pm:10
+msgid "Desktop widgets plugin"
+msgstr ""
+
+#: gmusicbrowser.pl:5004
+#, perl-brace-format
+msgid "Destination: {file}"
+msgstr ""
+
+#: gmusicbrowser.pl:10135
+#, fuzzy, perl-brace-format
+msgid "Destination: {folder}"
+msgstr "使用歌曲文件夹"
+
+#: gmusicbrowser.pl:6776
+msgid "Disable screensaver when fullscreen and playing"
+msgstr "全屏和播放时禁用屏幕保护程序"
+
+#: gmusicbrowser_songs.pm:2957
+msgid "Disabled"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1000
+msgid "Disc"
+msgstr "光盘"
+
+#: gmusicbrowser_tags.pm:1820 gmusicbrowser_tags.pm:1858
+#: gmusicbrowser_tags.pm:1906
+msgid "Disc #"
+msgstr "光盘＃"
+
+#: gmusicbrowser_songs.pm:1011
+#, fuzzy
+msgid "Disc name"
+msgstr "光盘＃"
+
+#: gmusicbrowser.pl:1596
+msgid "Display (:1 or host:0 for example)"
+msgstr "显示器（ 例如:1主机:0）"
+
+#: gmusicbrowser.pl:701
+msgid "Display Songs"
+msgstr "显示歌曲"
+
+#: plugins/titlebar.pm:11
+msgid ""
+"Display a special layout in or around the titlebar of the focused window"
+msgstr ""
+
+#: plugins/notify.pm:62
+msgid "Display stop/next actions"
+msgstr ""
+
+#: plugins/karaoke.pm:11
+#, fuzzy
+msgid "Display synchronized lyrics of the current song"
+msgstr "切换当前歌曲标签"
+
+#: gmusicbrowser.pl:6845
+#, perl-format
+msgid "Display tray tip for %d ms"
+msgstr ""
+
+#: plugins/appindicator.pm:12
+msgid "Displays a panel indicator in some desktops"
+msgstr ""
+
+#: plugins/export.pm:160
+msgid "Do not add a title row"
+msgstr "不要加上标题行"
+
+#: gmusicbrowser.pl:6903
+msgid "Do not create an id3v1 tag in mp3 files"
+msgstr ""
+
+#: gmusicbrowser.pl:6899
+msgid "Do not unsynchronise id3v2 tags"
+msgstr "不要unsynchronise id3v2标签"
+
+#: gmusicbrowser.pl:6902
+msgid "Do not write the tags"
+msgstr "不写标签"
+
+#: plugins/titlebar.pm:56
+msgid "Don't add the overlay to dialogs"
+msgstr ""
+
+#: gmusicbrowser_123.pm:149
+#, perl-brace-format
+msgid "Don't know how to play files of type {type}"
+msgstr ""
+
+#: plugins/notify.pm:67
+msgid "Don't notify if the main window is visible"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:69
+#, fuzzy
+msgid "Don't submit current song"
+msgstr "选择当前歌曲"
+
+#: plugins/albuminfo.pm:118
+msgid "Download"
+msgstr ""
+
+#: gmusicbrowser.pl:10170
+#, fuzzy
+msgid "Download failed."
+msgstr "载入中失败。"
+
+#: gmusicbrowser.pl:10148
+msgid "Downloading"
+msgstr ""
+
+#: gmusicbrowser.pl:6932
+msgid "Drag and drop songs here to replace the selection."
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4325
+#, fuzzy
+msgid "Drop files in this folder"
+msgstr "%d文件在 {folder}"
+
+#: gmusicbrowser.pl:5773 gmusicbrowser_songs.pm:3111
+#: layouts/makeitlooklike.layout:50 layouts/makeitlooklike.layout:235
+#: layouts/makeitlooklike.layout:340
+#, fuzzy
+msgid "Edit"
+msgstr "修改..."
+
+#: gmusicbrowser.pl:1589
+msgid "Edit Current Song Properties"
+msgstr "编辑当前歌曲信息"
+
+#: gmusicbrowser.pl:687 gmusicbrowser.pl:5294
+msgid "Edit Lyrics"
+msgstr "编辑歌词"
+
+#: gmusicbrowser_tags.pm:2567
+msgid "Edit Lyrics ..."
+msgstr "编辑歌词..."
+
+#: gmusicbrowser.pl:5735
+msgid "Edit Multiple Songs Properties"
+msgstr "编辑多首歌曲属性"
+
+#: gmusicbrowser_layout.pm:130
+msgid "Edit Settings"
+msgstr "修改设置"
+
+#: gmusicbrowser_tags.pm:627
+msgid "Edit auto-fill formats ..."
+msgstr ""
+
+#: gmusicbrowser_list.pm:3051
+msgid "Edit filter"
+msgstr "修改过滤器"
+
+#: gmusicbrowser_list.pm:36
+#, fuzzy
+msgid "Edit filter..."
+msgstr "修改过滤器"
+
+#: gmusicbrowser_list.pm:6907
+msgid "Edit grouping ..."
+msgstr "编辑群组..."
+
+#: plugins/artistinfo.pm:562 plugins/artistinfo.pm:647
+msgid "Edit in the last.fm wiki"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1041
+#, fuzzy
+msgid "Edit labels"
+msgstr "修改列表"
+
+#: gmusicbrowser_list.pm:3059
+msgid "Edit list"
+msgstr "修改列表"
+
+#: plugins/lyrics.pm:175
+#, fuzzy
+msgid "Edit mode"
+msgstr "云模式"
+
+#: gmusicbrowser_layout.pm:1511
+msgid "Edit ordered modes ..."
+msgstr "编辑命令模式..."
+
+#: gmusicbrowser_layout.pm:1495
+msgid "Edit random modes ..."
+msgstr "编辑随机模式..."
+
+#: gmusicbrowser_songs.pm:1105
+#, fuzzy
+msgid "Edit rating"
+msgstr "修改设置"
+
+#: gmusicbrowser_list.pm:714 gmusicbrowser_list.pm:858
+#: gmusicbrowser_list.pm:6919
+#, fuzzy
+msgid "Edit row tip"
+msgstr "编辑歌词"
+
+#: gmusicbrowser.pl:1590
+#, fuzzy
+msgid "Edit selected song properties"
+msgstr "编辑多首歌曲属性"
+
+#: gmusicbrowser_songs.pm:2473
+#, fuzzy, perl-brace-format
+msgid "Edit {field}"
+msgstr "修改过滤器"
+
+#: gmusicbrowser.pl:9947 gmusicbrowser_layout.pm:38
+msgid "Edit..."
+msgstr "修改..."
+
+#: gmusicbrowser_songs.pm:2915
+#, fuzzy
+msgid "Editable in song properties dialog"
+msgstr "编辑当前歌曲信息"
+
+#: gmusicbrowser.pl:3826 gmusicbrowser.pl:3833
+msgid "Editing list : "
+msgstr "编辑列表："
+
+#: gmusicbrowser.pl:1851
+msgid "Editing tags"
+msgstr "编辑标签"
+
+#: gmusicbrowser.pl:5775
+#, fuzzy
+msgid "Embedded Pictures"
+msgstr "图片集"
+
+#: gmusicbrowser_songs.pm:954
+#, fuzzy
+msgid "Embedded lyrics"
+msgstr "保存歌词"
+
+#: gmusicbrowser_songs.pm:948
+#, fuzzy
+msgid "Embedded picture"
+msgstr "专辑图片"
+
+#: gmusicbrowser_layout.pm:4674
+#, fuzzy
+msgid "Embedded pictures"
+msgstr "没有图片"
+
+#: gmusicbrowser_layout.pm:4673
+#, fuzzy
+msgid "Embedded pictures for this album"
+msgstr "过滤这张专辑"
+
+#: gmusicbrowser_layout.pm:4672
+msgid "Embedded pictures in this folder"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:671
+#, fuzzy
+msgid "Empty list"
+msgstr "修改列表"
+
+#: gmusicbrowser_tags.pm:1834
+msgid "Encapsulated object"
+msgstr "封装对象"
+
+#: gmusicbrowser_tags.pm:1841
+msgid "Encoded by"
+msgstr "编码自:"
+
+#: gmusicbrowser_tags.pm:1842
+msgid "Encoded with"
+msgstr "编码"
+
+#: gmusicbrowser_tags.pm:1903
+#, fuzzy
+msgid "Encoder"
+msgstr "编码自:"
+
+#: gmusicbrowser.pl:6901
+msgid "Encoding used for id3v1 tags :"
+msgstr "用于id3v1标签的编码："
+
+#: gmusicbrowser_list.pm:1711 gmusicbrowser_list.pm:4106
+#: gmusicbrowser_list.pm:4170
+msgid "Enqueue"
+msgstr "队列"
+
+#: gmusicbrowser.pl:1603
+msgid "Enqueue Action"
+msgstr "队列动作"
+
+#: gmusicbrowser.pl:659
+msgid "Enqueue Displayed"
+msgstr "已显示队的队列"
+
+#: gmusicbrowser.pl:657
+msgid "Enqueue Selected"
+msgstr "已选队列"
+
+#: gmusicbrowser.pl:1600
+msgid "Enqueue Selected Songs"
+msgstr "队列中已选歌曲"
+
+#: gmusicbrowser.pl:1602
+msgid "Enqueue Songs from Current Album"
+msgstr "列出当前专辑的歌曲"
+
+#: gmusicbrowser.pl:1601
+msgid "Enqueue Songs from Current Artist"
+msgstr "列出当前艺术家的歌曲"
+
+#: gmusicbrowser.pl:1639
+msgid "Enqueue a list of files/folders"
+msgstr "列出文件/文件夹"
+
+#: gmusicbrowser_layout.pm:592
+msgid "Enqueue filter"
+msgstr "排列滤波器"
+
+#: plugins/albuminfo.pm:255
+#, fuzzy
+msgid "Enter album name"
+msgstr "使用专辑名称"
+
+#: plugins/artistinfo.pm:285
+msgid "Enter custom event string :"
+msgstr ""
+
+#: layouts/contrib.layout:315 layouts/contrib.layout:583
+#: layouts/contrib.layout:730 layouts/main.layout:178
+#: layouts/makeitlooklike.layout:66 layouts/makeitlooklike.layout:441
+#: layouts/shimmer.layout:23 layouts/shimmer.layout:71
+msgid "Equalizer"
+msgstr "均衡"
+
+#: gmusicbrowser.pl:6516
+msgid "Error :"
+msgstr "错误："
+
+#: gmusicbrowser.pl:4928
+#, fuzzy
+msgid "Error creating folder"
+msgstr "写'{file}'时发生错误"
+
+#: gmusicbrowser.pl:3041
+#, fuzzy
+msgid "Error details"
+msgstr "错误："
+
+#: gmusicbrowser_tags.pm:300
+#, fuzzy, perl-brace-format
+msgid "Error opening '{file}' for writing."
+msgstr "写'{file}'时发生错误"
+
+#: plugins/artistinfo.pm:660
+msgid "Error saving artistbio"
+msgstr ""
+
+#: plugins/artistinfo.pm:668
+#, fuzzy, perl-brace-format
+msgid ""
+"Error saving artistbio in '{file}' :\n"
+"{error}"
+msgstr ""
+"保存歌词时发生错误'{file}':\n"
+"{error}"
+
+#: gmusicbrowser_songs.pm:2414
+msgid "Error saving icon"
+msgstr ""
+
+#: plugins/lyrics.pm:770
+#, fuzzy
+msgid "Error saving lyrics"
+msgstr ""
+"保存歌词时发生错误'{file}':\n"
+"{error}"
+
+#: plugins/lyrics.pm:778
+#, perl-brace-format
+msgid ""
+"Error saving lyrics in '{file}' :\n"
+"{error}"
+msgstr ""
+"保存歌词时发生错误'{file}':\n"
+"{error}"
+
+#: plugins/fetch_cover.pm:579
+#, fuzzy
+msgid "Error saving picture"
+msgstr "评分(图片)"
+
+#: plugins/albuminfo.pm:766
+msgid "Error saving review"
+msgstr ""
+
+#: plugins/albuminfo.pm:772
+#, fuzzy, perl-brace-format
+msgid ""
+"Error saving review in '{file}' :\n"
+"{error}"
+msgstr ""
+"保存歌词时发生错误'{file}':\n"
+"{error}"
+
+#: gmusicbrowser_gstreamer-1.x.pm:808
+#, fuzzy
+msgid "Error while writing replaygain data"
+msgstr "增益未找到replaygain标签的歌曲"
+
+#: gmusicbrowser_songs.pm:1999
+#, fuzzy
+msgid "Error while writing tag"
+msgstr "写'{file}'时发生错误"
+
+#: plugins/fetch_cover.pm:579
+#, perl-brace-format
+msgid "Error writing '{file}'"
+msgstr "写'{file}'时发生错误"
+
+#: plugins/export.pm:167
+#, fuzzy
+msgid "Error writing .csv file"
+msgstr "写'{file}'时发生错误"
+
+#: plugins/export.pm:153
+#, fuzzy
+msgid "Error writing .m3u file"
+msgstr "写'{file}'时发生错误"
+
+#: gmusicbrowser.pl:10224
+#, fuzzy
+msgid "Error writing downloaded file"
+msgstr "写'{file}'时发生错误"
+
+#: gmusicbrowser_tags.pm:292
+#, fuzzy
+msgid "Error writing lyrics"
+msgstr "写'{file}'时发生错误"
+
+#: gmusicbrowser_tags.pm:1795
+#, fuzzy
+msgid "Error writing tag"
+msgstr "写'{file}'时发生错误"
+
+#: plugins/albuminfo.pm:765 plugins/artistinfo.pm:659 plugins/lyrics.pm:769
+msgid "Error: invalid filename pattern"
+msgstr "错误：无效的文件名模式"
+
+#: plugins/artistinfo.pm:32 plugins/artistinfo.pm:305
+msgid "Events"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:853
+msgid "Example :"
+msgstr ""
+
+#: plugins/artistinfo.pm:298
+msgid "Exclude 'seed'-artist from queue"
+msgstr ""
+
+#: plugins/export.pm:95
+msgid "Execute custom command on selected files"
+msgstr "执行自定义命令的选定的文件"
+
+#: gmusicbrowser.pl:2546
+msgid "Exit"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4208
+#, fuzzy
+msgid "Exit full screen"
+msgstr "全屏"
+
+#: plugins/export.pm:9
+msgid "Export"
+msgstr "导出"
+
+#: plugins/export.pm:10
+msgid "Export plugin"
+msgstr "导出插件"
+
+#: plugins/export.pm:35 plugins/export.pm:98
+msgid "Export song properties to a .csv file"
+msgstr "导出歌曲属性到.csv文件"
+
+#: plugins/export.pm:30 plugins/export.pm:55 plugins/export.pm:64
+#: plugins/export.pm:97
+msgid "Export to .m3u file"
+msgstr "导出到.m3u文件"
+
+#: gmusicbrowser_songs.pm:32
+#, fuzzy
+msgid "Extra fields"
+msgstr "选择字段"
+
+#: gmusicbrowser.pl:6744
+msgid "Extra gain"
+msgstr "额外增益"
+
+#: gmusicbrowser.pl:6787
+msgid "Extract guest artist from title :"
+msgstr ""
+
+#: plugins/lullaby.pm:45
+msgid "Fade-out"
+msgstr ""
+
+#: plugins/lullaby.pm:44
+#, fuzzy, perl-format
+msgid "Fade-out in %d seconds"
+msgstr "在{seconds} 秒内重试"
+
+#: plugins/lullaby.pm:32
+msgid "Fade-out then stop"
+msgstr ""
+
+#: gmusicbrowser.pl:5340 gmusicbrowser_layout.pm:4412
+#, perl-brace-format
+msgid "Failed to delete '{file}'"
+msgstr ""
+
+#: plugins/albuminfo.pm:131
+msgid "Fetching albuminfo"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:3106
+#, fuzzy
+msgid "Field identifier"
+msgstr "拥有者标识符"
+
+#: gmusicbrowser_songs.pm:3005
+#, fuzzy
+msgid "Field type"
+msgstr "文件类型"
+
+#: gmusicbrowser.pl:6300 gmusicbrowser_list.pm:5376
+msgid "Fields"
+msgstr ""
+
+#: plugins/albuminfo.pm:119
+msgid ""
+"Fields will be saved according to the settings above. Albuminfo files will "
+"be re-read if there are fields to be saved and you choose 'albums missing "
+"reviews' in the combo box."
+msgstr ""
+
+#: gmusicbrowser_mpv.pm:215 layouts/makeitlooklike.layout:46
+#: layouts/makeitlooklike.layout:415
+#, fuzzy
+msgid "File"
+msgstr "文件名"
+
+#: gmusicbrowser_songs.pm:29
+#, fuzzy
+msgid "File properties"
+msgstr "歌曲信息"
+
+#: gmusicbrowser_songs.pm:1261 gmusicbrowser_tags.pm:1844
+msgid "File type"
+msgstr "文件类型"
+
+#: gmusicbrowser.pl:10136
+#, perl-brace-format
+msgid "File: {file}"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:797 gmusicbrowser_tags.pm:2328
+msgid "Filename"
+msgstr "文件名"
+
+#: gmusicbrowser_songs.pm:1360
+#, fuzzy
+msgid "Filename extension"
+msgstr "文件名"
+
+#: gmusicbrowser_tags.pm:764 plugins/export.pm:87
+msgid "Filename format :"
+msgstr "文件格式："
+
+#: gmusicbrowser_songs.pm:1357
+msgid "Filename without extension"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:78
+#, fuzzy
+msgid "Files"
+msgstr "文件"
+
+#: gmusicbrowser.pl:7066
+msgid "Files with these extensions won't be added"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1590
+msgid "Filesystem"
+msgstr "文件"
+
+#: gmusicbrowser.pl:699 gmusicbrowser.pl:701 gmusicbrowser_list.pm:125
+#: gmusicbrowser_list.pm:1586 layouts/contrib.layout:335
+#: layouts/contrib.layout:534
+msgid "Filter"
+msgstr "过滤器"
+
+#: gmusicbrowser_list.pm:231
+#, fuzzy
+msgid "Filter : "
+msgstr "过滤器"
+
+#: gmusicbrowser.pl:8001
+msgid "Filter edition"
+msgstr "过滤器版本"
+
+#: gmusicbrowser_list.pm:16
+msgid "Filter on playing Album"
+msgstr "过滤正在播放的专辑"
+
+#: gmusicbrowser_list.pm:17
+msgid "Filter on playing Artist"
+msgstr "过滤正在播放的艺术家"
+
+#: gmusicbrowser_list.pm:18
+msgid "Filter on playing Song"
+msgstr "过滤正在播放的歌曲"
+
+#: gmusicbrowser_list.pm:19
+#, fuzzy, perl-brace-format
+msgid "Filter on playing {field}"
+msgstr "过滤正在播放的专辑"
+
+#: gmusicbrowser_list.pm:3401
+msgid "Filter on this album"
+msgstr "过滤这张专辑"
+
+#: gmusicbrowser_list.pm:3401
+msgid "Filter on this artist"
+msgstr "过滤这个艺术家"
+
+#: gmusicbrowser_list.pm:5402
+msgid "Find :"
+msgstr ""
+
+#: plugins/fetch_cover.pm:76
+msgid "Find a unique filename if file already exists"
+msgstr "找到了特定文件名，如果文件已经存在"
+
+#: gmusicbrowser.pl:672
+msgid "Find songs in same albums"
+msgstr "查找同一专辑的歌曲"
+
+#: gmusicbrowser.pl:671
+msgid "Find songs with same artists"
+msgstr "查找同一艺术家的歌曲"
+
+#: gmusicbrowser.pl:670
+msgid "Find songs with the same names"
+msgstr "查找相同的名字的歌曲"
+
+#: gmusicbrowser.pl:673
+#, fuzzy, perl-brace-format
+msgid "Find songs with the same {field}"
+msgstr "查找相同的名字的歌曲"
+
+#: gmusicbrowser.pl:1239 gmusicbrowser_list.pm:776 gmusicbrowser_list.pm:1589
+#: gmusicbrowser_songs.pm:810 layouts/contrib.layout:337
+#: layouts/songtree.layout:91
+msgid "Folder"
+msgstr "文件夹"
+
+#: gmusicbrowser_list.pm:776 layouts/songtree.layout:90
+msgid "Folder (right-aligned)"
+msgstr ""
+
+#: plugins/export.pm:86
+msgid "Folder format :"
+msgstr "文件夹格式："
+
+#: gmusicbrowser.pl:5490
+msgid "Folder pattern :"
+msgstr "文件夹的模式："
+
+#: gmusicbrowser.pl:7028 gmusicbrowser.pl:7073
+msgid "Folders to search for new songs"
+msgstr "文件夹中寻找新的歌曲"
+
+#: gmusicbrowser_layout.pm:4147 gmusicbrowser_layout.pm:4153
+#: gmusicbrowser_layout.pm:5223 gmusicbrowser_list.pm:15
+#: gmusicbrowser_list.pm:863 gmusicbrowser_list.pm:6924
+msgid "Follow playing song"
+msgstr "紧接着正在播放的歌曲"
+
+#: gmusicbrowser_layout.pm:4147 gmusicbrowser_layout.pm:4153
+#: gmusicbrowser_layout.pm:5223
+msgid "Follow selected song"
+msgstr "紧接着选定的歌曲"
+
+#: plugins/lyrics.pm:181
+msgid "Font size"
+msgstr "字体大小"
+
+#: gmusicbrowser_songs.pm:1426
+msgid "For alternate ratings"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1414
+msgid "For decimal numbers"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1420
+msgid "For integer numbers"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1418 gmusicbrowser_songs.pm:1419
+msgid "For when values are likely to be repeated"
+msgstr ""
+
+#: gmusicbrowser.pl:1574
+msgid "Forward"
+msgstr "转发"
+
+#: plugins/lullaby.pm:27
+msgid "Friday"
+msgstr ""
+
+#: gmusicbrowser.pl:5552
+#, perl-brace-format
+msgid ""
+"From: {oldname}\n"
+"To: {newname}"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4208
+#, fuzzy
+msgid "Full screen"
+msgstr "全屏"
+
+#: gmusicbrowser.pl:6863
+msgid "Full screen layout :"
+msgstr "全屏布局："
+
+#: gmusicbrowser.pl:717 gmusicbrowser_layout.pm:687
+#: gmusicbrowser_layout.pm:4142
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: layouts/fullscreen.layout:27
+msgid "Fullscreen simple"
+msgstr "简单全屏"
+
+#: gmusicbrowser.pl:6629
+msgid "GStreamer module not loaded."
+msgstr ""
+
+#: gmusicbrowser.pl:6745
+msgid "Gain for songs missing replaygain tags"
+msgstr "增益未找到replaygain标签的歌曲"
+
+#: layouts/contrib.layout:612
+#, fuzzy
+msgid "Garage Fullscreen"
+msgstr "全屏"
+
+#: gmusicbrowser_tags.pm:1824 gmusicbrowser_tags.pm:1863
+#: gmusicbrowser_tags.pm:1877 gmusicbrowser_tags.pm:1900
+#: gmusicbrowser_tags.pm:2153 plugins/albuminfo.pm:64
+#: layouts/contrib.layout:338 layouts/contrib.layout:536
+msgid "Genre"
+msgstr "流派"
+
+#: layouts/makeitlooklike.layout:115
+#, fuzzy
+msgid "Genre - Album"
+msgstr "搜索专辑"
+
+#: layouts/makeitlooklike.layout:102
+#, fuzzy
+msgid "Genre - Artist"
+msgstr "流派设置为"
+
+#: gmusicbrowser_songs.pm:5277
+msgid "Genre is set"
+msgstr "流派设置为"
+
+#: gmusicbrowser_songs.pm:1019 plugins/albuminfo.pm:37
+msgid "Genres"
+msgstr "流派"
+
+#: layouts/makeitlooklike.layout:487
+#, fuzzy
+msgid "Genres pane"
+msgstr "流派"
+
+#: plugins/gnome_mmkeys.pm:9
+msgid "Gnome mmkeys"
+msgstr "Gnome多媒体键"
+
+#: plugins/gnome_mmkeys.pm:10
+msgid "Gnome multimedia keys plugin"
+msgstr "Gnome的多媒体键插件"
+
+#: layouts/makeitlooklike.layout:58
+#, fuzzy
+msgid "Go to Playing Track"
+msgstr "转到正在播放曲目"
+
+#: gmusicbrowser_list.pm:866 gmusicbrowser_list.pm:6927
+msgid "Go to playing song"
+msgstr "转到正在播放曲目"
+
+#: gmusicbrowser_list.pm:7736
+msgid "Group by :"
+msgstr "群组依据："
+
+#: gmusicbrowser_songs.pm:967 gmusicbrowser_tags.pm:1840
+msgid "Grouping"
+msgstr "分组"
+
+#: plugins/audioscrobbler.pm:164
+msgid "Handshake OK"
+msgstr "完成握手"
+
+#: plugins/audioscrobbler.pm:157
+msgid "Handshake failed : "
+msgstr "握手失败："
+
+#: gmusicbrowser.pl:6741
+msgid "Hard limiter"
+msgstr "硬限幅器"
+
+#: layouts/makeitlooklike.layout:68 layouts/makeitlooklike.layout:274
+#: layouts/makeitlooklike.layout:451
+msgid "Help"
+msgstr ""
+
+#: gmusicbrowser.pl:716 gmusicbrowser.pl:1593
+msgid "Hide"
+msgstr "隐藏"
+
+#: gmusicbrowser_list.pm:5375
+msgid "Hide non-matching"
+msgstr ""
+
+#: plugins/lyrics.pm:39
+msgid "Hide toolbar"
+msgstr "隐藏工具栏"
+
+#: gmusicbrowser.pl:6417
+msgid "High priority"
+msgstr ""
+
+#: gmusicbrowser.pl:6877
+msgid "Icon theme :"
+msgstr "图标主题："
+
+#: gmusicbrowser_songs.pm:2999
+msgid "Identifier in file tag"
+msgstr ""
+
+#: gmusicbrowser.pl:6418
+msgid ""
+"If checked, the shortcut has higher priority than the default shortcut of "
+"widgets. Warning: this can make some features inaccessible"
+msgstr ""
+
+#: gmusicbrowser.pl:6794
+msgid ""
+"If one of these words is at the start of the string, it will be ignored when "
+"sorting most fields"
+msgstr ""
+
+#: gmusicbrowser.pl:6691
+msgid "Ignore playback errors"
+msgstr "忽略播放错误"
+
+#: gmusicbrowser.pl:6792
+msgid "Ignore these words when sorting :"
+msgstr ""
+
+#: gmusicbrowser.pl:7066
+msgid "Ignored file extensions :"
+msgstr ""
+
+#: gmusicbrowser_list.pm:3065
+#, fuzzy
+msgid "Import list"
+msgstr "删除列表"
+
+#: gmusicbrowser_gstreamer-1.x.pm:503
+msgid ""
+"Imports gstreamer presets, and synchronize modifications made with "
+"gmusicbrowser"
+msgstr ""
+
+#: plugins/export.pm:93
+msgid ""
+"In this case one command by file will be run\n"
+"\n"
+msgstr ""
+
+#: plugins/albuminfo.pm:100
+msgid "Include Styles in Genres"
+msgstr ""
+
+#: gmusicbrowser.pl:1607
+msgid "Increase Volume"
+msgstr "增加音量"
+
+#: layouts/makeitlooklike.layout:271 layouts/makeitlooklike.layout:355
+#, fuzzy
+msgid "Increase volume"
+msgstr "增加音量"
+
+#: gmusicbrowser.pl:5774 gmusicbrowser_tags.pm:1888 layouts/pages.layout:40
+#: layouts/shimmer.layout:75
+msgid "Info"
+msgstr "信息"
+
+#: layouts/titlebar.layout:25
+msgid "Insensitive title-artist (left-aligned)"
+msgstr ""
+
+#: layouts/titlebar.layout:31
+msgid "Insensitive title-artist (right-aligned)"
+msgstr ""
+
+#: layouts/desktop.layout:5
+msgid "Insensitive, Song & Cover"
+msgstr ""
+
+#: gmusicbrowser.pl:1599
+msgid "Insert Selected Songs at the top of the queue"
+msgstr ""
+
+#: gmusicbrowser.pl:1638
+msgid "Insert a list of files/folders at the start of the playlist"
+msgstr "在播放列表开头插入一个文件/文件夹列表"
+
+#: gmusicbrowser_gstreamer-1.x.pm:507
+msgid "Insert this pipeline before the audio sink"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:845
+msgid "Invalid regular expression"
+msgstr ""
+
+#: gmusicbrowser.pl:9105
+#, fuzzy
+msgid "Invert filter"
+msgstr "重置过滤器"
+
+#: layouts/desktop.layout:33
+msgid "Invisible hot spot"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:839
+#, perl-format
+msgid "Isn't smart equal to %s"
+msgstr ""
+
+#: plugins/lyrics.pm:32
+msgid "Justified"
+msgstr ""
+
+#: gmusicbrowser.pl:1023 gmusicbrowser_tags.pm:1621
+msgid "KB"
+msgstr "KB"
+
+#: plugins/karaoke.pm:9
+msgid "Karaoke"
+msgstr ""
+
+#: plugins/karaoke.pm:10
+#, fuzzy
+msgid "Karaoke plugin"
+msgstr "自动存储插件"
+
+#: gmusicbrowser_list.pm:860 gmusicbrowser_list.pm:6921
+msgid "Keep list filtered and sorted"
+msgstr ""
+
+#: gmusicbrowser.pl:6340 gmusicbrowser.pl:6458
+msgid "Key"
+msgstr "按键"
+
+#: gmusicbrowser.pl:6302
+msgid "Keys"
+msgstr "按键"
+
+#: plugins/fetch_cover.pm:101
+msgid "Keywords"
+msgstr "关键词"
+
+#: gmusicbrowser.pl:1644 gmusicbrowser.pl:1645 gmusicbrowser.pl:1646
+msgid "Label"
+msgstr "标签"
+
+#: gmusicbrowser_songs.pm:5271
+msgid "Label is set"
+msgstr "标签已设置"
+
+#: gmusicbrowser_tags.pm:1848
+msgid "Label/Publisher"
+msgstr "标签/出版社"
+
+#: gmusicbrowser_songs.pm:1034
+msgid "Labels"
+msgstr "标签"
+
+#: gmusicbrowser_list.pm:803 layouts/songtree.layout:51
+#, fuzzy
+msgid "Labels' icons"
+msgstr "标签已设置"
+
+#: gmusicbrowser_tags.pm:2318 gmusicbrowser_tags.pm:2342
+msgid "Lang"
+msgstr "语言"
+
+#: gmusicbrowser_tags.pm:2314
+msgid "Lang."
+msgstr "语言。"
+
+#: gmusicbrowser_tags.pm:1825
+#, fuzzy
+msgid "Languages"
+msgstr "语言"
+
+#: gmusicbrowser_mpv.pm:216
+msgid "Last messages:"
+msgstr ""
+
+#: gmusicbrowser.pl:1253 gmusicbrowser_list.pm:724 gmusicbrowser_songs.pm:1125
+msgid "Last played"
+msgstr "最后播放"
+
+#: gmusicbrowser_songs.pm:1143
+msgid "Last skipped"
+msgstr "最后跳过"
+
+#: plugins/rip.pm:33
+msgid "Launch ripping program"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:555
+#, fuzzy
+msgid "Layout"
+msgstr "布局"
+
+#: plugins/desktopwidget.pm:35
+#, fuzzy
+msgid "Layout :"
+msgstr "布局"
+
+#: gmusicbrowser.pl:6298
+msgid "Layouts"
+msgstr "布局"
+
+#: plugins/lyrics.pm:29
+msgid "Left aligned"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:487
+#, fuzzy
+msgid "Left pane"
+msgstr "单页"
+
+#: layouts/contrib.layout:286 layouts/contrib.layout:571
+msgid "Left-clic or scrollwheel to change, right-click to mute"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1278
+msgid "Length"
+msgstr "长度"
+
+#: gmusicbrowser.pl:6296 gmusicbrowser_list.pm:126 layouts/contrib.layout:302
+#: layouts/contrib.layout:319 layouts/contrib.layout:587
+#: layouts/contrib.layout:592 layouts/contrib.layout:733
+#: layouts/contrib.layout:741 layouts/main.layout:22 layouts/shimmer.layout:24
+#: layouts/shimmer.layout:72
+msgid "Library"
+msgstr "音乐库"
+
+#: gmusicbrowser_list.pm:275
+msgid "Library : "
+msgstr "音乐库 ："
+
+#: gmusicbrowser_list.pm:452
+msgid ""
+"Library empty.\n"
+"\n"
+"Use the settings dialog to add music."
+msgstr ""
+
+#: gmusicbrowser.pl:7099
+#, fuzzy, perl-format
+msgid "Library size : %d song"
+msgid_plural "Library size : %d songs"
+msgstr[0] "音乐库 ："
+
+#: plugins/artistinfo.pm:296
+msgid "Limit similar artists to a rate of similarity : "
+msgstr ""
+
+#: plugins/artistinfo.pm:295
+msgid "Limit similar artists to the first : "
+msgstr ""
+
+#: gmusicbrowser_list.pm:1587 layouts/contrib.layout:336
+#: layouts/contrib.layout:535
+msgid "List"
+msgstr "列表"
+
+#: gmusicbrowser_list.pm:422
+#, fuzzy
+msgid "List empty"
+msgstr "播放列表空"
+
+#: gmusicbrowser_layout.pm:1499 gmusicbrowser_layout.pm:1565
+msgid "List order"
+msgstr "列表规则"
+
+#: gmusicbrowser_list.pm:250
+msgid "Listed : "
+msgstr "已列出："
+
+#: gmusicbrowser_list.pm:124
+msgid "Listed songs"
+msgstr "已列出的歌曲"
+
+#: plugins/artistinfo.pm:563
+#, fuzzy
+msgid "Listeners: "
+msgstr "已列出："
+
+#: gmusicbrowser_songs.pm:1398
+#, fuzzy
+msgid "Lists"
+msgstr "列表"
+
+#: layouts/main.layout:6
+msgid "Lists, Library & Context"
+msgstr ""
+
+#: gmusicbrowser_list.pm:3616
+#, fuzzy
+msgid "Literal search"
+msgstr "包含搜索框"
+
+#: plugins/lyrics.pm:220
+msgid "Load lyrics even if lyrics panel is hidden"
+msgstr ""
+
+#: plugins/artistinfo.pm:279
+msgid "Load/Save Artist Info in :"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:280
+#, perl-format
+msgid "Loaded %d unsent song from previous session"
+msgid_plural "Loaded %d unsent songs from previous session"
+msgstr[0] "正在加载上次会话中未送出的 %d 曲目"
+
+#: plugins/artistinfo.pm:517 plugins/artistinfo.pm:627 plugins/lyrics.pm:435
+#: plugins/lyrics.pm:747
+msgid "Loading failed."
+msgstr "载入中失败。"
+
+#: plugins/albuminfo.pm:574 plugins/artistinfo.pm:504 plugins/lyrics.pm:420
+msgid "Loading..."
+msgstr "载入中..."
+
+#: gmusicbrowser.pl:693
+msgid "Lock"
+msgstr "锁"
+
+#: gmusicbrowser.pl:713
+msgid "Lock Album"
+msgstr "锁定专辑"
+
+#: gmusicbrowser.pl:712
+msgid "Lock Artist"
+msgstr "锁定艺人"
+
+#: gmusicbrowser_layout.pm:170
+#, fuzzy
+msgid "Lock on Album"
+msgstr "锁定专辑"
+
+#: gmusicbrowser_layout.pm:164
+#, fuzzy
+msgid "Lock on Artist"
+msgstr "锁定艺人"
+
+#: gmusicbrowser_layout.pm:159
+#, fuzzy
+msgid "Lock on song"
+msgstr "锁定：\n"
+
+#: gmusicbrowser_layout.pm:152
+#, perl-brace-format
+msgid "Lock on {field}"
+msgstr ""
+
+#: gmusicbrowser_list.pm:74
+msgid "Locked on :\n"
+msgstr "锁定：\n"
+
+#: plugins/albuminfo.pm:486
+msgid "Lookup at allmusic.com"
+msgstr ""
+
+#: gmusicbrowser.pl:696
+msgid "Lookup in AMG"
+msgstr "AMG查找"
+
+#: gmusicbrowser.pl:688
+msgid "Lookup in google"
+msgstr "谷歌查找"
+
+#: plugins/titlebar.pm:32
+msgid "Lower left"
+msgstr ""
+
+#: plugins/titlebar.pm:33
+#, fuzzy
+msgid "Lower right"
+msgstr "重量："
+
+#: plugins/lullaby.pm:9
+msgid "Lullaby"
+msgstr ""
+
+#: plugins/lullaby.pm:10
+#, fuzzy
+msgid "Lullaby plugin"
+msgstr "歌词插件"
+
+#: gmusicbrowser_songs.pm:1193
+#, fuzzy
+msgid "Lyricist"
+msgstr "歌词作者"
+
+#: gmusicbrowser_tags.pm:1826 gmusicbrowser_tags.pm:1864
+#: gmusicbrowser_tags.pm:1865 gmusicbrowser_tags.pm:1884
+#: gmusicbrowser_tags.pm:1887 gmusicbrowser_tags.pm:1902 plugins/lyrics.pm:9
+#: plugins/lyrics.pm:108 plugins/webcontext.pm:124 layouts/contrib.layout:764
+#: layouts/shimmer.layout:30 layouts/shimmer.layout:74
+msgid "Lyrics"
+msgstr "歌词"
+
+#: layouts/desktop.layout:39
+msgid "Lyrics (requires lyrics plugin)"
+msgstr ""
+
+#: plugins/lyrics.pm:45
+#, fuzzy
+msgid "Lyrics alignement"
+msgstr "歌词插件"
+
+#: plugins/lyrics.pm:215
+#, fuzzy
+msgid "Lyrics file :"
+msgstr "歌词"
+
+#: plugins/lyrics.pm:215
+#, fuzzy
+msgid "Lyrics file name format"
+msgstr "文件格式："
+
+#: gmusicbrowser.pl:5283
+msgid "Lyrics for "
+msgstr "歌词"
+
+#: plugins/lyrics.pm:10
+msgid "Lyrics plugin"
+msgstr "歌词插件"
+
+#: plugins/lyrics.pm:182 plugins/webcontext.pm:363
+#, fuzzy
+msgid "Lyrics source"
+msgstr "歌词"
+
+#: gmusicbrowser.pl:1024 gmusicbrowser.pl:3845 gmusicbrowser_songs.pm:534
+#: gmusicbrowser_songs.pm:542
+msgid "MB"
+msgstr "MB"
+
+#: gmusicbrowser_tags.pm:2322 gmusicbrowser_tags.pm:2327
+msgid "MIME type"
+msgstr "MIME类型"
+
+#: plugins/mpris1.pm:9
+msgid "MPRIS v1"
+msgstr ""
+
+#: plugins/mpris1.pm:10
+msgid "MPRIS v1 support"
+msgstr ""
+
+#: plugins/mpris2.pm:9
+msgid "MPRIS v2"
+msgstr ""
+
+#: plugins/mpris2.pm:10
+msgid "MPRIS v2 support"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:565
+msgid "Main"
+msgstr "主要的"
+
+#: gmusicbrowser_songs.pm:864
+#, fuzzy
+msgid "Main artist"
+msgstr "领衔艺术家"
+
+#: layouts/makeitlooklike.layout:6 layouts/makeitlooklike.layout:30
+#: layouts/makeitlooklike.layout:215 layouts/makeitlooklike.layout:329
+#: layouts/makeitlooklike.layout:378 layouts/makeitlooklike.layout:483
+msgid "Make it look like"
+msgstr ""
+
+#: gmusicbrowser_gstreamer-1.x.pm:500
+msgid ""
+"Makes gmusicbrowser monitor its pulseaudio volume, so that external changes "
+"to its volume are known."
+msgstr ""
+
+#: plugins/gnome_mmkeys.pm:11
+msgid ""
+"Makes gmusicbrowser react to the Next/Previous/Play/Stop multimedia keys in "
+"gnome."
+msgstr ""
+
+#: gmusicbrowser.pl:677
+msgid "Mass Rename"
+msgstr "大规模重命名"
+
+#: gmusicbrowser.pl:5426
+msgid "Mass Renaming"
+msgstr "大规模的重命名"
+
+#: gmusicbrowser_tags.pm:1843
+msgid "Media type"
+msgstr "媒体类型"
+
+#: plugins/export.pm:90
+msgid "Menu entry name"
+msgstr "菜单条目名称"
+
+#: layouts/contrib.layout:702
+#, fuzzy
+msgid "Middle-clic for next album"
+msgstr "搜索当前专辑"
+
+#: plugins/appindicator.pm:49
+msgid "Middle-click action :"
+msgstr ""
+
+#: plugins/artistinfo.pm:165
+msgid ""
+"Middle-click on local artists to set a filter on them, right-click non-local "
+"artists to search for them on the web."
+msgstr ""
+
+#: layouts/tray.layout:35
+#, fuzzy
+msgid "Minimal tip"
+msgstr "最小"
+
+#: plugins/desktopwidget.pm:204
+#, fuzzy
+msgid "Minimum size"
+msgstr "中型"
+
+#: gmusicbrowser.pl:6299
+msgid "Misc."
+msgstr "杂项"
+
+#: gmusicbrowser_songs.pm:821
+msgid "Modification"
+msgstr "修改"
+
+#: plugins/lullaby.pm:27
+msgid "Monday"
+msgstr ""
+
+#: plugins/desktopwidget.pm:203
+msgid "Monitor"
+msgstr ""
+
+#: gmusicbrowser_gstreamer-1.x.pm:500
+msgid "Monitor the pulseaudio volume"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1052 plugins/albuminfo.pm:38
+msgid "Moods"
+msgstr ""
+
+#: layouts/contrib.layout:775
+msgid "More info"
+msgstr ""
+
+#: plugins/fetch_cover.pm:106
+msgid "More results"
+msgstr "更多结果"
+
+#: layouts/contrib.layout:753 layouts/shimmer.layout:19
+#, fuzzy
+msgid "Mosaic View"
+msgstr "镶嵌模式"
+
+#: gmusicbrowser.pl:680
+msgid "Move"
+msgstr "移动"
+
+#: gmusicbrowser.pl:5495
+msgid "Move Files to :"
+msgstr "移动文件到："
+
+#: gmusicbrowser.pl:4950 gmusicbrowser.pl:10122
+msgid "Move failed"
+msgstr "移动失败"
+
+#: gmusicbrowser.pl:6994
+msgid "Move folder to"
+msgstr "移动文件夹"
+
+#: gmusicbrowser.pl:10118
+#, fuzzy
+msgid "Moving"
+msgstr "移动文件 %d "
+
+#: gmusicbrowser.pl:4952
+#, perl-format
+msgid "Moving file"
+msgid_plural "Moving %d files"
+msgstr[0] "移动文件 %d "
+
+#: layouts/makeitlooklike.layout:229 layouts/makeitlooklike.layout:334
+msgid "Music"
+msgstr ""
+
+#: gmusicbrowser.pl:7122
+#, fuzzy
+msgid "Music files"
+msgstr "图片档案"
+
+#: gmusicbrowser.pl:1609
+msgid "Mute/Unmute"
+msgstr "静音/不静音"
+
+#: gmusicbrowser_tags.pm:2357 gmusicbrowser_tags.pm:2362
+msgid "Name"
+msgstr ""
+
+#: gmusicbrowser.pl:1584 gmusicbrowser.pl:1585 gmusicbrowser.pl:1587
+msgid "Name of layout"
+msgstr "布局名称"
+
+#: plugins/export.pm:90
+msgid "Name under which the command will appear in the menu"
+msgstr "名称根据该命令将显示在菜单"
+
+#: gmusicbrowser.pl:7082 gmusicbrowser_list.pm:1753
+#, fuzzy
+msgid "Never"
+msgstr "从不"
+
+#: gmusicbrowser_tags.pm:773 plugins/webcontext.pm:499
+msgid "New"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:2842
+#, fuzzy
+msgid "New custom field"
+msgstr "选择字段"
+
+#: gmusicbrowser_list.pm:3050
+msgid "New filter"
+msgstr "新的过滤器"
+
+#: gmusicbrowser.pl:7223
+#, fuzzy
+msgid "New label"
+msgstr "添加新的标签"
+
+#: gmusicbrowser_layout.pm:2475
+msgid "New list"
+msgstr "新列表"
+
+#: gmusicbrowser.pl:5461 gmusicbrowser.pl:7193
+msgid "New name"
+msgstr "新名称"
+
+#: gmusicbrowser.pl:710 gmusicbrowser.pl:3342 gmusicbrowser_layout.pm:95
+#: gmusicbrowser_list.pm:5398 plugins/appindicator.pm:28 plugins/notify.pm:99
+#: layouts/makeitlooklike.layout:269 layouts/makeitlooklike.layout:353
+#: layouts/makeitlooklike.layout:427
+msgid "Next"
+msgstr "下一个"
+
+#: gmusicbrowser.pl:1569
+#, fuzzy
+msgid "Next Album"
+msgstr "首张专辑"
+
+#: gmusicbrowser.pl:1570
+#, fuzzy
+msgid "Next Artist"
+msgstr "艺术家"
+
+#: gmusicbrowser.pl:1571 gmusicbrowser_layout.pm:94 layouts/contrib.layout:220
+msgid "Next Song"
+msgstr "下一首歌曲"
+
+#: gmusicbrowser.pl:1567
+msgid "Next Song In Playlist"
+msgstr "播放列表中的下一首歌曲"
+
+#: gmusicbrowser_layout.pm:654
+msgid "No connections"
+msgstr "没有连接"
+
+#: gmusicbrowser.pl:3899
+msgid "No file browser found."
+msgstr "没有发现文件浏览器。"
+
+#: gmusicbrowser_songs.pm:1024
+#, fuzzy
+msgid "No genre"
+msgstr "流派"
+
+#: gmusicbrowser_songs.pm:1042
+#, fuzzy
+msgid "No label"
+msgstr "删除标签"
+
+#: gmusicbrowser_list.pm:74
+msgid "No locked filter"
+msgstr "没有已锁定的滤波器"
+
+#: plugins/lyrics.pm:26 plugins/lyrics.pm:335
+#, fuzzy
+msgid "No lyrics found"
+msgstr "没有发现插件"
+
+#: gmusicbrowser_songs.pm:1056
+msgid "No moods"
+msgstr ""
+
+#: plugins/artistinfo.pm:543 plugins/artistinfo.pm:574
+#, fuzzy
+msgid "No results found"
+msgstr "未找到"
+
+#: plugins/albuminfo.pm:429 plugins/albuminfo.pm:623 plugins/albuminfo.pm:747
+#, fuzzy
+msgid "No review found"
+msgstr "未找到"
+
+#: plugins/albuminfo.pm:481
+msgid "No review written."
+msgstr ""
+
+#: gmusicbrowser_songs.pm:4364
+#, fuzzy
+msgid "No songs"
+msgstr "%d歌曲"
+
+#: gmusicbrowser_list.pm:424 gmusicbrowser_list.pm:425
+#, fuzzy
+msgid "No songs found"
+msgstr "未找到"
+
+#: gmusicbrowser_songs.pm:1068
+msgid "No styles"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1079
+#, fuzzy
+msgid "No themes"
+msgstr "图标主题："
+
+#: gmusicbrowser.pl:3891
+msgid "No web browser found."
+msgstr "没有发现网络浏览器。"
+
+#: gmusicbrowser.pl:1235 gmusicbrowser_list.pm:1640 gmusicbrowser_list.pm:1662
+#: gmusicbrowser_songs.pm:86 gmusicbrowser_songs.pm:981
+msgid "None"
+msgstr "无"
+
+#: layouts/tray.layout:18
+#, fuzzy
+msgid "Normal"
+msgstr "正常"
+
+#: gmusicbrowser.pl:576
+msgid "Normal mode"
+msgstr "正常模式"
+
+#: layouts/tray.layout:3
+#, fuzzy
+msgid "Normal with buttons"
+msgstr "显示按钮"
+
+#: gmusicbrowser.pl:6671
+msgid "Normalize volume (the files must have replaygain tags)"
+msgstr "正常值（该文件必须有replaygain标签）"
+
+#: plugins/notify.pm:60
+msgid "Note that some notification daemons resize the displayed picture"
+msgstr ""
+
+#: plugins/albuminfo.pm:103
+msgid ""
+"Note: inactive fields must be enabled by the user in the 'Fields' tab in "
+"Settings"
+msgstr ""
+
+#: plugins/notify.pm:9
+msgid "Notify"
+msgstr ""
+
+#: plugins/notify.pm:10
+#, fuzzy
+msgid "Notify plugin"
+msgstr "抓取插件"
+
+#: plugins/notify.pm:11
+msgid "Notify you of the playing song with the system's notification popups"
+msgstr ""
+
+#: plugins/nowplaying.pm:16
+msgid "Now playing"
+msgstr "播放中"
+
+#: plugins/nowplaying.pm:17
+msgid "NowPlaying plugin"
+msgstr "正在播放插件"
+
+#: gmusicbrowser_songs.pm:5295
+msgid "Number of days since added"
+msgstr "添加以来的天数"
+
+#: gmusicbrowser_songs.pm:5283
+msgid "Number of days since last played"
+msgstr "上次播放以来的天数"
+
+#: gmusicbrowser_songs.pm:5289
+msgid "Number of days since last skipped"
+msgstr "上次跳过以来的天数"
+
+#: gmusicbrowser_songs.pm:5301
+#, fuzzy
+msgid "Number of days since modified"
+msgstr "添加以来的天数"
+
+#: gmusicbrowser.pl:1643
+msgid "Number of milliseconds"
+msgstr "毫秒数"
+
+#: gmusicbrowser.pl:1574 gmusicbrowser.pl:1575 gmusicbrowser.pl:1576
+msgid "Number of seconds"
+msgstr "秒数"
+
+#: gmusicbrowser_songs.pm:5307
+msgid "Number of times played"
+msgstr "播放次数"
+
+#: gmusicbrowser_songs.pm:5312
+msgid "Number of times skipped"
+msgstr "已跳过次数"
+
+#: gmusicbrowser.pl:8867 gmusicbrowser.pl:8891
+msgid ""
+"ON -> smaller means more probable\n"
+"OFF -> bigger means more probable"
+msgstr ""
+"ON -> smaller means more probable\n"
+"OFF -> bigger means more probable"
+
+#: gmusicbrowser.pl:8859
+msgid ""
+"ON less probable if genre is set\n"
+"OFF more probable if genre is set"
+msgstr ""
+"ON不太可能，如果流派已设置\n"
+"OFF更有可能是，如果类型未设置"
+
+#: gmusicbrowser.pl:8852
+msgid ""
+"ON less probable if label is set\n"
+"OFF more probable if label is set"
+msgstr ""
+"ON不太可能，如果标签已设置\n"
+" OFF更有可能是，如果标签未设置"
+
+#: gmusicbrowser.pl:5461
+msgid "Old name"
+msgstr "旧名称"
+
+#: plugins/desktopwidget.pm:187
+msgid "On top of other windows instead of below"
+msgstr ""
+
+#: gmusicbrowser.pl:1615 gmusicbrowser.pl:1617
+msgid ""
+"One command is used per selected songs, unless $files is used, which is "
+"replaced by the list of selected files"
+msgstr ""
+
+#: gmusicbrowser_123.pm:147
+#, perl-brace-format
+msgid "One of these commands is required to play files of type {type} : {cmd}"
+msgstr ""
+
+#: gmusicbrowser.pl:6903
+msgid "Only affect mp3 files that do not already have an id3v1 tag"
+msgstr ""
+
+#: plugins/artistinfo.pm:297
+msgid "Only show similar artists from local library"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1753
+msgid "Only whole levels"
+msgstr ""
+
+#: plugins/desktopwidget.pm:205
+msgid "Opacity"
+msgstr ""
+
+#: gmusicbrowser.pl:1580 gmusicbrowser_layout.pm:54
+msgid "Open Browser"
+msgstr "打开浏览器"
+
+#: gmusicbrowser_layout.pm:107
+msgid "Open Browser window"
+msgstr "打开浏览器窗口"
+
+#: gmusicbrowser.pl:1583 gmusicbrowser_layout.pm:55 gmusicbrowser_layout.pm:116
+msgid "Open Context window"
+msgstr "打开上下文窗口"
+
+#: gmusicbrowser.pl:1584
+msgid "Open Custom window"
+msgstr "打开自定义窗口"
+
+#: gmusicbrowser.pl:6660
+msgid "Open Equalizer"
+msgstr "打开均衡"
+
+#: gmusicbrowser_layout.pm:2478
+msgid "Open Playlist"
+msgstr "打开播放"
+
+#: gmusicbrowser.pl:1588
+msgid "Open Preference window"
+msgstr "打开偏好窗口"
+
+#: gmusicbrowser_layout.pm:2476
+msgid "Open Queue"
+msgstr "打开队列"
+
+#: gmusicbrowser.pl:1581 gmusicbrowser_layout.pm:123
+msgid "Open Queue window"
+msgstr "打开队列窗口"
+
+#: gmusicbrowser.pl:1582
+msgid "Open Search window"
+msgstr "打开搜索窗口"
+
+#: gmusicbrowser.pl:689
+msgid "Open containing folder"
+msgstr "打开所在的文件夹"
+
+#: layouts/contrib.layout:724
+msgid "Open context & queue panel"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:2484
+#, fuzzy
+msgid "Open context page"
+msgstr "网络相关插件"
+
+#: gmusicbrowser_layout.pm:5575
+#, fuzzy
+msgid "Open equalizer..."
+msgstr "打开均衡"
+
+#: gmusicbrowser_layout.pm:2480
+msgid "Open existing list"
+msgstr "打开现有列表"
+
+#: gmusicbrowser_list.pm:1724
+msgid "Open folder"
+msgstr "打开文件夹"
+
+#: plugins/artistinfo.pm:299
+#, fuzzy
+msgid "Open last.fm website in your browser"
+msgstr "在浏览器中打开链接"
+
+#: plugins/lyrics.pm:380
+msgid "Open link in Browser"
+msgstr "在浏览器中打开链接"
+
+#: gmusicbrowser_layout.pm:2482
+msgid "Open page layout"
+msgstr "打开网页布局"
+
+#: plugins/desktopwidget.pm:11
+msgid "Open special layouts as desktop widgets"
+msgstr ""
+
+#: plugins/webcontext.pm:231
+msgid "Open this page in the web browser"
+msgstr "在网页浏览器中打开这个网页"
+
+#: gmusicbrowser_123.pm:291 gmusicbrowser_layout.pm:4195
+#: gmusicbrowser_list.pm:1757
+msgid "Options"
+msgstr "选项"
+
+#: layouts/makeitlooklike.layout:242 layouts/makeitlooklike.layout:341
+#, fuzzy
+msgid "Options ..."
+msgstr "选项"
+
+#: gmusicbrowser_list.pm:1645
+msgid "Options for subgroup"
+msgstr ""
+
+#: plugins/export.pm:94
+msgid ""
+"Or you can use the field $files which will be replaced by the list of files, "
+"and only one command will be run"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:1828 gmusicbrowser_tags.pm:1866
+msgid "Original Artist"
+msgstr "原始艺术家"
+
+#: gmusicbrowser_tags.pm:1846
+msgid "Original Filename"
+msgstr "原始文件名"
+
+#: gmusicbrowser_tags.pm:1847
+msgid "Original release year"
+msgstr "原始发行年份"
+
+#: gmusicbrowser_tags.pm:1845
+msgid "Originaly from"
+msgstr "来自"
+
+#: gmusicbrowser_songs.pm:34
+#, fuzzy
+msgid "Other"
+msgstr "其他"
+
+#: gmusicbrowser_123.pm:291 layouts/makeitlooklike.layout:440
+msgid "Output"
+msgstr ""
+
+#: plugins/titlebar.pm:52
+#, fuzzy
+msgid "Overlay layout :"
+msgstr "播放器窗口的布局："
+
+#: gmusicbrowser_tags.pm:2349 gmusicbrowser_tags.pm:2352
+msgid "Owner identifier"
+msgstr "拥有者标识符"
+
+#: gmusicbrowser_layout.pm:4203
+msgid "Paste link"
+msgstr ""
+
+#: gmusicbrowser.pl:1256
+msgid "Path,Album,Disc,Track,File"
+msgstr "路径，专辑，光盘，音轨，文件"
+
+#: gmusicbrowser.pl:1250
+msgid "Path,File"
+msgstr "路径，文件"
+
+#: plugins/karaoke.pm:42
+msgid "Pattern to find .lrc files :"
+msgstr ""
+
+#: gmusicbrowser.pl:708 gmusicbrowser.pl:1578 gmusicbrowser_layout.pm:86
+msgid "Pause"
+msgstr "暂停"
+
+#: gmusicbrowser_tags.pm:496
+msgid "Per-song values"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:3008
+msgid "Persistent values"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:1127
+msgid "Pick an existing one"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:1827 gmusicbrowser_tags.pm:1867
+#: gmusicbrowser_tags.pm:1908
+msgid "Picture"
+msgstr "图片"
+
+#: layouts/main.layout:210
+#, fuzzy
+msgid "Picture Browser"
+msgstr "图片搜索"
+
+#: gmusicbrowser_tags.pm:2323
+msgid "Picture Type"
+msgstr "图片类型"
+
+#: gmusicbrowser.pl:6817
+#, perl-format
+msgid "Picture cache : %d MB"
+msgstr ""
+
+#: plugins/fetch_cover.pm:9
+msgid "Picture finder"
+msgstr "图片搜索"
+
+#: plugins/fetch_cover.pm:10
+msgid "Picture finder plugin"
+msgstr "图片搜索插件"
+
+#: plugins/notify.pm:60
+#, fuzzy, perl-format
+msgid "Picture size : %d"
+msgstr "图片尺寸"
+
+#: gmusicbrowser_tags.pm:1532
+#, fuzzy
+msgid "Picture type"
+msgstr "图片类型"
+
+#: gmusicbrowser.pl:5107
+#, fuzzy
+msgid "Pictures and music files"
+msgstr "图片档案"
+
+#: gmusicbrowser.pl:5108
+msgid "Pictures files"
+msgstr "图片档案"
+
+#: gmusicbrowser.pl:708 gmusicbrowser.pl:1579 gmusicbrowser_layout.pm:86
+#: gmusicbrowser_list.pm:1705 gmusicbrowser_list.pm:4107
+#: gmusicbrowser_list.pm:4171 layouts/makeitlooklike.layout:266
+#: layouts/makeitlooklike.layout:350 layouts/makeitlooklike.layout:424
+msgid "Play"
+msgstr "播放"
+
+#: gmusicbrowser.pl:653
+msgid "Play Only Displayed"
+msgstr "只播放显示的"
+
+#: gmusicbrowser.pl:651
+msgid "Play Only Selected"
+msgstr "只播放选定的"
+
+#: gmusicbrowser.pl:1636
+#, fuzzy
+msgid "Play a list of files"
+msgstr "播放列表过滤器"
+
+#: gmusicbrowser_list.pm:3402
+msgid "Play all songs from this album"
+msgstr "播放此专辑的全部歌曲"
+
+#: gmusicbrowser_list.pm:3402
+msgid "Play all songs from this artist"
+msgstr "播放这个艺术家的全部歌曲"
+
+#: layouts/titlebar.layout:5
+#, fuzzy
+msgid "Play button"
+msgstr "播放次数"
+
+#: gmusicbrowser_list.pm:724 gmusicbrowser_songs.pm:1161
+msgid "Play count"
+msgstr "播放次数"
+
+#: gmusicbrowser_tags.pm:1832
+msgid "Play counter"
+msgstr "播放计数器"
+
+#: gmusicbrowser_layout.pm:584
+msgid "Play filter"
+msgstr "播放过滤器"
+
+#: gmusicbrowser_songs.pm:1134
+#, fuzzy
+msgid "Play history"
+msgstr "播放列表"
+
+#: gmusicbrowser.pl:1647
+#, fuzzy
+msgid "Play listed songs"
+msgstr "已列出的歌曲"
+
+#: gmusicbrowser_layout.pm:179 gmusicbrowser_layout.pm:543
+msgid "Play order"
+msgstr "播放顺序"
+
+#: gmusicbrowser_list.pm:796
+msgid "Play, queue or track"
+msgstr ""
+
+#: gmusicbrowser.pl:1573 plugins/appindicator.pm:26 layouts/contrib.layout:218
+msgid "Play/Pause"
+msgstr "播放/暂停"
+
+#: layouts/makeitlooklike.layout:422
+#, fuzzy
+msgid "Playback"
+msgstr "播放"
+
+#: gmusicbrowser_mpv.pm:208
+msgid "Playback ended unexpectedly."
+msgstr ""
+
+#: plugins/artistinfo.pm:563
+#, fuzzy
+msgid "Playcount: "
+msgstr "播放次数"
+
+#: gmusicbrowser.pl:2317
+msgid "Played Today"
+msgstr "今天播放过的"
+
+#: plugins/export.pm:85
+msgid "Player mounted on :"
+msgstr "播放器挂载在："
+
+#: gmusicbrowser.pl:6860
+msgid "Player window layout :"
+msgstr "播放器窗口的布局："
+
+#: gmusicbrowser_layout.pm:535 gmusicbrowser_list.pm:3071
+msgid "Playing"
+msgstr "正在播放"
+
+#: gmusicbrowser_list.pm:3157
+msgid "Playing Album"
+msgstr "正在播放专辑"
+
+#: gmusicbrowser_list.pm:3156
+msgid "Playing Artist"
+msgstr "正在播放艺术家"
+
+#: gmusicbrowser_list.pm:3155
+msgid "Playing Filter"
+msgstr "正在播放的滤波器"
+
+#: gmusicbrowser_list.pm:3158
+msgid "Playing Title"
+msgstr "正在播放的名称"
+
+#: gmusicbrowser_list.pm:789 layouts/songtree.layout:46
+msgid "Playing and queue icons"
+msgstr ""
+
+#: gmusicbrowser.pl:3032
+#, perl-brace-format
+msgid "Playing error : {error}"
+msgstr ""
+
+#: layouts/shimmer.layout:163
+msgid "Playing/Queue Icon or Track"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:432 layouts/contrib.layout:242
+#: layouts/contrib.layout:350 layouts/contrib.layout:495
+#: layouts/contrib.layout:545 layouts/contrib.layout:631
+#: layouts/main.layout:147 layouts/makeitlooklike.layout:431
+#: layouts/shimmer.layout:76
+msgid "Playlist"
+msgstr "播放列表"
+
+#: layouts/makeitlooklike.layout:173
+#, fuzzy
+msgid "Playlist 1"
+msgstr "播放列表"
+
+#: gmusicbrowser_layout.pm:264 gmusicbrowser_layout.pm:1899
+msgid "Playlist Empty"
+msgstr "播放列表空"
+
+#: layouts/makeitlooklike.layout:61
+#, fuzzy
+msgid "Playlist Utilities Bar"
+msgstr "播放列表过滤器"
+
+#: gmusicbrowser_list.pm:423
+#, fuzzy
+msgid "Playlist empty"
+msgstr "播放列表空"
+
+#: gmusicbrowser.pl:5971
+#, fuzzy
+msgid "Playlist files"
+msgstr "播放列表过滤器"
+
+#: gmusicbrowser_layout.pm:547
+msgid "Playlist filter"
+msgstr "播放列表过滤器"
+
+#: gmusicbrowser_layout.pm:194
+msgid "Playlist filter :\n"
+msgstr "播放列表过滤器：\n"
+
+#: layouts/makeitlooklike.layout:77 layouts/makeitlooklike.layout:438
+#: layouts/makeitlooklike.layout:478
+#, fuzzy
+msgid "Playlists"
+msgstr "播放列表"
+
+#: gmusicbrowser.pl:6527
+msgid "Plugin not loaded"
+msgstr "插件未加载"
+
+#: gmusicbrowser.pl:6301
+msgid "Plugins"
+msgstr "插件"
+
+#: gmusicbrowser_tags.pm:1833
+msgid "Popularimeter"
+msgstr "Popularimeter"
+
+#: gmusicbrowser.pl:1585
+msgid "Popup Custom window"
+msgstr "弹出自定义窗口"
+
+#: gmusicbrowser.pl:1643
+msgid "Popup Traytip"
+msgstr "弹出托盘"
+
+#: plugins/notify.pm:45
+#, fuzzy
+msgid "Popup notify window"
+msgstr "弹出自定义窗口"
+
+#: gmusicbrowser.pl:1649
+#, fuzzy
+msgid "Popup playlist filter menu"
+msgstr "播放列表过滤器"
+
+#: gmusicbrowser.pl:1650
+msgid "Popup playlist order menu"
+msgstr ""
+
+#: gmusicbrowser.pl:1651
+msgid "Popup queue menu"
+msgstr ""
+
+#: plugins/webcontext.pm:502
+msgid "Pre-set"
+msgstr ""
+
+#: plugins/lyrics.pm:219
+msgid "Prefered place to load and save lyrics :"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:54 layouts/makeitlooklike.layout:419
+#, fuzzy
+msgid "Preferences"
+msgstr "打开偏好窗口"
+
+#: gmusicbrowser.pl:642
+msgid "Prepend"
+msgstr ""
+
+#: gmusicbrowser.pl:6368
+msgid "Press a key or a key combination"
+msgstr "按下一个键或组合键"
+
+#: gmusicbrowser_layout.pm:67 gmusicbrowser_list.pm:5399
+#: layouts/makeitlooklike.layout:268 layouts/makeitlooklike.layout:352
+#: layouts/makeitlooklike.layout:426
+#, fuzzy
+msgid "Previous"
+msgstr "上一首"
+
+#: gmusicbrowser.pl:1572 layouts/contrib.layout:217
+msgid "Previous Song"
+msgstr "上一首"
+
+#: gmusicbrowser.pl:1568
+msgid "Previous Song In Playlist"
+msgstr "播放列表中的上一首"
+
+#: plugins/lyrics.pm:156
+msgid "Previous page"
+msgstr "前一页"
+
+#: gmusicbrowser_tags.pm:2345
+msgid "Price paid"
+msgstr "支付的价款"
+
+#: gmusicbrowser_tags.pm:1835
+msgid "Private Data"
+msgstr "私密数据"
+
+#: gmusicbrowser.pl:5241
+msgid "Proceed to next item."
+msgstr ""
+
+#: gmusicbrowser_tags.pm:1838
+msgid "Produced (P)"
+msgstr "生产（规划）"
+
+#: layouts/main.layout:183
+msgid "Progress"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:337
+#, fuzzy
+msgid "Properties"
+msgstr "歌曲信息"
+
+#: plugins/webcontext.pm:12
+#, fuzzy
+msgid "Provides context views using WebKit"
+msgstr "使用MozEmbed意见或WebKit获得歌曲相关信息"
+
+#: gmusicbrowser.pl:6770
+msgid "Proxy host :"
+msgstr "Proxy主机："
+
+#: gmusicbrowser_tags.pm:1881
+msgid "Publication right"
+msgstr "出版商权利"
+
+#: gmusicbrowser_tags.pm:1874
+msgid "Publisher"
+msgstr "出版商"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "Publisher/Studio logotype"
+msgstr "出版商/工作室标识"
+
+#: gmusicbrowser.pl:3315 gmusicbrowser_layout.pm:218
+#: gmusicbrowser_layout.pm:426 gmusicbrowser_layout.pm:551
+#: layouts/contrib.layout:235 layouts/contrib.layout:304
+#: layouts/contrib.layout:487 layouts/contrib.layout:593
+#: layouts/contrib.layout:624 layouts/contrib.layout:766
+#: layouts/makeitlooklike.layout:51 layouts/makeitlooklike.layout:367
+#: layouts/makeitlooklike.layout:487
+msgid "Queue"
+msgstr "队列"
+
+#: layouts/shimmer.layout:29 layouts/shimmer.layout:73
+#, fuzzy, perl-format
+msgid "Queue (%n)"
+msgstr "队列"
+
+#: layouts/main.layout:198
+#, fuzzy
+msgid "Queue Edit"
+msgstr "队列艺术家"
+
+#: gmusicbrowser_layout.pm:23
+msgid "Queue album"
+msgstr "队列专辑"
+
+#: gmusicbrowser_layout.pm:24
+msgid "Queue artist"
+msgstr "队列艺术家"
+
+#: gmusicbrowser.pl:3855 gmusicbrowser_list.pm:421
+msgid "Queue empty"
+msgstr "队列空"
+
+#: layouts/makeitlooklike.layout:252
+#, fuzzy
+msgid "Queue in Sidebar"
+msgstr "队列模式"
+
+#: gmusicbrowser.pl:1603
+msgid "Queue mode"
+msgstr "队列模式"
+
+#: gmusicbrowser.pl:690
+#, fuzzy
+msgid "Queue options"
+msgstr "队列艺术家"
+
+#: layouts/search.layout:12
+msgid "Quick Search"
+msgstr "快速搜索"
+
+#: layouts/search.layout:21
+msgid "Quick Search with SongTree"
+msgstr "快速搜索曲目树"
+
+#: gmusicbrowser.pl:719 gmusicbrowser.pl:1594 gmusicbrowser_layout.pm:58
+#: gmusicbrowser_layout.pm:139 layouts/contrib.layout:256
+#: layouts/contrib.layout:309 layouts/contrib.layout:318
+#: layouts/contrib.layout:415 layouts/contrib.layout:574
+#: layouts/contrib.layout:586 layouts/contrib.layout:717
+#: layouts/makeitlooklike.layout:49 layouts/makeitlooklike.layout:234
+#: layouts/makeitlooklike.layout:339 layouts/makeitlooklike.layout:420
+#: layouts/shimmer.layout:23 layouts/shimmer.layout:71
+msgid "Quit"
+msgstr "退出"
+
+#: gmusicbrowser.pl:582
+msgid "Quit after this song"
+msgstr ""
+
+#: gmusicbrowser.pl:581
+msgid "Quit when queue empty"
+msgstr "队列空时结束"
+
+#: gmusicbrowser.pl:3327
+msgid "Random"
+msgstr "随机"
+
+#: layouts/makeitlooklike.layout:433
+msgid "Random Playback"
+msgstr ""
+
+#: gmusicbrowser.pl:8005
+msgid "Random mode edition"
+msgstr "随机模式版本"
+
+#: gmusicbrowser_list.pm:825 gmusicbrowser_songs.pm:1093
+#: gmusicbrowser_songs.pm:5317 gmusicbrowser_tags.pm:2339
+#: plugins/albuminfo.pm:36 layouts/songtree.layout:81
+msgid "Rating"
+msgstr "评分"
+
+#: gmusicbrowser_list.pm:825 layouts/songtree.layout:82
+msgid "Rating (picture)"
+msgstr "评分(图片)"
+
+#: gmusicbrowser.pl:1633
+msgid "Rating between 0 and 100, or empty for default"
+msgstr "评分介于0和100之间，或为默认的空"
+
+#: plugins/albuminfo.pm:593 plugins/artistinfo.pm:463
+#, fuzzy
+msgid "Rating range:"
+msgstr "评分"
+
+#: gmusicbrowser_songs.pm:1348
+msgid "Raw filename with path"
+msgstr ""
+
+#: gmusicbrowser.pl:1652 gmusicbrowser.pl:6871
+#, fuzzy
+msgid "Re-load layouts"
+msgstr "布局名称"
+
+#: gmusicbrowser.pl:684
+msgid "Re-read tags"
+msgstr "重新加载标签"
+
+#: gmusicbrowser.pl:1154
+#, fuzzy
+msgid "Re-reading tags"
+msgstr "重新加载标签"
+
+#: gmusicbrowser_layout.pm:1551
+#, fuzzy
+msgid "Re-shuffle"
+msgstr "随机"
+
+#: gmusicbrowser_songs.pm:2901
+msgid "Read/write in file tag"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:531
+msgid "Recent Filters"
+msgstr "最近的过滤器"
+
+#: gmusicbrowser_list.pm:23
+#, fuzzy
+msgid "Recent albums"
+msgstr "最近的过滤器"
+
+#: gmusicbrowser_list.pm:24
+#, fuzzy
+msgid "Recent artists"
+msgstr "最近的过滤器"
+
+#: gmusicbrowser_list.pm:25
+#, fuzzy
+msgid "Recent songs"
+msgstr "上一首歌曲"
+
+#: gmusicbrowser.pl:6819
+msgid "Recent songs include skipped songs that haven't been played."
+msgstr ""
+
+#: gmusicbrowser.pl:711 gmusicbrowser.pl:3376
+msgid "Recently played"
+msgstr "最近播放"
+
+#: gmusicbrowser_layout.pm:66
+msgid "Recently played songs"
+msgstr "上一首歌曲"
+
+#: gmusicbrowser_tags.pm:1849
+msgid "Recording Dates"
+msgstr "记录日期"
+
+#: plugins/albuminfo.pm:33
+#, fuzzy
+msgid "Recording date"
+msgstr "记录日期"
+
+#: plugins/titlebar.pm:53
+msgid "Reference point :"
+msgstr ""
+
+#: plugins/albuminfo.pm:202 plugins/artistinfo.pm:208 plugins/lyrics.pm:158
+#: layouts/makeitlooklike.layout:435
+msgid "Refresh"
+msgstr "刷新"
+
+#: gmusicbrowser_layout.pm:577
+msgid "Refresh list"
+msgstr "刷新列表"
+
+#: gmusicbrowser_list.pm:3617
+msgid "Regular expression"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:765
+msgid "Regular expression :"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:860
+msgid "Regular expression didn't match"
+msgstr ""
+
+#: plugins/albuminfo.pm:34
+msgid "Release date"
+msgstr ""
+
+#: gmusicbrowser.pl:6763
+msgid "Remember last Filter/Playlist between sessions"
+msgstr "记住上次使用的滤镜/播放列表"
+
+#: gmusicbrowser.pl:6764
+msgid "Remember playing position between sessions"
+msgstr "记住正在播放的位置"
+
+#: gmusicbrowser.pl:6765
+msgid "Remember playing song between sessions"
+msgstr "记住正在播放的曲目"
+
+#: gmusicbrowser.pl:6766
+#, fuzzy
+msgid "Remember queue between sessions"
+msgstr "记住正在播放的曲目"
+
+#: gmusicbrowser_songs.pm:1215
+msgid "Remixer"
+msgstr ""
+
+#: gmusicbrowser.pl:683 gmusicbrowser.pl:6434 gmusicbrowser.pl:7044
+#: gmusicbrowser.pl:8053 gmusicbrowser.pl:8186 gmusicbrowser.pl:8471
+#: gmusicbrowser_list.pm:290 gmusicbrowser_tags.pm:771
+#: gmusicbrowser_tags.pm:1313 plugins/webcontext.pm:501
+msgid "Remove"
+msgstr "删除"
+
+#: gmusicbrowser.pl:1645
+msgid "Remove a label from the current song"
+msgstr "删除当前歌曲标签"
+
+#: gmusicbrowser_tags.pm:1310
+#, fuzzy
+msgid "Remove all"
+msgstr "删除标签"
+
+#: gmusicbrowser_list.pm:298
+msgid "Remove all songs"
+msgstr "删除所有的歌曲"
+
+#: gmusicbrowser_list.pm:3053
+msgid "Remove filter"
+msgstr "删除过滤器"
+
+#: gmusicbrowser.pl:639
+msgid "Remove from disk"
+msgstr "从磁盘中删除"
+
+#: gmusicbrowser.pl:638
+msgid "Remove from library"
+msgstr "从库中删除"
+
+#: gmusicbrowser.pl:637
+msgid "Remove from list"
+msgstr "从清单中移除"
+
+#: gmusicbrowser.pl:7168
+#, fuzzy
+msgid "Remove from persistent values"
+msgstr "从清单中移除"
+
+#: gmusicbrowser.pl:637
+#, fuzzy
+msgid "Remove from playlist"
+msgstr "从清单中移除"
+
+#: gmusicbrowser.pl:637
+#, fuzzy
+msgid "Remove from queue"
+msgstr "从磁盘中删除"
+
+#: gmusicbrowser_list.pm:1742
+msgid "Remove label"
+msgstr "删除标签"
+
+#: gmusicbrowser_list.pm:3061
+msgid "Remove list"
+msgstr "删除列表"
+
+#: gmusicbrowser_tags.pm:1525
+#, fuzzy
+msgid "Remove picture"
+msgstr "没有图片"
+
+#: gmusicbrowser_list.pm:297
+msgid "Remove selected songs"
+msgstr "删除所选歌曲"
+
+#: gmusicbrowser_songs.pm:2961
+#, fuzzy
+msgid "Remove this field"
+msgstr "删除此规则"
+
+#: gmusicbrowser.pl:8837
+msgid "Remove this rule"
+msgstr "删除此规则"
+
+#: gmusicbrowser_list.pm:1986
+#, fuzzy
+msgid "Remove this tab"
+msgstr "删除此标签"
+
+#: gmusicbrowser_tags.pm:1983 gmusicbrowser_tags.pm:2133
+msgid "Remove this tag"
+msgstr "删除此标签"
+
+#: plugins/desktopwidget.pm:139
+#, fuzzy
+msgid "Remove this widget"
+msgstr "删除此标签"
+
+#: gmusicbrowser_layout.pm:2489 gmusicbrowser_list.pm:3063
+#: gmusicbrowser_songs.pm:3112
+msgid "Rename"
+msgstr "重命名"
+
+#: gmusicbrowser.pl:7192
+#, fuzzy, perl-brace-format
+msgid "Rename '{label}'"
+msgstr "删除标签"
+
+#: gmusicbrowser.pl:5571
+msgid "Rename File"
+msgstr "重命名文件"
+
+#: gmusicbrowser.pl:676 gmusicbrowser_layout.pm:4190
+msgid "Rename file"
+msgstr "重命名文件"
+
+#: gmusicbrowser.pl:5494
+msgid "Rename files using this pattern :"
+msgstr "重命名文件使用这种模式："
+
+#: gmusicbrowser.pl:6959 gmusicbrowser_list.pm:1723
+msgid "Rename folder"
+msgstr "重命名文件夹"
+
+#: gmusicbrowser_list.pm:1746
+#, fuzzy
+msgid "Rename label"
+msgstr "删除标签"
+
+#: gmusicbrowser.pl:6968
+msgid "Rename this folder to :"
+msgstr "重命名此文件夹为："
+
+#: gmusicbrowser.pl:5492
+msgid "Rename/move files based on these fields :"
+msgstr "以这些领域我基础重命名/移动文件："
+
+#: gmusicbrowser.pl:5551
+#, fuzzy
+msgid "Renaming failed"
+msgstr "重命名文件"
+
+#: gmusicbrowser.pl:6980
+#, perl-brace-format
+msgid ""
+"Renaming {oldname}\n"
+"to {newname}\n"
+"failed : {error}"
+msgstr ""
+"重命名 {oldname}\n"
+"为 {newname} \n"
+"失败 ： {error}"
+
+#: gmusicbrowser.pl:7075
+msgid "Reorganize files and folders"
+msgstr "整理文件和文件夹"
+
+#: gmusicbrowser_layout.pm:694 gmusicbrowser_layout.pm:1556
+msgid "Repeat"
+msgstr "重复"
+
+#: gmusicbrowser.pl:643
+#, fuzzy
+msgid "Replace"
+msgstr "取代..."
+
+#: plugins/albuminfo.pm:106
+#, fuzzy
+msgid "Replace existing values"
+msgstr "打开现有列表"
+
+#: gmusicbrowser_tags.pm:2469
+msgid "Replace..."
+msgstr "取代..."
+
+#: gmusicbrowser.pl:6679 gmusicbrowser.pl:6736
+msgid "ReplayGain options"
+msgstr "ReplayGain选项"
+
+#: gmusicbrowser_songs.pm:36
+#, fuzzy
+msgid "Replaygain"
+msgstr "使用ReplayGain"
+
+#: gmusicbrowser_gstreamer-1.x.pm:623 gmusicbrowser_gstreamer-1.x.pm:690
+msgid "Replaygain analysis"
+msgstr "Replaygain分析"
+
+#: layouts/makeitlooklike.layout:436
+msgid "Rescan"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:64 layouts/shimmer.layout:24
+#: layouts/shimmer.layout:72
+msgid "Rescan Collection"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:2921
+msgid "Reset current value if no tag found in file"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:599 gmusicbrowser_list.pm:3645
+msgid "Reset filter"
+msgstr "重置过滤器"
+
+#: gmusicbrowser_layout.pm:4159
+msgid "Reset view position when file changes"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4161
+msgid "Reset zoom"
+msgstr ""
+
+#: plugins/albuminfo.pm:13
+msgid "Retrieves album-relevant information (review etc.) from allmusic.com."
+msgstr ""
+
+#: plugins/albuminfo.pm:477
+#, fuzzy
+msgid "Review"
+msgstr "采访"
+
+#: gmusicbrowser.pl:1575
+msgid "Rewind"
+msgstr "后退"
+
+#: layouts/makeitlooklike.layout:263
+msgid "Rhythmbox"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:366
+msgid "Rhythmbox 2nd queue column"
+msgstr ""
+
+#: plugins/lyrics.pm:31
+msgid "Right aligned"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1662
+msgid "Right side"
+msgstr ""
+
+#: layouts/contrib.layout:361 layouts/contrib.layout:556
+#: layouts/contrib.layout:756 layouts/shimmer.layout:33
+#, fuzzy
+msgid "Right-click to remove filters"
+msgstr "删除过滤器"
+
+#: layouts/contrib.layout:360 layouts/contrib.layout:555
+#: layouts/contrib.layout:755 layouts/shimmer.layout:33
+msgid "Right-click to toggle shuffle/random"
+msgstr ""
+
+#: plugins/rip.pm:9
+msgid "Rip"
+msgstr "抓取"
+
+#: plugins/rip.pm:10
+msgid "Rip plugin"
+msgstr "抓取插件"
+
+#: plugins/rip.pm:53
+msgid "Ripping software :"
+msgstr "抓取软件："
+
+#: gmusicbrowser_list.pm:832 layouts/shimmer.layout:157
+msgid "Row number"
+msgstr ""
+
+#: plugins/nowplaying.pm:18
+msgid "Run a command when playing a song"
+msgstr "播放歌曲时执行命令"
+
+#: gmusicbrowser.pl:1618
+msgid "Run perl code"
+msgstr "运行的Perl代码"
+
+#: gmusicbrowser.pl:1613
+#, fuzzy
+msgid "Run shell command"
+msgstr "执行系统命令"
+
+#: gmusicbrowser.pl:1617
+#, fuzzy
+msgid "Run shell command on selected songs"
+msgstr "删除所选歌曲"
+
+#: gmusicbrowser.pl:1611
+msgid "Run system command"
+msgstr "执行系统命令"
+
+#: gmusicbrowser.pl:1615
+#, fuzzy
+msgid "Run system command on selected songs"
+msgstr "执行自定义命令的选定的文件"
+
+#: plugins/albuminfo.pm:35
+msgid "Running time"
+msgstr ""
+
+#: gmusicbrowser.pl:686
+msgid "Same Title"
+msgstr "同一标题"
+
+#: layouts/pages.layout:12
+#, fuzzy
+msgid "Same album"
+msgstr "队列专辑"
+
+#: layouts/pages.layout:19
+#, fuzzy
+msgid "Same artist"
+msgstr "领衔艺术家"
+
+#: layouts/pages.layout:5
+#, fuzzy
+msgid "Same title"
+msgstr "同一标题"
+
+#: gmusicbrowser_songs.pm:1416
+msgid "Same type as labels"
+msgstr ""
+
+#: layouts/pages.layout:26
+#, fuzzy
+msgid "Same year"
+msgstr "同一标题"
+
+#: gmusicbrowser_songs.pm:1253
+msgid "Sampling Rate"
+msgstr "采样率"
+
+#: plugins/lullaby.pm:27
+msgid "Saturday"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:5455 gmusicbrowser_tags.pm:772
+#: plugins/artistinfo.pm:209 plugins/lyrics.pm:157 plugins/webcontext.pm:500
+msgid "Save"
+msgstr "保存"
+
+#: gmusicbrowser.pl:1595
+msgid "Save Tags/Options"
+msgstr "保存标签/选项"
+
+#: plugins/albuminfo.pm:88
+msgid "Save album info in:"
+msgstr ""
+
+#: plugins/artistinfo.pm:209
+msgid "Save artist biography"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:5466 gmusicbrowser_tags.pm:2470
+msgid "Save as..."
+msgstr "另存为..."
+
+#: gmusicbrowser_list.pm:3055
+msgid "Save current filter as"
+msgstr "保存当前过滤器"
+
+#: gmusicbrowser_list.pm:3057
+msgid "Save current list as"
+msgstr "保存当前列表"
+
+#: plugins/lyrics.pm:157
+msgid "Save lyrics"
+msgstr "保存歌词"
+
+#: plugins/autosave.pm:37
+msgid "Save now"
+msgstr "立即保存"
+
+#: gmusicbrowser_tags.pm:2541 plugins/fetch_cover.pm:565
+msgid "Save picture as"
+msgstr "图片另存为"
+
+#: gmusicbrowser_layout.pm:5464
+#, fuzzy
+msgid "Save preset"
+msgstr "图片另存为"
+
+#: plugins/albuminfo.pm:204
+#, fuzzy
+msgid "Save review"
+msgstr "保存歌词"
+
+#: plugins/albuminfo.pm:108
+msgid ""
+"Save selected fields for all tracks on the same album whenever album data is "
+"loaded from allmusic or from file."
+msgstr ""
+
+#: plugins/autosave.pm:36
+#, perl-format
+msgid "Save tags/settings every %d minutes"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1588
+msgid "Saved"
+msgstr "已保存"
+
+#: gmusicbrowser_layout.pm:1615
+msgid "Saved Lists"
+msgstr "已保存列表"
+
+#: gmusicbrowser_list.pm:3069
+msgid "Saved filters"
+msgstr "已保存过滤器"
+
+#: gmusicbrowser_list.pm:3070
+msgid "Saved lists"
+msgstr "已保存清单"
+
+#: layouts/contrib.layout:321 layouts/contrib.layout:589
+#: layouts/contrib.layout:735
+msgid "Scan Collection"
+msgstr ""
+
+#: gmusicbrowser_gstreamer-1.x.pm:628
+msgid "Scan as an album"
+msgstr "作为专辑扫描"
+
+#: gmusicbrowser_list.pm:1726
+msgid "Scan for new songs"
+msgstr "扫描新的歌曲"
+
+#: gmusicbrowser_gstreamer-1.x.pm:626
+msgid "Scan per-file track gain"
+msgstr "扫描每个文件音轨增益"
+
+#: gmusicbrowser_gstreamer-1.x.pm:625
+msgid "Scan this file"
+msgstr "扫描此文件"
+
+#: gmusicbrowser_gstreamer-1.x.pm:627
+msgid "Scan using tag-defined album"
+msgstr "扫描使用选定标签的专辑"
+
+#: gmusicbrowser.pl:6122
+#, fuzzy
+msgid "Scanning"
+msgstr "停止扫描"
+
+#: gmusicbrowser_layout.pm:4157
+#, fuzzy
+msgid "Scroll to zoom"
+msgstr "跟随歌曲滚动"
+
+#: plugins/lyrics.pm:36
+msgid "Scroll with song"
+msgstr "跟随歌曲滚动"
+
+#: plugins/lyrics.pm:183
+msgid "Scroll with the song"
+msgstr "跟随歌曲滚动"
+
+#: layouts/contrib.layout:722
+msgid "Scrollwheel to change, right-click to mute"
+msgstr ""
+
+#: plugins/albuminfo.pm:256 plugins/fetch_cover.pm:95
+#: layouts/contrib.layout:358 layouts/contrib.layout:595
+#: layouts/makeitlooklike.layout:253 layouts/pages.layout:32
+#: layouts/search.layout:4 layouts/search.layout:5 layouts/search.layout:13
+#: layouts/search.layout:22
+msgid "Search"
+msgstr "搜索"
+
+#: gmusicbrowser_list.pm:4100 gmusicbrowser_list.pm:4164
+msgid "Search : "
+msgstr "搜索："
+
+#: gmusicbrowser_list.pm:3608
+msgid "Search Album"
+msgstr "搜索专辑"
+
+#: gmusicbrowser_list.pm:3607 layouts/makeitlooklike.layout:315
+msgid "Search Artist"
+msgstr "搜索艺人"
+
+#: gmusicbrowser_list.pm:3609
+msgid "Search Comment"
+msgstr "搜索评论"
+
+#: gmusicbrowser_list.pm:3611
+msgid "Search Genre"
+msgstr "搜索流派"
+
+#: gmusicbrowser_list.pm:3610
+msgid "Search Label"
+msgstr "搜索标签"
+
+#: gmusicbrowser_list.pm:3606
+msgid "Search Title"
+msgstr "搜索标题"
+
+#: gmusicbrowser_list.pm:3603
+msgid "Search Title, Artist and Album"
+msgstr "搜索标题，艺术家和专辑"
+
+#: gmusicbrowser_list.pm:3604
+msgid "Search Title, Artist, Album, Comment, Label and Genre"
+msgstr "搜索标题，艺术家，专辑，评论，标签和流派"
+
+#: gmusicbrowser_list.pm:3605
+#, fuzzy
+msgid "Search Title, Artist, Album, Comment, Label, Genre and Filename"
+msgstr "搜索标题，艺术家，专辑，评论，标签和流派"
+
+#: layouts/makeitlooklike.layout:316
+#, fuzzy
+msgid "Search album"
+msgstr "搜索专辑"
+
+#: layouts/makeitlooklike.layout:314
+#, fuzzy
+msgid "Search all fields"
+msgstr "搜索标签"
+
+#: plugins/artistinfo.pm:41
+#, fuzzy
+msgid "Search allmusic for Artist"
+msgstr "搜索艺人"
+
+#: plugins/artistinfo.pm:39
+#, fuzzy
+msgid "Search amazon.com for Artist"
+msgstr "搜索艺人"
+
+#: plugins/lyrics.pm:11
+msgid "Search and display lyrics"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:261
+#, fuzzy
+msgid "Search box type"
+msgstr "搜索："
+
+#: plugins/artistinfo.pm:43
+#, fuzzy
+msgid "Search discogs for Artist"
+msgstr "搜索艺人"
+
+#: plugins/artistinfo.pm:38
+#, fuzzy
+msgid "Search for Artist on youtube"
+msgstr "搜索艺人"
+
+#: plugins/fetch_cover.pm:52 plugins/fetch_cover.pm:57
+msgid "Search for a picture on internet"
+msgstr "搜索互联网上的图片"
+
+#: plugins/artistinfo.pm:354
+#, fuzzy
+msgid "Search for artist on:"
+msgstr "搜索当前的艺术家"
+
+#: plugins/fetch_cover.pm:96
+msgid "Search for current album"
+msgstr "搜索当前专辑"
+
+#: plugins/fetch_cover.pm:96
+msgid "Search for current artist"
+msgstr "搜索当前的艺术家"
+
+#: gmusicbrowser.pl:7069
+msgid "Search for new songs on startup"
+msgstr "在启动时寻找新的歌曲"
+
+#: plugins/artistinfo.pm:40
+#, fuzzy
+msgid "Search google for Artist"
+msgstr "搜索艺人"
+
+#: plugins/artistinfo.pm:47
+#, fuzzy
+msgid "Search on the web"
+msgstr "搜索评论"
+
+#: gmusicbrowser_list.pm:3644
+#, fuzzy
+msgid "Search options"
+msgstr "搜索艺人"
+
+#: plugins/artistinfo.pm:42
+#, fuzzy
+msgid "Search pitchfork for Artist"
+msgstr "搜索当前的艺术家"
+
+#: layouts/makeitlooklike.layout:317
+#, fuzzy
+msgid "Search title"
+msgstr "搜索标题"
+
+#: gmusicbrowser.pl:6864
+msgid "Search window layout :"
+msgstr "搜索窗口的布局："
+
+#: layouts/makeitlooklike.layout:197 layouts/makeitlooklike.layout:306
+#: layouts/makeitlooklike.layout:308
+#, fuzzy
+msgid "Search:"
+msgstr "搜索"
+
+#: plugins/fetch_cover.pm:181
+msgid "Searching for a picture of : "
+msgstr "搜索图片："
+
+#: gmusicbrowser.pl:1576
+msgid "Seek"
+msgstr "寻找"
+
+#: gmusicbrowser.pl:1597
+msgid "Select current song"
+msgstr "选择当前歌曲"
+
+#: gmusicbrowser_tags.pm:443
+msgid "Select fields"
+msgstr "选择字段"
+
+#: gmusicbrowser_list.pm:5397
+#, fuzzy
+msgid "Select matches"
+msgstr "选择字段"
+
+#: gmusicbrowser_list.pm:3708
+#, fuzzy
+msgid "Select search fields"
+msgstr "选择字段"
+
+#: gmusicbrowser_list.pm:263
+msgid "Selected : "
+msgstr "选定："
+
+#: gmusicbrowser_list.pm:127
+msgid "Selected songs"
+msgstr "选曲"
+
+#: gmusicbrowser.pl:6930
+#, fuzzy
+msgid "Selected songs to update :"
+msgstr "选曲"
+
+#: gmusicbrowser.pl:6162
+#, fuzzy
+msgid "Selecting pictures"
+msgstr "评分(图片)"
+
+#: gmusicbrowser_tags.pm:2347
+msgid "Seller"
+msgstr "卖家"
+
+#: plugins/nowplaying.pm:50
+msgid "Send Title/Artist/Album in standard input"
+msgstr "发送标题/艺术家/专辑标准输入"
+
+#: plugins/audioscrobbler.pm:73
+#, fuzzy
+msgid "Send now"
+msgstr "立即保存"
+
+#: gmusicbrowser.pl:1633
+msgid "Set Current Song Rating"
+msgstr "给当前歌曲评分"
+
+#: gmusicbrowser.pl:703 gmusicbrowser_list.pm:1730
+msgid "Set Picture"
+msgstr "图片集"
+
+#: gmusicbrowser.pl:1604
+msgid "Set action when song ends"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4197
+#, fuzzy, perl-brace-format
+msgid "Set as picture for '{name}'"
+msgstr "为艺术家'{artist}'使用此图片"
+
+#: gmusicbrowser_list.pm:1714
+msgid "Set as primary filter"
+msgstr "设为初级过滤器"
+
+#: gmusicbrowser.pl:1654
+#, fuzzy
+msgid "Set equalizer"
+msgstr "使用均衡器"
+
+#: gmusicbrowser.pl:1641
+msgid "Set focus on a layout widget"
+msgstr "集重点布局的窗口小部件"
+
+#: gmusicbrowser_list.pm:6904
+msgid "Set grouping"
+msgstr "设置组"
+
+#: gmusicbrowser_list.pm:1738
+msgid "Set icon"
+msgstr "设置图标"
+
+#: gmusicbrowser_tags.pm:1526
+#, fuzzy
+msgid "Set picture"
+msgstr "图片集"
+
+#: gmusicbrowser_tags.pm:1518
+#, fuzzy
+msgid "Set picture using this file"
+msgstr "扫描此文件"
+
+#: gmusicbrowser.pl:1587
+msgid "Set player window layout"
+msgstr "设置播放器窗口布局"
+
+#: gmusicbrowser_list.pm:1640
+#, fuzzy
+msgid "Set subgroup"
+msgstr "设置组"
+
+#: plugins/albuminfo.pm:462
+#, perl-brace-format
+msgid "Set {year} as year for all tracks on this album."
+msgstr ""
+
+#: gmusicbrowser.pl:718 gmusicbrowser.pl:6286 gmusicbrowser_layout.pm:53
+#: gmusicbrowser_layout.pm:131 layouts/contrib.layout:317
+#: layouts/contrib.layout:585 layouts/contrib.layout:732
+#: layouts/shimmer.layout:23 layouts/shimmer.layout:71
+msgid "Settings"
+msgstr "设置"
+
+#: gmusicbrowser_songs.pm:2850
+msgid "Settings on this page will only take effect after a restart"
+msgstr ""
+
+#: gmusicbrowser.pl:1613 gmusicbrowser.pl:1617
+#, fuzzy
+msgid "Shell command"
+msgstr "系统命令："
+
+#. Shift key
+#: gmusicbrowser.pl:1288
+msgctxt "Keyboard"
+msgid "Shift"
+msgstr ""
+
+#: gmusicbrowser.pl:716 gmusicbrowser.pl:1592 plugins/albuminfo.pm:82
+msgid "Show"
+msgstr "显示"
+
+#: plugins/artistinfo.pm:36
+#, fuzzy
+msgid "Show Artist page on last.fm"
+msgstr "提交已播放歌曲到last.fm"
+
+#: plugins/artistinfo.pm:37
+msgid "Show Artist page on wikipedia"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:259
+#, fuzzy
+msgid "Show album"
+msgstr "%d专辑"
+
+#: gmusicbrowser_layout.pm:4178
+#, fuzzy
+msgid "Show all files"
+msgstr "所有文件"
+
+#: plugins/artistinfo.pm:284
+#, fuzzy
+msgid "Show artist picture"
+msgstr "艺术图片"
+
+#: plugins/artistinfo.pm:31
+msgid "Show artist's biography"
+msgstr ""
+
+#: plugins/artistinfo.pm:32
+msgid "Show artist's upcoming events"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1758
+msgid "Show buttons"
+msgstr "显示按钮"
+
+#: gmusicbrowser_songs.pm:2949
+#, fuzzy
+msgid "Show edition submenu in song context menu"
+msgstr "向音乐菜单中添加菜单项"
+
+#: gmusicbrowser_layout.pm:4176
+#, fuzzy
+msgid "Show embedded pictures"
+msgstr "显示图片"
+
+#: gmusicbrowser_layout.pm:4137 gmusicbrowser_layout.pm:4170
+msgid "Show file list"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:3019
+msgid "Show file name extension"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4168
+#, fuzzy
+msgid "Show folder list"
+msgstr "移动文件夹"
+
+#: layouts/makeitlooklike.layout:258
+#, fuzzy
+msgid "Show genre"
+msgstr "搜索流派"
+
+#: layouts/makeitlooklike.layout:448
+msgid "Show info panel"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:446
+#, fuzzy
+msgid "Show main window"
+msgstr "显示托盘图标"
+
+#: gmusicbrowser_songs.pm:2953
+msgid "Show menu items to find songs with same value"
+msgstr ""
+
+#: gmusicbrowser.pl:5250
+msgid "Show more error details"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4174
+msgid "Show pdf pages"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:447
+#, fuzzy
+msgid "Show playlist"
+msgstr "包含播放列表"
+
+#: gmusicbrowser.pl:6739
+msgid "Show replaygain submenu"
+msgstr "查看replaygain子目录"
+
+#: plugins/artistinfo.pm:33
+msgid "Show similar artists"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:429
+msgid "Show song details"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:449
+msgid "Show status bar"
+msgstr ""
+
+#: gmusicbrowser_list.pm:3621
+#, fuzzy
+msgid "Show suggestions"
+msgstr "显示按钮"
+
+#: gmusicbrowser_list.pm:1759
+#, fuzzy
+msgid "Show tabs"
+msgstr "显示按钮"
+
+#: gmusicbrowser_layout.pm:4172
+#, fuzzy
+msgid "Show toolbar"
+msgstr "隐藏工具栏"
+
+#: gmusicbrowser.pl:6850
+msgid "Show tray icon"
+msgstr "显示托盘图标"
+
+#: gmusicbrowser.pl:6848
+msgid "Show tray tip on song change"
+msgstr "曲目变化时显示托盘提示"
+
+#: gmusicbrowser.pl:1591 plugins/appindicator.pm:27
+msgid "Show/Hide"
+msgstr "显示/隐藏"
+
+#: layouts/makeitlooklike.layout:280
+#, fuzzy
+msgid "Show/Hide Browser"
+msgstr "显示/隐藏"
+
+#: layouts/contrib.layout:343 layouts/contrib.layout:541
+#: layouts/shimmer.layout:33
+#, fuzzy
+msgid "Show/Hide Cover"
+msgstr "显示/隐藏"
+
+#: gmusicbrowser.pl:1642
+msgid "Show/Hide layout widget(s)"
+msgstr "显示/隐藏布局的窗口小部件"
+
+#: plugins/karaoke.pm:44
+#, fuzzy
+msgid "Show/Hide lyrics line"
+msgstr "显示/隐藏布局的窗口小部件"
+
+#: plugins/webcontext.pm:156
+msgid "Show/hide URI entry"
+msgstr ""
+
+#: plugins/webcontext.pm:160
+msgid "Show/hide status bar"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:1496 gmusicbrowser_layout.pm:1548
+#: gmusicbrowser_list.pm:289 gmusicbrowser_songs.pm:1374
+msgid "Shuffle"
+msgstr "随机"
+
+#: gmusicbrowser_layout.pm:661
+#, fuzzy
+msgid "Shuffle list"
+msgstr "随机"
+
+#: gmusicbrowser.pl:1623
+msgid "Shuffle or re-shuffle the playlist"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:33
+msgid "Shuffle queue"
+msgstr "随机的队列"
+
+#: gmusicbrowser.pl:1257
+#, fuzzy
+msgid "Shuffled albums"
+msgstr "随机的队列"
+
+#: gmusicbrowser.pl:1258
+msgid "Shuffled albums, shuffled tracks"
+msgstr ""
+
+#: gmusicbrowser.pl:6779
+msgid "Shutdown command :"
+msgstr "关闭命令："
+
+#: layouts/makeitlooklike.layout:251
+msgid "Sidebar"
+msgstr ""
+
+#: plugins/artistinfo.pm:33
+msgid "Similar"
+msgstr ""
+
+#: plugins/artistinfo.pm:307
+#, fuzzy
+msgid "Similar Artists"
+msgstr "搜索艺人"
+
+#: layouts/contrib.layout:355 layouts/contrib.layout:553
+#: layouts/contrib.layout:751 layouts/shimmer.layout:19
+msgid "Simple List View"
+msgstr ""
+
+#: layouts/songtree.layout:21
+#, fuzzy
+msgid "Simple title"
+msgstr "同一标题"
+
+#: gmusicbrowser_list.pm:1752
+#, fuzzy
+msgid "Simplify tree"
+msgstr "采样率"
+
+#: gmusicbrowser_songs.pm:828
+msgid "Size"
+msgstr "大小"
+
+#: gmusicbrowser.pl:5242
+msgid "Skip _All"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1174
+msgid "Skip count"
+msgstr "跳过次数"
+
+#: gmusicbrowser_songs.pm:1152
+msgid "Skip history"
+msgstr ""
+
+#: gmusicbrowser.pl:5242
+msgid "Skip this and any further errors."
+msgstr ""
+
+#: gmusicbrowser.pl:6691
+msgid "Skip to next song if an error occurs"
+msgstr "如果发生错误跳到下一首歌曲"
+
+#: layouts/main.layout:33 layouts/main.layout:51 layouts/main.layout:60
+#: layouts/main.layout:102 layouts/tray.layout:24
+msgid "Small"
+msgstr ""
+
+#: layouts/songtree.layout:74
+#, fuzzy
+msgid "Small album picture"
+msgstr "专辑图片"
+
+#: layouts/main.layout:34
+#, fuzzy
+msgid "Small player"
+msgstr "最后播放"
+
+#: layouts/browser.layout:16
+msgid "Smaller browser"
+msgstr "规模较小的浏览器"
+
+#: gmusicbrowser.pl:1611 gmusicbrowser.pl:1613 gmusicbrowser.pl:1615
+#: gmusicbrowser.pl:1617
+#, perl-format
+msgid "Some variables such as %f (current song filename) are available"
+msgstr ""
+
+#: gmusicbrowser_list.pm:783 layouts/main.layout:96 layouts/search.layout:6
+#: layouts/songtree.layout:58
+msgid "Song"
+msgstr "歌曲"
+
+#: gmusicbrowser.pl:649 gmusicbrowser.pl:5760 layouts/makeitlooklike.layout:232
+msgid "Song Properties"
+msgstr "歌曲信息"
+
+#: gmusicbrowser_layout.pm:474 layouts/pages.layout:39
+#, fuzzy
+msgid "Song informations"
+msgstr "歌曲评级"
+
+#: gmusicbrowser_layout.pm:5286
+msgid "Song rating"
+msgstr "歌曲评级"
+
+#: gmusicbrowser.pl:8007
+msgid "SongTree groupings edition"
+msgstr "曲目树"
+
+#: gmusicbrowser.pl:650
+msgid "Songs Properties"
+msgstr "歌曲属性"
+
+#: layouts/contrib.layout:356 layouts/contrib.layout:554
+#: layouts/contrib.layout:752 layouts/shimmer.layout:19
+msgid "Songtree View"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:539
+msgid "Sort"
+msgstr "排序"
+
+#: gmusicbrowser.pl:8003
+msgid "Sort mode edition"
+msgstr "排序模式版本"
+
+#: gmusicbrowser.pl:8485
+msgid "Sort order"
+msgstr "排序"
+
+#: gmusicbrowser.pl:5004
+#, perl-brace-format
+msgid "Source: {file}"
+msgstr ""
+
+#: gmusicbrowser.pl:6783
+msgid "Split artist names on :"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:2927
+msgid "Star images"
+msgstr ""
+
+#: gmusicbrowser.pl:6675
+#, fuzzy
+msgid "Start ReplayGain analysis"
+msgstr "中止ReplayGain分析"
+
+#: gmusicbrowser.pl:6846
+msgid "Start in tray"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:33
+#, fuzzy
+msgid "Statistics"
+msgstr "艺术家"
+
+#: layouts/makeitlooklike.layout:254
+msgid "Statusbar"
+msgstr ""
+
+#: gmusicbrowser.pl:709 gmusicbrowser.pl:1577 gmusicbrowser_layout.pm:77
+#: plugins/notify.pm:98 layouts/contrib.layout:219
+#: layouts/makeitlooklike.layout:425
+msgid "Stop"
+msgstr "停止"
+
+#: gmusicbrowser.pl:580
+#, fuzzy
+msgid "Stop after this song"
+msgstr "跟随歌曲滚动"
+
+#: gmusicbrowser.pl:6103
+msgid "Stop checking"
+msgstr "停止检查"
+
+#: plugins/albuminfo.pm:131
+msgid "Stop fetching albuminfo"
+msgstr ""
+
+#: gmusicbrowser.pl:6128
+msgid "Stop scanning"
+msgstr "停止扫描"
+
+#: gmusicbrowser.pl:6162
+#, fuzzy
+msgid "Stop selecting pictures"
+msgstr "评分(图片)"
+
+#: gmusicbrowser.pl:579
+msgid "Stop when queue empty"
+msgstr "队列空时停止"
+
+#: layouts/titlebar.layout:10
+msgid "Stop, Play and Next buttons"
+msgstr ""
+
+#: layouts/titlebar.layout:15
+msgid "Stop, Play and Next buttons and Time"
+msgstr ""
+
+#: layouts/titlebar.layout:20
+msgid "Stop, Play and Next buttons and Title/Artist"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1065 plugins/albuminfo.pm:39
+msgid "Styles"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:203
+#, fuzzy
+msgid "Submit Now-Playing OK"
+msgstr "提交成功"
+
+#: plugins/audioscrobbler.pm:196
+msgid "Submit OK"
+msgstr "提交成功"
+
+#: plugins/audioscrobbler.pm:221
+msgid "Submit failed : "
+msgstr "提交失败："
+
+#: plugins/audioscrobbler.pm:11
+msgid "Submit played songs to last.fm"
+msgstr "提交已播放歌曲到last.fm"
+
+#: gmusicbrowser_tags.pm:1873
+msgid "Subtitle"
+msgstr "副标题"
+
+#: plugins/notify.pm:58
+msgid "Summary :"
+msgstr ""
+
+#: plugins/lullaby.pm:27
+msgid "Sunday"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:56
+msgid "Switch to fullscreen mode"
+msgstr "切换到全屏模式"
+
+#: gmusicbrowser_gstreamer-1.x.pm:503
+msgid "Synchronize equalizer presets"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:147
+msgid "System clock is not close enough to the current time"
+msgstr "系统时钟并未足够接近当前时间"
+
+#: gmusicbrowser.pl:1611 gmusicbrowser.pl:1615
+#, fuzzy
+msgid "System command"
+msgstr "系统命令："
+
+#: plugins/export.pm:91
+msgid "System command :"
+msgstr "系统命令："
+
+#: gmusicbrowser.pl:6303
+msgid "Tags"
+msgstr "标签"
+
+#: gmusicbrowser_tags.pm:2343
+msgid "Terms of use"
+msgstr "使用条款"
+
+#: gmusicbrowser_tags.pm:2333
+msgid "Text"
+msgstr "文字"
+
+#: plugins/artistinfo.pm:298
+msgid ""
+"The artists similar to the 'seed'-artist will be used to populate the queue, "
+"but you can decide to exclude the 'seed'-artist him/herself."
+msgstr ""
+
+#: plugins/desktopwidget.pm:151
+msgid "The layout for this desktop widget is missing."
+msgstr ""
+
+#: gmusicbrowser.pl:2543
+msgid "The save file seems incomplete, you may want to use a backup instead."
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1076 plugins/albuminfo.pm:40
+msgid "Themes"
+msgstr ""
+
+#: plugins/export.pm:86 plugins/export.pm:87 plugins/export.pm:92
+msgid "These fields can be used :"
+msgstr "这些领域可被用于："
+
+#: gmusicbrowser_songs.pm:3009
+msgid "These values will always be in the list, even if they are not used"
+msgstr ""
+
+#: gmusicbrowser_123.pm:148
+#, perl-brace-format
+msgid "This command is required to play files of type {type} : {cmd}"
+msgstr ""
+
+#: gmusicbrowser.pl:7163
+#, perl-format
+msgid "This label is set for %d song."
+msgid_plural "This label is set for %d songs."
+msgstr[0] "使用这个标签的有  %d 歌曲."
+
+#: plugins/mpris2.pm:43
+msgid ""
+"This plugin is needed for gmusicbrowser to appear in unity's sound menu."
+msgstr ""
+
+#: gmusicbrowser.pl:2203
+msgid "This plugin requires :"
+msgstr ""
+
+#: plugins/artistinfo.pm:14
+msgid ""
+"This plugin retrieves artist-relevant information (biography, upcoming "
+"events, similar artists) from last.fm."
+msgstr ""
+
+#: gmusicbrowser.pl:6821
+#, perl-format
+msgid "Threshold to count a song as played : %d %"
+msgstr ""
+
+#: plugins/lullaby.pm:27
+msgid "Thursday"
+msgstr ""
+
+#: gmusicbrowser.pl:9417
+msgid "Time :"
+msgstr ""
+
+#: plugins/notify.pm:61
+#, fuzzy, perl-format
+msgid "Timeout : %d seconds"
+msgstr "%d秒"
+
+#: plugins/lullaby.pm:32
+msgid "Timespan of the fade-out in seconds"
+msgstr ""
+
+#: gmusicbrowser.pl:1252 gmusicbrowser_songs.pm:834 gmusicbrowser_tags.pm:1815
+#: gmusicbrowser_tags.pm:1854 gmusicbrowser_tags.pm:1870
+#: gmusicbrowser_tags.pm:1892 gmusicbrowser_tags.pm:1895
+#: gmusicbrowser_tags.pm:2143 plugins/webcontext.pm:552
+#: layouts/desktop.layout:52 layouts/pages.layout:8
+msgid "Title"
+msgstr "标题"
+
+#: layouts/songtree.layout:65
+#, fuzzy
+msgid "Title & icon"
+msgstr "设置图标"
+
+#: layouts/songtree.layout:37
+msgid "Title & progress"
+msgstr ""
+
+#: gmusicbrowser_list.pm:783 layouts/songtree.layout:57
+msgid "Title - Artist - Album"
+msgstr "标题 - 作者 - 专辑"
+
+#: gmusicbrowser_songs.pm:1365
+#, fuzzy
+msgid "Title or filename"
+msgstr "写入文件名到..."
+
+#: layouts/shimmer.layout:90
+#, fuzzy, perl-format
+msgid "Title: %t"
+msgstr "标题"
+
+#: layouts/contrib.layout:65 layouts/contrib.layout:290
+#: layouts/contrib.layout:705 layouts/shimmer.layout:16
+#: layouts/shimmer.layout:66 layouts/shimmer.layout:110
+#, perl-format
+msgid "Title: %t (Track No. %n)"
+msgstr ""
+
+#: plugins/titlebar.pm:9
+#, fuzzy
+msgid "Titlebar"
+msgstr "标题"
+
+#: plugins/titlebar.pm:10
+msgid "Titlebar overlay plugin"
+msgstr ""
+
+#: gmusicbrowser.pl:1620
+msgid "Toggle Album Lock"
+msgstr "切换到专辑锁定"
+
+#: gmusicbrowser.pl:1619
+msgid "Toggle Artist Lock"
+msgstr "切换到艺人锁定"
+
+#: gmusicbrowser.pl:1621
+#, fuzzy
+msgid "Toggle Song Lock"
+msgstr "切换到专辑锁定"
+
+#: gmusicbrowser.pl:1646
+msgid "Toggle a label of the current song"
+msgstr "切换当前歌曲标签"
+
+#: gmusicbrowser.pl:1622
+msgid "Toggle between Random/Shuffle and Ordered"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:5444
+#, fuzzy
+msgid "Toggle edit mode"
+msgstr "切换为反转模式"
+
+#: gmusicbrowser.pl:1634 gmusicbrowser_layout.pm:686
+msgid "Toggle fullscreen mode"
+msgstr "切换到全屏模式"
+
+#: gmusicbrowser.pl:1635
+msgid "Toggle the fullscreen layout"
+msgstr "切换到全屏布局"
+
+#: layouts/makeitlooklike.layout:255 layouts/makeitlooklike.layout:347
+#, fuzzy
+msgid "Toolbar"
+msgstr "隐藏工具栏"
+
+#: layouts/makeitlooklike.layout:63
+msgid "Tools"
+msgstr ""
+
+#: plugins/albuminfo.pm:594
+#, fuzzy
+msgid "Total playcount:"
+msgstr "依据播放次数"
+
+#: gmusicbrowser_songs.pm:991 gmusicbrowser_tags.pm:1821
+#: gmusicbrowser_tags.pm:1859 gmusicbrowser_tags.pm:1876
+#: gmusicbrowser_tags.pm:1905 gmusicbrowser_tags.pm:2143
+#: layouts/desktop.layout:51
+msgid "Track"
+msgstr "音轨"
+
+#: layouts/makeitlooklike.layout:65
+#, fuzzy
+msgid "Track Properties"
+msgstr "歌曲信息"
+
+#: gmusicbrowser_songs.pm:1287
+#, fuzzy
+msgid "Track gain"
+msgstr "额外增益"
+
+#: gmusicbrowser_songs.pm:1300
+#, fuzzy
+msgid "Track peak"
+msgstr "音轨"
+
+#: gmusicbrowser.pl:6862
+msgid "Tray tip window layout :"
+msgstr "托盘提示窗口布局："
+
+#: plugins/lullaby.pm:27
+msgid "Tuesday"
+msgstr ""
+
+#: gmusicbrowser.pl:1986
+msgid "Turn Off"
+msgstr "关闭"
+
+#: gmusicbrowser_layout.pm:5579
+#, fuzzy
+msgid "Turn equalizer off"
+msgstr "打开均衡"
+
+#: gmusicbrowser_layout.pm:5438
+#, fuzzy
+msgid "Turn equalizer on"
+msgstr "打开均衡"
+
+#: gmusicbrowser.pl:584
+#, fuzzy
+msgid "Turn off computer after this song"
+msgstr "队列空时关闭计算机"
+
+#: gmusicbrowser.pl:583
+msgid "Turn off computer when queue empty"
+msgstr "队列空时关闭计算机"
+
+#: gmusicbrowser_tags.pm:2336
+msgid "URL"
+msgstr "URL"
+
+#: gmusicbrowser_tags.pm:1836
+msgid "Unique file identifier"
+msgstr "唯一的文件标识符"
+
+#: gmusicbrowser_tags.pm:1593
+#, fuzzy
+msgid "Unknown"
+msgstr "未知的错误"
+
+#: plugins/albuminfo.pm:563 plugins/albuminfo.pm:572
+#, fuzzy
+msgid "Unknown album"
+msgstr "解锁专辑"
+
+#: gmusicbrowser_songs.pm:2477
+#, perl-brace-format
+msgid "Unknown field ({field})"
+msgstr ""
+
+#: gmusicbrowser.pl:8422 gmusicbrowser_songs.pm:5077
+#, fuzzy
+msgid "Unknown filter :"
+msgstr "未知的错误"
+
+#: gmusicbrowser_layout.pm:792
+#, perl-format
+msgid "Unknown layout '%s'"
+msgstr ""
+
+#: gmusicbrowser.pl:713
+msgid "Unlock Album"
+msgstr "解锁专辑"
+
+#: gmusicbrowser.pl:712
+msgid "Unlock Artist"
+msgstr "解锁艺人"
+
+#: plugins/export.pm:40
+msgid "Unnamed custom command"
+msgstr "未命名的自定义命令"
+
+#: gmusicbrowser.pl:9965 gmusicbrowser_songs.pm:5058
+#, fuzzy
+msgid "Unnamed filter"
+msgstr "已保存过滤器"
+
+#: plugins/webcontext.pm:141 plugins/webcontext.pm:148
+#: plugins/webcontext.pm:196
+#, fuzzy
+msgid "Untitled"
+msgstr "副标题"
+
+#: gmusicbrowser.pl:6914
+#, fuzzy
+msgid "Update tags"
+msgstr "编辑标签"
+
+#: gmusicbrowser.pl:6904
+#, fuzzy
+msgid "Update tags..."
+msgstr "另存为..."
+
+#: plugins/titlebar.pm:30
+msgid "Upper left"
+msgstr ""
+
+#: plugins/titlebar.pm:31
+#, fuzzy
+msgid "Upper right"
+msgstr "版权所有"
+
+#: gmusicbrowser.pl:6662
+msgid "Use Equalizer"
+msgstr "使用均衡器"
+
+#: gmusicbrowser.pl:6897
+msgid ""
+"Use ID3v2.4 instead of ID3v2.3 when creating an ID3v2 tag, ID3v2.3 are "
+"probably better supported by other softwares"
+msgstr ""
+
+#: gmusicbrowser.pl:6671
+msgid "Use ReplayGain"
+msgstr "使用ReplayGain"
+
+#: gmusicbrowser.pl:7092
+#, fuzzy
+msgid "Use a master filter"
+msgstr "设为初级过滤器"
+
+#: gmusicbrowser.pl:6740
+msgid "Use album normalization instead of track normalization"
+msgstr "使用专辑正常化不是正常化轨道"
+
+#: gmusicbrowser_tags.pm:768
+msgid "Use default regular expression"
+msgstr ""
+
+#: gmusicbrowser.pl:6635
+msgid "Use gstreamer"
+msgstr "使用gstreamer"
+
+#: gmusicbrowser.pl:6898
+msgid "Use latin1 encoding if possible in id3v2 tags"
+msgstr "使用latin1编码如果可能的话在id3v2标签"
+
+#: plugins/artistinfo.pm:285
+#, perl-format
+msgid ""
+"Use tags from last.fm's XML event pages with a leading % (e.g. %headliner), "
+"furthermore linebreaks '<br>' and any text you'd like to have in between. E."
+"g. '%title taking place at %startDate<br>in %city, %country<br><br>'"
+msgstr ""
+
+#: gmusicbrowser_list.pm:22
+msgid "Use the playing filter"
+msgstr "使用正在播放滤波器"
+
+#: plugins/fetch_cover.pm:544
+#, perl-brace-format
+msgid "Use this picture as cover for album '{album}'"
+msgstr "使用此图片作为专辑'{album}'的封面"
+
+#: plugins/fetch_cover.pm:547
+#, perl-brace-format
+msgid "Use this picture for artist '{artist}'"
+msgstr "为艺术家'{artist}'使用此图片"
+
+#: gmusicbrowser_123.pm:310
+#, perl-brace-format
+msgid "Use {command} to play {ext} files"
+msgstr ""
+
+#: gmusicbrowser.pl:6741
+msgid "Used for clipping prevention"
+msgstr "用于预防剪报"
+
+#: gmusicbrowser.pl:6783 gmusicbrowser.pl:6787
+msgid "Used for the Artists field"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:3000
+msgid "Used to associate the saved value with a user or a function"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:145
+msgid "User authentification error"
+msgstr "用户认证错误"
+
+#: gmusicbrowser_songs.pm:3152
+#, fuzzy
+msgid "Value not written in file tag"
+msgstr "不写标签"
+
+#: gmusicbrowser_songs.pm:3151
+msgid "Value written in file tag"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:285
+msgid "Various artists"
+msgstr "多个艺术家"
+
+#: gmusicbrowser_songs.pm:1225 gmusicbrowser_tags.pm:1816
+#: gmusicbrowser_tags.pm:1855
+msgid "Version"
+msgstr "版本"
+
+#: layouts/contrib.layout:102 layouts/makeitlooklike.layout:57
+#: layouts/makeitlooklike.layout:245 layouts/makeitlooklike.layout:344
+#: layouts/makeitlooklike.layout:443 layouts/makeitlooklike.layout:487
+msgid "View"
+msgstr "查看"
+
+#: gmusicbrowser_tags.pm:2428
+msgid "View Binary"
+msgstr "查看二进制"
+
+#: gmusicbrowser_tags.pm:2416
+msgid "View binary data ..."
+msgstr "查看二进制数据..."
+
+#: gmusicbrowser_layout.pm:4189
+#, fuzzy
+msgid "View in new window"
+msgstr "打开上下文窗口"
+
+#: gmusicbrowser_layout.pm:4326
+msgid "View pictures from this album's folder"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:229
+msgid "Volume : "
+msgstr "音量 ："
+
+#: gmusicbrowser.pl:6815
+#, fuzzy
+msgid "Volume step :"
+msgstr "音量 ："
+
+#: gmusicbrowser.pl:578
+#, fuzzy
+msgid "Wait for more when queue empty"
+msgstr "队列空时结束"
+
+#: gmusicbrowser.pl:6895
+msgid ""
+"Warning : these are advanced options, don't change them unless you know what "
+"you are doing."
+msgstr "警告：这是高级选项，不要修改，除非你知道自己在做什么。"
+
+#: gmusicbrowser.pl:7399
+msgid "Warning : using a folder with invalid encoding, you should rename it."
+msgstr ""
+
+#: gmusicbrowser_songs.pm:2976
+msgid "Warning: all existing data for this field will be lost"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:2988
+msgid "Warning: an identifier is needed"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:2965
+msgid "Warning: converting existing data to this format may be lossy"
+msgstr ""
+
+#: plugins/webcontext.pm:10
+msgid "Web context"
+msgstr "网络相关"
+
+#: plugins/webcontext.pm:11
+msgid "Web context plugin"
+msgstr "网络相关插件"
+
+#: plugins/lullaby.pm:27
+msgid "Wednesday"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:1537
+msgid "Weighted Random"
+msgstr "加权随机"
+
+#: gmusicbrowser.pl:7082
+#, fuzzy
+msgid "When added"
+msgstr "依据添加"
+
+#: gmusicbrowser.pl:6819
+msgid ""
+"When changing songs, the previous song is added to the recent list even if "
+"not played at all."
+msgstr ""
+
+#: gmusicbrowser.pl:7082
+#, fuzzy
+msgid "When current song"
+msgstr "选择当前歌曲"
+
+#: gmusicbrowser.pl:6932
+#, fuzzy
+msgid "Whole library"
+msgstr "从库中删除"
+
+#: gmusicbrowser.pl:1641
+msgid "Widget name"
+msgstr "控件名字"
+
+#: plugins/webcontext.pm:133
+msgid "Wikipedia"
+msgstr "维基百科"
+
+#: plugins/webcontext.pm:408
+#, fuzzy
+msgid "Wikipedia Locale"
+msgstr "维基百科"
+
+#: gmusicbrowser.pl:6902
+msgid ""
+"Will not write the tags except with the advanced tag editing dialog. The "
+"changes will be kept in the library instead.\n"
+"Warning, the changes for a song will be lost if the tag is re-read."
+msgstr ""
+"除非使用高级标签编辑对话框，不会重写标签。这些变化将只是保存在音乐库中。 \n"
+"警告，标签重新加载时所有的改变都会丢失。"
+
+#: gmusicbrowser_mplayer.pm:215
+msgid "Will use default if not found"
+msgstr ""
+
+#: gmusicbrowser.pl:6824 gmusicbrowser.pl:6825
+msgid "Will use system's default if blank"
+msgstr ""
+
+#. Windows key
+#: gmusicbrowser.pl:1287
+#, fuzzy
+msgctxt "Keyboard"
+msgid "Win"
+msgstr "视窗"
+
+#: gmusicbrowser.pl:714
+msgid "Windows"
+msgstr "视窗"
+
+#: gmusicbrowser_list.pm:5374
+msgid "Words that begin with"
+msgstr ""
+
+#: plugins/export.pm:143 plugins/export.pm:161
+msgid "Write filenames to ..."
+msgstr "写入文件名到..."
+
+#: gmusicbrowser.pl:6929
+msgid ""
+"Write value of selected fields in the tags. Useful for fields that were "
+"previously not written to tags, to make sure the current value is written."
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1994
+#, fuzzy
+msgid "Writing tags"
+msgstr "编辑标签"
+
+#: gmusicbrowser_songs.pm:976 gmusicbrowser_tags.pm:1882
+#: gmusicbrowser_tags.pm:1898 gmusicbrowser_tags.pm:2143
+#: plugins/albuminfo.pm:65 layouts/pages.layout:28
+msgid "Year"
+msgstr "年份"
+
+#: layouts/makeitlooklike.layout:141
+#, fuzzy
+msgid "Year - Album"
+msgstr "搜索专辑"
+
+#: layouts/makeitlooklike.layout:128
+#, fuzzy
+msgid "Year - Artist"
+msgstr "搜索艺人"
+
+#: gmusicbrowser_songs.pm:772
+msgid "Yes"
+msgstr ""
+
+#: gmusicbrowser.pl:2546
+#, perl-brace-format
+msgid "You can find backups in {folder}"
+msgstr ""
+
+#: gmusicbrowser.pl:7085
+msgid ""
+"You can force a check for these files by holding shift when selecting \"Re-"
+"read tags\""
+msgstr ""
+
+#: gmusicbrowser_songs.pm:2930
+#, perl-brace-format
+msgid ""
+"You can make custom stars by putting pictures in {folder}\n"
+"They must be named 'stars', optionally followed by a '-' and a word, "
+"followed by a number from 0 to 5 or 10\n"
+"Example: stars-custom0.png"
+msgstr ""
+
+#: plugins/notify.pm:59
+msgid ""
+"You can use some markup, eg :\n"
+"<b>bold</b> <i>italic</i> <u>underline</u>\n"
+"Note that the markup may be ignored by the notification daemon"
+msgstr ""
+
+#: gmusicbrowser.pl:5523
+msgid "You must specify a base folder"
+msgstr "您必须指定一个基本文件夹"
+
+#: gmusicbrowser_layout.pm:4140 gmusicbrowser_layout.pm:4185
+msgid "Zoom 1:1"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4138 gmusicbrowser_layout.pm:4183
+msgid "Zoom in"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4139 gmusicbrowser_layout.pm:4184
+msgid "Zoom out"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4141 gmusicbrowser_layout.pm:4186
+msgid "Zoom to fit"
+msgstr ""
+
+#: gmusicbrowser.pl:5240
+msgid "_Cancel"
+msgstr ""
+
+#: gmusicbrowser_list.pm:848 gmusicbrowser_list.pm:6909
+msgid "_Insert column"
+msgstr "插入栏(_I)"
+
+#: gmusicbrowser_list.pm:855 gmusicbrowser_list.pm:6916
+msgid "_Remove this column"
+msgstr "删除此列(_R)"
+
+#: gmusicbrowser.pl:5239
+#, fuzzy
+msgid "_Retry"
+msgstr "重试"
+
+#: gmusicbrowser.pl:5241
+msgid "_Skip"
+msgstr ""
+
+#: gmusicbrowser_list.pm:847 gmusicbrowser_list.pm:6902
+msgid "_Sort by"
+msgstr "排序规则(_S)"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "a bright coloured fish"
+msgstr "明亮色鱼"
+
+#: gmusicbrowser.pl:10170 gmusicbrowser.pl:10225
+#, fuzzy
+msgid "abort"
+msgstr "中止"
+
+#: gmusicbrowser.pl:4949 gmusicbrowser.pl:10123
+msgid "abort copy"
+msgstr "终止复制"
+
+#: gmusicbrowser.pl:4950 gmusicbrowser.pl:10122
+msgid "abort move"
+msgstr "终止移动"
+
+#: gmusicbrowser_tags.pm:1994
+msgid "add"
+msgstr "添加"
+
+#: gmusicbrowser.pl:6714
+msgid "advanced options"
+msgstr "高级选项"
+
+#: gmusicbrowser_songs.pm:591 gmusicbrowser_songs.pm:716
+msgid "after"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:591 gmusicbrowser_songs.pm:598
+#: gmusicbrowser_songs.pm:716
+#, fuzzy, perl-format
+msgid "after %s"
+msgstr "保存过滤器为"
+
+#: plugins/albuminfo.pm:120
+msgid "album information now for"
+msgstr ""
+
+#. comma-separated list of field aliases for album, these are in addition to english aliases
+#: gmusicbrowser_songs.pm:891
+#, fuzzy
+msgctxt "Field_aliases"
+msgid "album,on"
+msgstr "%d专辑"
+
+#: plugins/albuminfo.pm:120
+msgid "albums missing reviews"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1623
+msgid "alphabetical"
+msgstr "按字母顺序排列"
+
+#: gmusicbrowser_123.pm:392
+msgid "amixer control :"
+msgstr "amixer控制："
+
+#: plugins/artistinfo.pm:297
+msgid "applied on reload"
+msgstr ""
+
+#: gmusicbrowser_list.pm:40
+msgid "apply filter"
+msgstr "适用于过滤器"
+
+#: plugins/nowplaying.pm:63
+#, fuzzy, perl-brace-format
+msgid "argument {n} :"
+msgstr "参数"
+
+#: gmusicbrowser_list.pm:1629 gmusicbrowser_songs.pm:1417
+#: gmusicbrowser_tags.pm:2312
+msgid "artist"
+msgstr "艺术家"
+
+#. comma-separated list of field aliases for artist, these are in addition to english aliases
+#: gmusicbrowser_songs.pm:859
+#, fuzzy
+msgctxt "Field_aliases"
+msgid "artist,by"
+msgstr "艺术家"
+
+#: gmusicbrowser_gstreamer-1.x.pm:30
+msgid "auto detect"
+msgstr "自动检测"
+
+#: gmusicbrowser.pl:577
+msgid "autofill"
+msgstr "自动填充"
+
+#: gmusicbrowser_list.pm:1602
+msgid "automatic size"
+msgstr "自动尺寸"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "back cover"
+msgstr "封底"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "band"
+msgstr "乐队"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "band/artist logotype"
+msgstr "乐队/艺人标识"
+
+#: gmusicbrowser_songs.pm:592 gmusicbrowser_songs.pm:717
+msgid "before"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:592 gmusicbrowser_songs.pm:597
+#: gmusicbrowser_songs.pm:717
+#, perl-format
+msgid "before %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:433
+msgid "between"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:594 gmusicbrowser_songs.pm:719
+#, perl-format
+msgid "between %s ago and %s ago"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:433 gmusicbrowser_songs.pm:593
+#: gmusicbrowser_songs.pm:718
+#, perl-format
+msgid "between %s and %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:593 gmusicbrowser_songs.pm:718
+msgid "between (absolute dates)"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:594 gmusicbrowser_songs.pm:719
+msgid "between (relative dates)"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1605 gmusicbrowser_list.pm:1610
+msgid "big size"
+msgstr "大尺寸"
+
+#: gmusicbrowser_songs.pm:1049
+msgid "bonus tracks"
+msgstr "奖金音轨"
+
+#: gmusicbrowser_songs.pm:1415
+msgid "boolean"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1049
+msgid "bootleg"
+msgstr "传递"
+
+#: gmusicbrowser_songs.pm:1049
+msgid "broken"
+msgstr "打破"
+
+#: gmusicbrowser.pl:6492 gmusicbrowser.pl:7495 plugins/desktopwidget.pm:145
+msgid "by"
+msgstr ""
+
+#: gmusicbrowser.pl:1245
+msgid "by added"
+msgstr "依据添加"
+
+#: gmusicbrowser.pl:1244
+msgid "by lastplay"
+msgstr "依据上次播放"
+
+#: gmusicbrowser.pl:1247
+msgid "by lastplay & bootleg"
+msgstr "依据上次播放和传递"
+
+#: gmusicbrowser.pl:1246
+msgid "by lastplay & play count"
+msgstr "依据上次播放和播放次数"
+
+#: gmusicbrowser.pl:1243
+msgid "by play count"
+msgstr "依据播放次数"
+
+#: gmusicbrowser.pl:1242
+msgid "by rating"
+msgstr "依据评级"
+
+#: gmusicbrowser.pl:3928
+#, perl-brace-format
+msgid "by {artist} from {album}"
+msgstr "由 {artist} 来自 {album}"
+
+#: plugins/albuminfo.pm:478
+#, perl-brace-format
+msgid "by {author}"
+msgstr ""
+
+#: gmusicbrowser.pl:1022 gmusicbrowser_layout.pm:4875
+msgid "bytes"
+msgstr "字节"
+
+#: gmusicbrowser.pl:7087
+#, fuzzy
+msgid "check length now"
+msgstr "立即检查"
+
+#: gmusicbrowser.pl:7072 layouts/contrib.layout:262 layouts/contrib.layout:418
+msgid "check now"
+msgstr "立即检查"
+
+#: gmusicbrowser_list.pm:1690
+msgid "cloud mode"
+msgstr "云模式"
+
+#: plugins/nowplaying.pm:64
+msgid "command :"
+msgstr "命令："
+
+#: gmusicbrowser_songs.pm:1419
+msgid "common number"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1418
+msgid "common string"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:2312
+msgid "composer"
+msgstr "作曲家"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "conductor"
+msgstr "指挥者"
+
+#: plugins/audioscrobbler.pm:142 plugins/audioscrobbler.pm:192
+msgid "connection failed"
+msgstr "连接失败"
+
+#: plugins/fetch_cover.pm:415
+msgid "connection failed."
+msgstr "连接失败。"
+
+#: gmusicbrowser_songs.pm:57 gmusicbrowser_songs.pm:151
+#: gmusicbrowser_songs.pm:219
+#, fuzzy
+msgid "contains"
+msgstr "包含%s"
+
+#: gmusicbrowser_songs.pm:57 gmusicbrowser_songs.pm:151
+#: gmusicbrowser_songs.pm:219
+#, perl-format
+msgid "contains %s"
+msgstr "包含%s"
+
+#: gmusicbrowser_songs.pm:60 gmusicbrowser_songs.pm:153
+#: gmusicbrowser_songs.pm:221
+#, fuzzy, perl-format
+msgid "contains %s (case sensitive)"
+msgstr "(区分大小写)"
+
+#: gmusicbrowser_tags.pm:2340
+msgid "counter"
+msgstr "计数器"
+
+#: plugins/rip.pm:27
+msgid "custom"
+msgstr "自定义"
+
+#: gmusicbrowser_songs.pm:25
+msgid "day"
+msgstr "天"
+
+#: gmusicbrowser.pl:1015 gmusicbrowser_songs.pm:5283
+#: gmusicbrowser_songs.pm:5289 gmusicbrowser_songs.pm:5295
+#: gmusicbrowser_songs.pm:5301
+msgid "days"
+msgstr "天"
+
+#: gmusicbrowser.pl:1554 gmusicbrowser_layout.pm:5318
+#: gmusicbrowser_layout.pm:5340
+msgid "default"
+msgstr "默认"
+
+#: plugins/fetch_cover.pm:82
+msgid "default filename"
+msgstr "默认的文件名"
+
+#: plugins/fetch_cover.pm:81
+msgid "default folder"
+msgstr "默认文件夹"
+
+#: gmusicbrowser.pl:8002
+msgid "delete selected filter"
+msgstr "删除选定的过滤器"
+
+#: gmusicbrowser.pl:8008
+msgid "delete selected grouping"
+msgstr "删除所选分组"
+
+#: gmusicbrowser.pl:8006
+msgid "delete selected random mode"
+msgstr "删除选定的随机模式"
+
+#: gmusicbrowser.pl:8004
+msgid "delete selected sort mode"
+msgstr "删除选定的排序模式"
+
+#: gmusicbrowser_tags.pm:388
+msgid "different folders"
+msgstr "其他文件夹"
+
+#: gmusicbrowser.pl:3941 gmusicbrowser_list.pm:8179
+#, perl-brace-format
+msgid "disc {disc}"
+msgstr "光盘 {disc}"
+
+#: gmusicbrowser_songs.pm:64 gmusicbrowser_songs.pm:157
+#: gmusicbrowser_songs.pm:225
+#, perl-format
+msgid "doesn't contain %s"
+msgstr "不包含%s"
+
+#: gmusicbrowser_songs.pm:63 gmusicbrowser_songs.pm:156
+#: gmusicbrowser_songs.pm:224
+#, fuzzy, perl-format
+msgid "doesn't contain %s (case sensitive)"
+msgstr "不包含%s"
+
+#: gmusicbrowser_songs.pm:259 gmusicbrowser_songs.pm:291
+msgid "doesn't have a picture"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:147
+#, fuzzy, perl-format
+msgid "doesn't include %s"
+msgstr "不包含%s"
+
+#: gmusicbrowser_songs.pm:217
+#, fuzzy, perl-format
+msgid "doesn't include artist %s"
+msgstr "不包含%s"
+
+#: gmusicbrowser_songs.pm:62 gmusicbrowser_songs.pm:155
+#: gmusicbrowser_songs.pm:223
+#, perl-format
+msgid "doesn't match regexp %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:61 gmusicbrowser_songs.pm:154
+#: gmusicbrowser_songs.pm:222
+#, perl-format
+msgid "doesn't match regexp %s (case sensitive)"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:2312
+msgid "during performance"
+msgstr "正在播放"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "during recording"
+msgstr "正在录音"
+
+#: gmusicbrowser_tags.pm:2338
+msgid "email"
+msgstr "电子邮件"
+
+#: gmusicbrowser_tags.pm:2497
+msgid "empty"
+msgstr "空的"
+
+#: gmusicbrowser_gstreamer-1.x.pm:497
+msgid "enable gapless (experimental)"
+msgstr ""
+
+#: plugins/albuminfo.pm:120
+msgid "entire collection"
+msgstr ""
+
+#: gmusicbrowser_list.pm:199 gmusicbrowser_tags.pm:2501
+msgid "error"
+msgstr "错误"
+
+#: gmusicbrowser.pl:8933
+msgid "ex :"
+msgstr ""
+
+#: gmusicbrowser.pl:8951
+#, perl-brace-format
+msgid "example (selected song) : {score}  ({chances})"
+msgstr "例如 (selected song) : {score}  ({chances})"
+
+#: gmusicbrowser_list.pm:734
+msgid "example :"
+msgstr ""
+
+#: plugins/albuminfo.pm:93 plugins/artistinfo.pm:317 plugins/karaoke.pm:68
+#: plugins/lyrics.pm:231
+msgid "example : "
+msgstr ""
+
+#: gmusicbrowser.pl:6805 plugins/webcontext.pm:539
+#, perl-format
+msgid "example : %s"
+msgstr ""
+
+#: gmusicbrowser.pl:6798
+msgid "examples :"
+msgstr ""
+
+#: gmusicbrowser.pl:6745
+#, perl-format
+msgid "fallback-gain : %d dB"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:5564
+msgid "false"
+msgstr "虚假"
+
+#: gmusicbrowser_songs.pm:1049
+msgid "favorite"
+msgstr "最喜爱的"
+
+#: gmusicbrowser.pl:10085
+msgid "file $current/$end"
+msgstr ""
+
+#: plugins/lyrics.pm:218
+msgid "file tag"
+msgstr ""
+
+#: gmusicbrowser.pl:10224 plugins/export.pm:153 plugins/export.pm:167
+#, fuzzy, perl-brace-format
+msgid "file: {filename}"
+msgstr "默认的文件名"
+
+#: gmusicbrowser.pl:8178
+#, fuzzy
+msgid "filters"
+msgstr "过滤器"
+
+#: gmusicbrowser_songs.pm:1416
+msgid "flags"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1414
+msgid "float"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1668
+msgid "font size depends on"
+msgstr ""
+
+#: gmusicbrowser.pl:1155
+msgid "for files without a VBR header"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:2312
+msgid "front cover"
+msgstr "封面"
+
+#: gmusicbrowser_songs.pm:54 gmusicbrowser_songs.pm:158
+#: gmusicbrowser_songs.pm:226
+msgid "fuzzy match"
+msgstr ""
+
+#: layouts/makeitlooklike.layout:262
+#, fuzzy
+msgid "gmusicbrowser"
+msgstr "包含浏览器"
+
+#: layouts/contrib.layout:502
+#, perl-format
+msgid "gmusicbrowser is playing %t from %l (%Y) by %a"
+msgstr ""
+
+#: plugins/fetch_cover.pm:31 plugins/fetch_cover.pm:39
+msgid "google images"
+msgstr ""
+
+#: plugins/fetch_cover.pm:40
+msgid "google images (hi-res)"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1682
+#, fuzzy
+msgid "group by"
+msgstr "群组依据："
+
+#: gmusicbrowser.pl:8896
+msgid "half-life : "
+msgstr "半条命："
+
+#: gmusicbrowser_songs.pm:258 gmusicbrowser_songs.pm:290
+#, fuzzy
+msgid "has a picture"
+msgstr "没有图片"
+
+#: gmusicbrowser_songs.pm:149
+msgid "has at least one"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1129 gmusicbrowser_songs.pm:1137
+#, fuzzy
+msgid "has been played"
+msgstr "最后播放"
+
+#: gmusicbrowser_songs.pm:1147 gmusicbrowser_songs.pm:1155
+#, fuzzy
+msgid "has been skipped"
+msgstr "最后跳过"
+
+#: gmusicbrowser_songs.pm:148
+msgid "has none"
+msgstr ""
+
+#: gmusicbrowser.pl:1014
+msgid "hours"
+msgstr "小时"
+
+#: gmusicbrowser_list.pm:1611
+msgid "huge size"
+msgstr "大尺寸"
+
+#: gmusicbrowser.pl:6604
+msgid "icecast server"
+msgstr "icecast服务器"
+
+#: gmusicbrowser_tags.pm:2127
+msgid "id3v1 tag"
+msgstr "id3v1标签"
+
+#: gmusicbrowser_list.pm:1700
+msgid "ignore the 'none' row for histogram"
+msgstr ""
+
+#: gmusicbrowser.pl:6788
+#, fuzzy
+msgid "ignore title"
+msgstr "电台名称"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "illustration"
+msgstr "插图"
+
+#: gmusicbrowser.pl:5962
+#, fuzzy
+msgid "imported list"
+msgstr "删除列表"
+
+#: gmusicbrowser_layout.pm:4745
+#, fuzzy, perl-format
+msgid "in %d/%d files"
+msgstr "%d文件"
+
+#: layouts/contrib.layout:210
+#, fuzzy, perl-format
+msgid "in %l"
+msgstr "在%s"
+
+#: gmusicbrowser_songs.pm:437
+msgid "in the bottom"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:437
+#, perl-format
+msgid "in the bottom %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:436
+msgid "in the top"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:436
+#, perl-format
+msgid "in the top %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:146
+msgid "includes"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:146
+#, fuzzy, perl-format
+msgid "includes %s"
+msgstr "是%s"
+
+#: gmusicbrowser_songs.pm:216
+#, fuzzy
+msgid "includes artist"
+msgstr "领衔艺术家"
+
+#: gmusicbrowser_songs.pm:216
+#, fuzzy, perl-format
+msgid "includes artist %s"
+msgstr "多个艺术家"
+
+#: gmusicbrowser_songs.pm:1420
+#, fuzzy
+msgid "integer"
+msgstr "采访"
+
+#: gmusicbrowser_songs.pm:1049
+msgid "interview"
+msgstr "采访"
+
+#: plugins/albuminfo.pm:93 plugins/artistinfo.pm:317 plugins/karaoke.pm:68
+#: plugins/lyrics.pm:231
+#, fuzzy
+msgid "invalid pattern"
+msgstr "错误：无效的文件名模式"
+
+#: gmusicbrowser.pl:8844
+msgid "inverse"
+msgstr "逆"
+
+#: gmusicbrowser_songs.pm:396
+msgid "is"
+msgstr "是"
+
+#: gmusicbrowser_songs.pm:396
+#, perl-format
+msgid "is %s"
+msgstr "是%s"
+
+#: gmusicbrowser_songs.pm:1256
+msgid "is 44.1kHz"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1268
+msgid "is a flac file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1272
+msgid "is a lossless file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1273
+msgid "is a lossy file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1263
+msgid "is a mp3 file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1269
+msgid "is a musepack file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1267
+#, fuzzy
+msgid "is a vorbis file"
+msgstr "扫描此文件"
+
+#: gmusicbrowser_songs.pm:1270
+msgid "is a wavepack file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1264
+msgid "is an aac file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1265
+msgid "is an alac file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1271
+#, fuzzy
+msgid "is an ape file"
+msgstr "重命名文件"
+
+#: gmusicbrowser_songs.pm:1266
+msgid "is an mp4/m4a file"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:506
+msgid "is defined"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:58
+msgid "is equal to"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:58
+#, perl-format
+msgid "is equal to %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:774 gmusicbrowser_songs.pm:777
+#, fuzzy
+msgid "is false"
+msgstr "虚假"
+
+#: gmusicbrowser_songs.pm:813
+#, fuzzy
+msgid "is in"
+msgstr "在%s"
+
+#: gmusicbrowser_songs.pm:813
+#, perl-format
+msgid "is in %s"
+msgstr "在%s"
+
+#: gmusicbrowser_songs.pm:1239
+msgid "is mono"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:507
+msgid "is not defined"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:838
+msgid "is smart equal"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:838
+#, perl-format
+msgid "is smart equal to %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1241
+msgid "is stereo"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:775 gmusicbrowser_songs.pm:776
+#, fuzzy
+msgid "is true"
+msgstr "正确的"
+
+#: gmusicbrowser_songs.pm:397
+#, perl-format
+msgid "isn't %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:65
+#, perl-format
+msgid "isn't equal to %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:814
+#, fuzzy, perl-format
+msgid "isn't in %s"
+msgstr "在%s"
+
+#: gmusicbrowser_songs.pm:1240
+msgid "isn't mono"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1242
+msgid "isn't stereo"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:9
+msgid "last.fm"
+msgstr "last.fm"
+
+#: plugins/audioscrobbler.pm:10
+msgid "last.fm plugin"
+msgstr "last.fm 插件"
+
+#: plugins/artistinfo.pm:296
+msgid ""
+"last.fm's similarity categories:\n"
+">90 super\n"
+">70 very high\n"
+">50 high\n"
+">30 medium\n"
+">10 lower"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:2312
+msgid "lead artist"
+msgstr "领衔艺术家"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "leaflet page"
+msgstr "单页"
+
+#: layouts/browser.layout:41
+msgid "left-side filter panes"
+msgstr "过滤器窗格在左边"
+
+#: gmusicbrowser_list.pm:1625
+msgid "length of songs"
+msgstr "歌曲的长度"
+
+#: gmusicbrowser_songs.pm:590 gmusicbrowser_songs.pm:715
+msgid "less than"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:590 gmusicbrowser_songs.pm:595
+#: gmusicbrowser_songs.pm:715
+#, perl-format
+msgid "less than %s ago"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:2312
+msgid "lyricist"
+msgstr "歌词作者"
+
+#: plugins/lyrics.pm:218
+#, fuzzy
+msgid "lyrics file"
+msgstr "播放列表过滤器"
+
+#: gmusicbrowser_songs.pm:56 gmusicbrowser_songs.pm:150
+#: gmusicbrowser_songs.pm:218
+msgid "matches regexp"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:56 gmusicbrowser_songs.pm:150
+#: gmusicbrowser_songs.pm:218
+#, perl-format
+msgid "matches regexp %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:59 gmusicbrowser_songs.pm:152
+#: gmusicbrowser_songs.pm:220
+#, fuzzy, perl-format
+msgid "matches regexp %s (case sensitive)"
+msgstr "(区分大小写)"
+
+#: gmusicbrowser_list.pm:1674
+#, fuzzy
+msgid "maximum font size"
+msgstr "中型"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "media"
+msgstr "媒体"
+
+#: gmusicbrowser_list.pm:1604 gmusicbrowser_list.pm:1609
+msgid "medium size"
+msgstr "中型"
+
+#: layouts/main.layout:101
+msgid "minimal"
+msgstr "最小"
+
+#: gmusicbrowser_list.pm:1671
+#, fuzzy
+msgid "minimum font size"
+msgstr "中型"
+
+#: gmusicbrowser.pl:1013
+msgid "minutes"
+msgstr "分钟"
+
+#: gmusicbrowser_songs.pm:24
+msgid "month"
+msgstr "月份"
+
+#: gmusicbrowser.pl:1017
+msgid "months"
+msgstr "月份"
+
+#: gmusicbrowser_songs.pm:589 gmusicbrowser_songs.pm:714
+msgid "more than"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:589 gmusicbrowser_songs.pm:596
+#: gmusicbrowser_songs.pm:714
+#, fuzzy, perl-format
+msgid "more than %s ago"
+msgstr "删除此标签"
+
+#: gmusicbrowser_list.pm:1692
+msgid "mosaic mode"
+msgstr "镶嵌模式"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "movie/video screen capture"
+msgstr "电影/视频画面截取"
+
+#: gmusicbrowser.pl:7084
+msgid ""
+"mp3 files without a VBR header requires a full scan to check its real length "
+"and bitrate"
+msgstr ""
+
+#: gmusicbrowser_mplayer.pm:215
+msgid "mplayer executable :"
+msgstr ""
+
+#: gmusicbrowser_mplayer.pm:214
+#, fuzzy
+msgid "mplayer options :"
+msgstr "ReplayGain选项"
+
+#: gmusicbrowser_mpv.pm:289
+#, fuzzy
+msgid "mpv options :"
+msgstr "选项"
+
+#: gmusicbrowser_songs.pm:1413
+msgid "multi-lines string"
+msgstr ""
+
+#: gmusicbrowser.pl:8002
+msgid "name of the new filter"
+msgstr "新过滤器名称"
+
+#: gmusicbrowser.pl:8008
+msgid "name of the new grouping"
+msgstr "新群组名称"
+
+#: gmusicbrowser.pl:8006
+msgid "name of the new random mode"
+msgstr "新的随机模式的名字"
+
+#: gmusicbrowser.pl:8004
+msgid "name of the new sort mode"
+msgstr "新排序模式的名称"
+
+#: gmusicbrowser_layout.pm:4162 gmusicbrowser_songs.pm:628
+#: gmusicbrowser_songs.pm:633 gmusicbrowser_songs.pm:638
+#: gmusicbrowser_songs.pm:756 gmusicbrowser_songs.pm:761
+#: gmusicbrowser_songs.pm:766 gmusicbrowser_songs.pm:1128
+#: gmusicbrowser_songs.pm:1136 gmusicbrowser_songs.pm:1146
+#: gmusicbrowser_songs.pm:1154 gmusicbrowser_songs.pm:2385
+msgid "never"
+msgstr "从不"
+
+#: gmusicbrowser.pl:2313
+msgid "never played"
+msgstr "从来没有播放过"
+
+#: gmusicbrowser_songs.pm:55 gmusicbrowser_songs.pm:159
+#: gmusicbrowser_songs.pm:227
+#, perl-format
+msgid "no %s fuzzy match with %s"
+msgstr ""
+
+#: plugins/fetch_cover.pm:423
+msgid "no matches found, you might want to remove some search terms."
+msgstr "没有找到有匹配，您可能想要删除一些搜索条件。"
+
+#: gmusicbrowser.pl:3657
+#, fuzzy
+msgid "no order"
+msgstr "排序"
+
+#: gmusicbrowser.pl:5102
+msgid "no picture"
+msgstr "没有图片"
+
+#: gmusicbrowser_list.pm:1601
+msgid "no pictures"
+msgstr "没有图片"
+
+#: gmusicbrowser.pl:6472
+msgid "no plugins found"
+msgstr "没有发现插件"
+
+#: gmusicbrowser.pl:7148
+msgid "no songs needs checking"
+msgstr ""
+
+#: gmusicbrowser.pl:6784
+msgid "no splitting"
+msgstr "没有分隔"
+
+#: gmusicbrowser.pl:5219
+msgid "no to all"
+msgstr "对所有都没有"
+
+#: gmusicbrowser.pl:8037
+msgid "noname"
+msgstr "没有名字"
+
+#: gmusicbrowser.pl:7066
+msgid "none"
+msgstr ""
+
+#: gmusicbrowser.pl:576
+msgid "normal"
+msgstr "正常"
+
+#: gmusicbrowser_songs.pm:722
+#, perl-format
+msgid "not after %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:723
+#, perl-format
+msgid "not before %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:600 gmusicbrowser_songs.pm:725
+#, perl-format
+msgid "not between %s ago and %s ago"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:434 gmusicbrowser_songs.pm:599
+#: gmusicbrowser_songs.pm:724
+#, perl-format
+msgid "not between %s and %s"
+msgstr ""
+
+#: gmusicbrowser.pl:2320
+msgid "not bootleg"
+msgstr "不传递"
+
+#: gmusicbrowser_songs.pm:516
+msgid "not defined"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:439
+#, perl-format
+msgid "not in the bottom %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:438
+#, fuzzy, perl-format
+msgid "not in the top %s"
+msgstr "不写标签"
+
+#: gmusicbrowser_songs.pm:721
+#, perl-format
+msgid "not less than %s ago"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:720
+#, perl-format
+msgid "not more than %s ago"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1400
+#, fuzzy, perl-format
+msgid "not present in %s"
+msgstr "不包含%s"
+
+#: gmusicbrowser_songs.pm:564
+#, perl-format
+msgid "not set to %s"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:604 gmusicbrowser_songs.pm:729
+#, perl-format
+msgid "not the %s least recent"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:603 gmusicbrowser_songs.pm:728
+#, perl-format
+msgid "not the %s most recent"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1614
+#, fuzzy
+msgid "number of songs"
+msgstr "秒数"
+
+#: gmusicbrowser_list.pm:1624
+msgid "number of songs in filter"
+msgstr "筛选器中的歌曲数"
+
+#: gmusicbrowser_list.pm:1806
+msgid "only show entries with at least n songs"
+msgstr ""
+
+#: plugins/artistinfo.pm:281
+msgid "only works when the artist-info tab is displayed"
+msgstr ""
+
+#: plugins/lyrics.pm:217
+msgid "only works with some lyrics source and when the lyrics tab is active"
+msgstr ""
+
+#: plugins/lyrics.pm:221 plugins/webcontext.pm:276
+msgid "open context window"
+msgstr "打开背景信息窗口"
+
+#: gmusicbrowser_list.pm:1807 gmusicbrowser_list.pm:5407
+msgid "options"
+msgstr "选项"
+
+#: gmusicbrowser.pl:6822
+#, fuzzy, perl-format
+msgid "or %d seconds"
+msgstr "%d秒"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "other"
+msgstr "其他"
+
+#: gmusicbrowser_tags.pm:2312
+msgid "other file icon"
+msgstr "其他文件图标"
+
+#: gmusicbrowser.pl:6621
+msgid "output device :"
+msgstr "输出设备："
+
+#: gmusicbrowser_layout.pm:4874
+#, perl-format
+msgid "page %d"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:4666
+#, perl-brace-format
+msgid "page {number}"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:60
+msgid "password :"
+msgstr "密码："
+
+#: gmusicbrowser.pl:1618
+msgid "perl code"
+msgstr "perl代码"
+
+#: gmusicbrowser_list.pm:1664
+msgid "picture size"
+msgstr "图片尺寸"
+
+#: gmusicbrowser_list.pm:1616
+#, fuzzy
+msgid "play count average"
+msgstr "播放计数器"
+
+#: gmusicbrowser.pl:2319
+msgid "played>4"
+msgstr "播放超过四次"
+
+#: gmusicbrowser.pl:6636 gmusicbrowser.pl:6771
+msgid "port :"
+msgstr "端口："
+
+#: gmusicbrowser_layout.pm:5622
+msgid "pre-amp"
+msgstr "前置放大器"
+
+#: gmusicbrowser.pl:6744
+#, fuzzy, perl-format
+msgid "pre-amp : %d dB"
+msgstr "前置放大器"
+
+#: gmusicbrowser.pl:1654
+msgid ""
+"pre-set name or 10 numbers between 12 and -12 (-24 for gstreamer) separated "
+"by ':', or 0 (for off), or 1 (for on)"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:1399
+#, fuzzy, perl-format
+msgid "present in %s"
+msgstr "在%s"
+
+#: gmusicbrowser_songs.pm:1399
+#, fuzzy
+msgid "present in list"
+msgstr "打开现有列表"
+
+#: gmusicbrowser.pl:581
+msgid "quit"
+msgstr "退出"
+
+#: gmusicbrowser_songs.pm:1421
+#, fuzzy
+msgid "rating"
+msgstr "评分"
+
+#: gmusicbrowser_list.pm:1615
+msgid "rating average"
+msgstr ""
+
+#: gmusicbrowser_tags.pm:2312
+msgid "recording location"
+msgstr "记录位置"
+
+#: gmusicbrowser.pl:6776
+msgid "requires xdg-screensaver"
+msgstr "需要xdg-screensaver"
+
+#: gmusicbrowser_list.pm:1802
+#, perl-brace-format
+msgid "reset filter {nb}"
+msgstr "重置过滤器 {nb}"
+
+#: plugins/artistinfo.pm:286
+#, fuzzy
+msgid "reset format"
+msgstr "重置初级过滤器"
+
+#: gmusicbrowser_list.pm:1800
+msgid "reset primary filter"
+msgstr "重置初级过滤器"
+
+#: gmusicbrowser_list.pm:1801
+msgid "reset secondary filter"
+msgstr "重置二级过滤器"
+
+#: plugins/artistinfo.pm:517 plugins/lyrics.pm:435
+msgid "retry"
+msgstr "重试"
+
+#: plugins/audioscrobbler.pm:155
+#, perl-brace-format
+msgid "retry in {seconds} s"
+msgstr "在{seconds} 秒内重试"
+
+#: gmusicbrowser_list.pm:1633
+#, fuzzy
+msgid "reverse order"
+msgstr "列表规则"
+
+#: gmusicbrowser.pl:8019
+#, perl-brace-format
+msgid "save as '{name}'"
+msgstr "另存为'{name}'"
+
+#: gmusicbrowser.pl:8002
+msgid "save filter as"
+msgstr "保存过滤器为"
+
+#: gmusicbrowser.pl:8008
+msgid "save grouping as"
+msgstr "保存分组为"
+
+#: gmusicbrowser.pl:8006
+msgid "save random mode as"
+msgstr "保存随机模式为"
+
+#: gmusicbrowser.pl:8004
+msgid "save sort mode as"
+msgstr "保存排序模式为"
+
+#: gmusicbrowser.pl:8001
+msgid "saved filters"
+msgstr "已保存的过滤器"
+
+#: gmusicbrowser.pl:8007
+msgid "saved groupings"
+msgstr "已保存的分组"
+
+#: gmusicbrowser.pl:8005
+msgid "saved random modes"
+msgstr "已保存的随机模式"
+
+#: gmusicbrowser.pl:8003
+msgid "saved sort modes"
+msgstr "已保存的排序模式"
+
+#: gmusicbrowser.pl:7071 layouts/contrib.layout:263 layouts/contrib.layout:419
+msgid "scan now"
+msgstr "立即扫描"
+
+#: gmusicbrowser.pl:1012
+msgid "seconds"
+msgstr "秒"
+
+#: gmusicbrowser_songs.pm:563
+msgid "set to"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:563
+#, perl-format
+msgid "set to %s"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1698
+msgid "show histogram background"
+msgstr ""
+
+#: gmusicbrowser_list.pm:1651
+msgid "show pictures"
+msgstr "显示图片"
+
+#: gmusicbrowser_list.pm:1696
+msgid "show the 'All' row"
+msgstr ""
+
+#: plugins/artistinfo.pm:54
+#, fuzzy
+msgid "similar-artists"
+msgstr "领衔艺术家"
+
+#: gmusicbrowser_list.pm:7760
+msgid "skin options"
+msgstr "皮肤选项"
+
+#: gmusicbrowser_list.pm:1617
+#, fuzzy
+msgid "skip count average"
+msgstr "跳过次数"
+
+#: gmusicbrowser_list.pm:1603 gmusicbrowser_list.pm:1608
+msgid "small size"
+msgstr "小尺寸"
+
+#: gmusicbrowser.pl:6899
+#, fuzzy
+msgid ""
+"some programs may not like unsynchronised tags, mostly affect tags with "
+"pictures"
+msgstr "上次检查时iTunes不支持unsynchronised标签，主要是影响标签的照片"
+
+#: gmusicbrowser_list.pm:1678
+msgid "sort by"
+msgstr "排序方式"
+
+#: gmusicbrowser_layout.pm:193 gmusicbrowser_layout.pm:196
+#, fuzzy
+msgid "static list"
+msgstr "修改列表"
+
+#: gmusicbrowser.pl:579
+msgid "stop"
+msgstr "停止"
+
+#: gmusicbrowser_songs.pm:1412
+msgid "string"
+msgstr ""
+
+#: gmusicbrowser.pl:6708
+msgid "supports : "
+msgstr "支持："
+
+#: gmusicbrowser_list.pm:1654
+#, fuzzy
+msgid "text format"
+msgstr "文件夹格式："
+
+#: gmusicbrowser_list.pm:1661
+#, fuzzy
+msgid "text mode"
+msgstr "队列模式"
+
+#: gmusicbrowser_songs.pm:602 gmusicbrowser_songs.pm:727
+#, perl-format
+msgid "the %s least recent"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:601 gmusicbrowser_songs.pm:726
+#, perl-format
+msgid "the %s most recent"
+msgstr ""
+
+#: gmusicbrowser.pl:2184
+#, perl-brace-format
+msgid "the GObject introspection data for {name}"
+msgstr ""
+
+#: gmusicbrowser.pl:2191
+#, fuzzy, perl-brace-format
+msgid "the command {name}"
+msgstr "系统命令："
+
+#: gmusicbrowser.pl:6898
+msgid "the default is utf16 for ID3v2.3 and utf8 for ID3v2.4"
+msgstr "默认情况下是utf16的ID3v2.3和很少的ID3v2.4"
+
+#: gmusicbrowser.pl:2198
+#, fuzzy, perl-brace-format
+msgid "the file {name}"
+msgstr "其他文件图标"
+
+#: gmusicbrowser_songs.pm:602 gmusicbrowser_songs.pm:727
+msgid "the least recent"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:601 gmusicbrowser_songs.pm:726
+msgid "the most recent"
+msgstr ""
+
+#: gmusicbrowser.pl:2176
+#, perl-brace-format
+msgid "the {name} perl module"
+msgstr ""
+
+#: gmusicbrowser_layout.pm:216
+#, perl-brace-format
+msgid "then {action}"
+msgstr "然后 {action}"
+
+#: gmusicbrowser_songs.pm:5307 gmusicbrowser_songs.pm:5312
+msgid "times"
+msgstr "次"
+
+#. comma-separated list of field aliases for title, these are in addition to english aliases
+#: gmusicbrowser_songs.pm:843
+#, fuzzy
+msgctxt "Field_aliases"
+msgid "title"
+msgstr "标题"
+
+#: gmusicbrowser_list.pm:1804
+msgid "toggle Intersection mode"
+msgstr "切换为交叉模式"
+
+#: gmusicbrowser_list.pm:1805
+msgid "toggle Invert mode"
+msgstr "切换为反转模式"
+
+#: gmusicbrowser_tags.pm:474
+msgid "tools"
+msgstr ""
+
+#: gmusicbrowser_songs.pm:5564
+msgid "true"
+msgstr "正确的"
+
+#: gmusicbrowser.pl:583
+msgid "turn off"
+msgstr "关闭"
+
+#: gmusicbrowser_tags.pm:2382
+#, fuzzy
+msgid "unknown"
+msgstr "未知的错误"
+
+#: plugins/audioscrobbler.pm:148 plugins/audioscrobbler.pm:216
+msgid "unknown error"
+msgstr "未知的错误"
+
+#: gmusicbrowser.pl:3666 gmusicbrowser_layout.pm:1492
+msgid "unnamed random mode"
+msgstr "匿名随机模式"
+
+#: gmusicbrowser.pl:10170 gmusicbrowser.pl:10224 plugins/webcontext.pm:553
+msgid "url"
+msgstr ""
+
+#: gmusicbrowser.pl:1636
+#, fuzzy
+msgid "url-encoded list of files"
+msgstr "URL编码列表文件/文件夹"
+
+#: gmusicbrowser.pl:1637 gmusicbrowser.pl:1638 gmusicbrowser.pl:1639
+#: gmusicbrowser.pl:1640
+msgid "url-encoded list of files/folders"
+msgstr "URL编码列表文件/文件夹"
+
+#: plugins/fetch_cover.pm:79 plugins/fetch_cover.pm:80
+msgid "use :"
+msgstr "使用："
+
+#: plugins/fetch_cover.pm:80
+msgid "use album name"
+msgstr "使用专辑名称"
+
+#: gmusicbrowser_tags.pm:1166
+msgid "use default"
+msgstr "使用默认"
+
+#: plugins/fetch_cover.pm:79
+msgid "use song folder"
+msgstr "使用歌曲文件夹"
+
+#: gmusicbrowser.pl:6798
+msgid "use standard strftime variables"
+msgstr ""
+
+#: plugins/audioscrobbler.pm:59
+msgid "username :"
+msgstr "用户名："
+
+#: gmusicbrowser_list.pm:7737
+msgid "using skin :"
+msgstr "正在使用的皮肤："
+
+#: gmusicbrowser.pl:578
+msgid "wait for more"
+msgstr "等待更多"
+
+#: gmusicbrowser.pl:1016
+msgid "weeks"
+msgstr "周"
+
+#: gmusicbrowser.pl:8906
+msgid "weight :"
+msgstr "重量："
+
+#: gmusicbrowser_layout.pm:4162
+#, fuzzy
+msgid "when file changes"
+msgstr "其他文件图标"
+
+#: gmusicbrowser_layout.pm:4162
+#, fuzzy
+msgid "when folder changes"
+msgstr "打开文件夹"
+
+#: plugins/webcontext.pm:13
+msgid "wikipedia, lyrics, and custom webpages"
+msgstr ""
+
+#: layouts/main.layout:110
+msgid "with browser"
+msgstr "包含浏览器"
+
+#: layouts/main.layout:138
+msgid "with browser & queue"
+msgstr "包含浏览器和队列"
+
+#: layouts/main.layout:134
+msgid "with browser (SongTree)"
+msgstr "包含浏览器（ 曲目树 ）"
+
+#: layouts/main.layout:76
+#, fuzzy
+msgid "with lists"
+msgstr "包含播放列表"
+
+#: layouts/songtree.layout:5
+#, fuzzy
+msgid "with picture"
+msgstr "专辑图片"
+
+#: layouts/main.layout:68
+msgid "with playlist"
+msgstr "包含播放列表"
+
+#: layouts/main.layout:52
+msgid "with queue"
+msgstr "包含队列"
+
+#: layouts/main.layout:61
+msgid "with search"
+msgstr "包含搜索框"
+
+#: layouts/main.layout:82
+#, fuzzy
+msgid "with search and lists"
+msgstr "包含搜索框"
+
+#: layouts/main.layout:92
+#, fuzzy
+msgid "with search and lists 2"
+msgstr "包含搜索框"
+
+#: gmusicbrowser.pl:6635
+msgid ""
+"without gstreamer : one stream per file, one connection at a time\n"
+"with gstreamer : one continuous stream, multiple connection possible"
+msgstr ""
+"不使用gstreamer：每一个流文件，一个连接的时间\n"
+"with gstreamer ：一个连续流，多种连接可能"
+
+#: plugins/titlebar.pm:54
+msgid "x offset :"
+msgstr ""
+
+#: plugins/titlebar.pm:55
+#, fuzzy
+msgid "y offset :"
+msgstr "任何一个："
+
+#: gmusicbrowser_list.pm:1621 gmusicbrowser_songs.pm:23
+msgid "year"
+msgstr "年份"
+
+#: gmusicbrowser_list.pm:1622
+msgid "year (highest)"
+msgstr "年份 (highest)"
+
+#: gmusicbrowser.pl:1018
+msgid "years"
+msgstr "年份"
+
+#: gmusicbrowser.pl:5218
+msgid "yes to all"
+msgstr "对所有选是"
+
+#: gmusicbrowser_layout.pm:624
+#, perl-brace-format
+msgid ""
+"{album}\n"
+"<small>by</small> {artist}"
+msgstr ""
+"{album}\n"
+"<small>by</small> {artist}"
+
+#: gmusicbrowser.pl:6978
+#, perl-brace-format
+msgid "{folder} already exists"
+msgstr "已经存在的文件夹{folder}"
+
+#: gmusicbrowser.pl:3847
+#, fuzzy, perl-brace-format
+msgid "{hours} hours {min} min {sec} s"
+msgstr "{hours}小时{min}分{sec}秒"
+
+#: gmusicbrowser.pl:3851 gmusicbrowser.pl:3856 gmusicbrowser.pl:3860
+#, fuzzy, perl-brace-format
+msgid "{hours}h {min}m {sec}s"
+msgstr "{hours}小时{min}分{sec}秒"
+
+#: gmusicbrowser_songs.pm:3270
+#, perl-brace-format
+msgid "{hours}h{min}m{sec}s"
+msgstr "{hours}小时{min}分{sec}秒"
+
+#: gmusicbrowser.pl:3847
+#, fuzzy, perl-brace-format
+msgid "{min} min {sec} s"
+msgstr "{min}分{sec}秒"
+
+#: gmusicbrowser.pl:3851 gmusicbrowser.pl:3856 gmusicbrowser.pl:3860
+#, fuzzy, perl-brace-format
+msgid "{min}m {sec}s"
+msgstr "{min}分{sec}秒"
+
+#: gmusicbrowser_songs.pm:3270
+#, perl-brace-format
+msgid "{min}m{sec}s"
+msgstr "{min}分{sec}秒"
+
+#: gmusicbrowser.pl:6722
+#, perl-brace-format
+msgid "{outputname} output settings"
+msgstr "{outputname} 输出设置"
+
+#: gmusicbrowser.pl:604
+#, perl-brace-format
+msgid "{songs} by {artists}"
+msgstr "{songs} 由  {artists}"
+
+#: gmusicbrowser.pl:3988 gmusicbrowser_layout.pm:274 gmusicbrowser_list.pm:26
+#: plugins/audioscrobbler.pm:198 plugins/audioscrobbler.pm:204
+#, perl-brace-format
+msgid "{song} by {artist}"
+msgstr "{song} 由  {artist}"
+
+#: gmusicbrowser.pl:1642
+msgid "|-separated list of widget names"
+msgstr "|-分隔清单的部件名称"
+
+#~ msgid "Add a radio"
+#~ msgstr "添加电台"
+
+#~ msgid "Add new radio"
+#~ msgstr "添加新的无线电台"
+
+#~ msgid "Adding a radio"
+#~ msgstr "正在添加一个电台"
+
+#~ msgid "Found but not working"
+#~ msgstr "已找到，但它并没有在工作"
+
+#~ msgid "Radio url"
+#~ msgstr "电台网址"
+
+#~ msgid "Remove header, footer and left column from wikipedia pages"
+#~ msgstr "从Wikipedia页面删除页眉，页脚和左栏"
+
+#~ msgid "Strip wikipedia pages"
+#~ msgstr "条状的维基百科网页"
+
+#~ msgid "Use MozEmbed"
+#~ msgstr "使用MozEmbed"
+
+#~ msgid "Use WebKit"
+#~ msgstr "使用WebKit"
+
+#~ msgid "use gnome settings"
+#~ msgstr "使用GNOME的设置"

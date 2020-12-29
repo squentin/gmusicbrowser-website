@@ -1,0 +1,21 @@
+[Xubuntix]
+Type=G
+Default		= Window size=700x500 FPane0 genrecloud=1 FPane1 artistpsize=64 FPane2 albumpsize=64
+HPmain		= _VBcontrol _TBlibrary
+VBcontrol	= HBbuttons HBtextandcontrol Scale _VBpictures
+HBbuttons	= Pref Prev Stop Play Next
+HBtextandcontrol= _VBtext VBvolandstars
+VBvolandstars	= Vol -Stars
+VolumeScroll	= Vol
+VBtext		= _Title 2HBartist 2HBalbum
+HBartist	= LockArtist _Artist
+HBalbum		= LockAlbum _Album -Date
+TBlibrary	= Library VPbrowse Queue VBque Lyrics Context(followselection=1)
+VBque		= _QueueList(group=1,shrinkonhide=v) HBQueueButtons
+HBQueueButtons	= EditListButtons(group=1) QueueActions
+VPbrowse	= _HBgenreartistalbum  _VBundersearch
+VBundersearch	=  HBsearch _SongList
+HBsearch	= _SimpleSearch ResetFilter Sort(button=1) Filter(button=1) MBsortandplay
+MBsortandplay	= LSortItem PlayItem PFilterItem
+HBgenreartistalbum = _FPane0(hide=1,pages=genre) _FPane1(hide=1,pages=artist,nb=2) _FPane2(hide=1,pages=album,nb=3)
+VBpictures	= ArtistPic _Cover

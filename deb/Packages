@@ -1,0 +1,209 @@
+Package: gmusicbrowser
+Architecture: all
+Version: 1.0.1
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 1768
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: liblocale-gettext-perl (>= 1.04), libnet-dbus-perl, libgtk2-trayicon-perl, libgstreamer-perl
+Suggests: mplayer, mpg321, vorbis-tools, flac123, alsa-utils, libgtk2-mozembed-perl
+Filename: ./gmusicbrowser_1.0.1_all.deb
+Size: 522418
+MD5sum: 7d4293b8790efa44cc85376d4d44078e
+SHA1: a2f9e747deda02228870afae0008ae1501b18ac2
+SHA256: 9022ca8debcdc62700817c5d3879ac2ebdf7594843b28d41e7285409152a28f7
+SHA512: 68cea7f8b3955e6dcce4e1ab70676e5bf782d7b17fc6e3183311972d706f2eadc15f6e08b3132100e312498b1fec9a5553cbc52b087fcc7bb8dd7bd18681fa43
+Homepage: http://gmusicbrowser.sourceforge.net/
+Description: jukebox for large collections of mp3/ogg/flac/mpc files
+ Gmusicbrowser uses gstreamer, mpg321/ogg123/flac123 or mplayer for playback.
+ It has easy access to related songs (same artist/album/title), supports
+ multiple genres per song, ratings, and customizable labels. The windows
+ layouts are completely customizable, it uses dynamic filters with unlimited
+ nesting of conditions, has a powerful mass-tagging dialog ...
+
+Package: gmusicbrowser
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 1808
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: liblocale-gettext-perl (>= 1.04), libnet-dbus-perl, libgtk2-trayicon-perl, libgstreamer-perl
+Suggests: mplayer, mpg321, vorbis-tools, flac123, alsa-utils, libgtk2-mozembed-perl, libgstreamer-interfaces-perl, libgtk2-notify-perl
+Filename: ./gmusicbrowser_1.0.2_all.deb
+Size: 537098
+MD5sum: 4eae7a939a315cee355e30d2c6830eeb
+SHA1: 22ab758c6719d5bfd37d88e824b5cf236e5698fc
+SHA256: 1d14660c8d143e62ee02d0c12fa6ff0d186a59f5c9fc6c6eb7476ff5ff6f41ce
+SHA512: 3825abc3f4e8bd551c5bbf9f8c5247f69c680bb6c43b2de7ea6e77db93c41f59372b897c677d1719db73362e2bcb2d1d3df03fbbe2f7f2237d114b73f45479ab
+Homepage: http://gmusicbrowser.sourceforge.net/
+Description: jukebox for large collections of mp3/ogg/flac/mpc files
+ Gmusicbrowser uses gstreamer, mpg321/ogg123/flac123 or mplayer for playback.
+ It has easy access to related songs (same artist/album/title), supports
+ multiple genres per song, ratings, and customizable labels. The windows
+ layouts are completely customizable, it uses dynamic filters with unlimited
+ nesting of conditions, has a powerful mass-tagging dialog ...
+
+Package: gmusicbrowser
+Architecture: all
+Version: 1.1.10
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 3187
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: libintl-perl, libnet-dbus-perl, libgstreamer-perl, libdigest-crc-perl, libcairo-perl, libhtml-parser-perl, libio-compress-perl
+Suggests: mplayer, mpg321, vorbis-tools, alsa-utils, libgtk2-mozembed-perl, libgstreamer-interfaces-perl, libgtk2-notify-perl, libgnome2-wnck-perl
+Filename: ./gmusicbrowser_1.1.10_all.deb
+Size: 1264726
+MD5sum: 4744907508a2d044eb37c77c8b57f4ba
+SHA1: b1e148f7d0ed0955a9ade28c445018e34af100b2
+SHA256: 0bcf851311c249f5e386b74dad306d2e28cc2cb886cc7644a0a4bcc14b244a0a
+SHA512: 039ed7c9d446f31be11fe04e2588afc866a5e8325637029ee77af935909f0020808d277858e1a967adb7fea25e358f24f30be07fd9c761075de77059f3e86c99
+Homepage: http://gmusicbrowser.org/
+Description: very customizable jukebox for large collections of music files
+ The interface is extremely customizable. It has easy access to related songs
+ (same artist/album/title), supports multiple genres per song, ratings, and
+ customizable labels. Powerful search system, random mode and mass-tagging
+ dialog. Uses GStreamer, mpg321/ogg123/flac123 or mplayer for playback.
+
+Package: gmusicbrowser
+Architecture: all
+Version: 1.1.11-1
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 3260
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: libintl-perl, libnet-dbus-perl, libgstreamer-perl, libdigest-crc-perl, libcairo-perl, libhtml-parser-perl, libio-compress-perl
+Suggests: mplayer, mpg321, vorbis-tools, alsa-utils, libgtk2-mozembed-perl, libgstreamer-interfaces-perl, libgtk2-notify-perl, libgnome2-wnck-perl
+Filename: ./gmusicbrowser_1.1.11-1_all.deb
+Size: 1292928
+MD5sum: e196066b67bb2e1a355473dd0c579560
+SHA1: 67df1b424cd65fd6e036bf4bd1296dded8a203fd
+SHA256: 1a1ea328ac3f157fe16c5f762d96dfc93b6913af3e1db8cb0549c0c637e4fccd
+SHA512: 10267fa6428823691774d3c77d146fe69458b6a717b2257af8233e4e6342bf6e7396422db9d35fe2b3c3e1f7807eb801c53837e0927ba17e7bb555d81517cbf9
+Homepage: http://gmusicbrowser.org/
+Description: very customizable jukebox for large collections of music files
+ The interface is extremely customizable. It has easy access to related songs
+ (same artist/album/title), supports multiple genres per song, ratings, and
+ customizable labels. Powerful search system, random mode and mass-tagging
+ dialog. Uses GStreamer, mpg321/ogg123/flac123 or mplayer for playback.
+
+Package: gmusicbrowser
+Architecture: all
+Version: 1.1.12
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 3210
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: libintl-perl, libnet-dbus-perl, libgstreamer-perl, libdigest-crc-perl, libcairo-perl, libhtml-parser-perl, libio-compress-perl
+Suggests: mplayer, mpg321, vorbis-tools, alsa-utils, libgtk2-mozembed-perl, libgstreamer-interfaces-perl, libgtk2-notify-perl, libgnome2-wnck-perl
+Filename: ./gmusicbrowser_1.1.12_all.deb
+Size: 1276338
+MD5sum: 48fea811bce111758e96e5ceed5754db
+SHA1: 1b12037414b59d305158c5aa90aa51835913b9cf
+SHA256: 6a4b06cd921e62f65d1d6e525eb7b9ba5541655f1d2f291b5f929fde7c86b2f5
+SHA512: 8e6b896c4f4ed7718f8e09558271891cacd0298d065d0e1d32e3277c654a66db8216839c534f909e027b9e20a1574280e08ac220cccec5f7dd355fdeb2b9ee6e
+Homepage: http://gmusicbrowser.org/
+Description: very customizable jukebox for large collections of music files
+ The interface is extremely customizable. It has easy access to related songs
+ (same artist/album/title), supports multiple genres per song, ratings, and
+ customizable labels. Powerful search system, random mode and mass-tagging
+ dialog. Uses GStreamer, mpg321/ogg123/flac123 or mplayer for playback.
+
+Package: gmusicbrowser
+Architecture: all
+Version: 1.1.13
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 3339
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: libintl-perl, libnet-dbus-perl, libgstreamer-perl, libdigest-crc-perl, libcairo-perl, libhtml-parser-perl, libio-compress-perl
+Suggests: mplayer, mpg321, vorbis-tools, alsa-utils, libgtk2-mozembed-perl, libgstreamer-interfaces-perl, libgtk2-notify-perl, libgnome2-wnck-perl, poppler-utils
+Filename: ./gmusicbrowser_1.1.13_all.deb
+Size: 912654
+MD5sum: ec85a8037a41374bbb030e0e61adfa91
+SHA1: 23eeb74d7a744e6d99581d4087cca0663fc428a1
+SHA256: 5922e51509fc52c620e79ed681796e387b9bcc91c3cebba8e9b1b52e7ca6cb83
+SHA512: 3f09d676a1248565fe637e6b7aae1bfba421a0591f01b3804ab2c3a965c7297b082e8e83751b8b2a45aaeb2f3945923eb0a4a500d2015a876c8d9974e1684a93
+Homepage: http://gmusicbrowser.org/
+Description: very customizable jukebox for large collections of music files
+ The interface is extremely customizable. It has easy access to related songs
+ (same artist/album/title), supports multiple genres per song, ratings, and
+ customizable labels. Powerful search system, random mode and mass-tagging
+ dialog. Uses GStreamer, mpg321/ogg123/flac123 or mplayer for playback.
+
+Package: gmusicbrowser
+Architecture: all
+Version: 1.1.14
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 3598
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: libintl-perl, libnet-dbus-perl, libglib-object-introspection-perl, gir1.2-gstreamer-1.0, libdigest-crc-perl, libcairo-perl, libhtml-parser-perl, libio-compress-perl
+Suggests: mplayer, mpg321, vorbis-tools, alsa-utils, libgtk2-mozembed-perl, libgstreamer-perl, libgtk2-notify-perl, libgnome2-wnck-perl, poppler-utils
+Filename: ./gmusicbrowser_1.1.14_all.deb
+Size: 952712
+MD5sum: 82ce6b631d04a929c0cb938cd03c52b4
+SHA1: 2c837c3c6247bd7a30f0b5d06173b782aa67ebfe
+SHA256: be7859cd03c6d5ce6c17d7337cf588b640803607f959674e356358f90bfaead3
+SHA512: b4b6c68605dd1feee5aead72a47263c9a7d656b7eb43dabd3a006985bb53616b0ff3c5d3491ff227f88cc5bcba65bcd885d87a326265fd4f146a90a21f2b8e19
+Homepage: http://gmusicbrowser.org/
+Description: very customizable jukebox for large collections of music files
+ The interface is extremely customizable. It has easy access to related songs
+ (same artist/album/title), supports multiple genres per song, ratings, and
+ customizable labels. Powerful search system, random mode and mass-tagging
+ dialog. Uses GStreamer, mpg321/ogg123/flac123 or mplayer for playback.
+
+Package: gmusicbrowser
+Architecture: all
+Version: 1.1.15
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 3748
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: libintl-perl, libnet-dbus-perl, libglib-object-introspection-perl, gir1.2-gstreamer-1.0, libdigest-crc-perl, libcairo-perl, libhtml-parser-perl, libio-compress-perl
+Suggests: mpv, mplayer, mpg123, vorbis-tools, alsa-utils, libgtk2-mozembed-perl, libgstreamer-perl, libgtk2-notify-perl, libgnome2-wnck-perl, poppler-utils
+Filename: ./gmusicbrowser_1.1.15_all.deb
+Size: 1003846
+MD5sum: 82cf9fc668a790f87cb56131df1e6833
+SHA1: ee689569b3cf558647e016ec5a3cda2d1bff9286
+SHA256: 7cdef8539a30c157c7e4d384dbd40de551de538ab0019f8f0a8d99c7554523f3
+SHA512: 1e59878eb04c18ed8b9bc11ba8f842339fd690680046da46e5e996707b47e8de7147ee2d40703a638ebe5e60ba9c69f04300fbe2dde12155beaf87efe31b86a5
+Homepage: http://gmusicbrowser.org/
+Description: very customizable jukebox for large collections of music files
+ The interface is extremely customizable. It has easy access to related songs
+ (same artist/album/title), supports multiple genres per song, ratings, and
+ customizable labels. Powerful search system, random mode and mass-tagging
+ dialog. Uses GStreamer, mpg321/ogg123/flac123 or mplayer for playback.
+
+Package: gmusicbrowser
+Architecture: all
+Version: 1.1.16
+Priority: optional
+Section: sound
+Maintainer: Quentin Sculo <squentin@free.fr>
+Installed-Size: 3962
+Depends: perl, libgtk2-perl, libgtk2.0-0 (>= 2.6)
+Recommends: libintl-perl, libnet-dbus-perl, libglib-object-introspection-perl, gir1.2-gstreamer-1.0, libdigest-crc-perl, libcairo-perl, libhtml-parser-perl, libio-compress-perl
+Suggests: mpv, mplayer, mpg123, vorbis-tools, alsa-utils, libgtk2-mozembed-perl, libgstreamer-perl, libgtk2-notify-perl, libgnome2-wnck-perl, poppler-utils
+Filename: ./gmusicbrowser_1.1.16_all.deb
+Size: 987472
+MD5sum: f0b365fed2a9c98a01094014e60748ac
+SHA1: 5ed2f9ca54b07f4e159e3e47c89c226b85c1df5b
+SHA256: adda49e91f7b395e04fc3a2ea438901abf647bb091d0aa4fb9b3aaa4624e13c2
+SHA512: a14ef95ba7f09073862c11d88dae72555d5f24d70d9dd5ee01899667710998e018e704f697cdf3e7d330e6c32a25796b1bee271b66d311b1cac5420464bca490
+Homepage: http://gmusicbrowser.org/
+Description: very customizable jukebox for large collections of music files
+ The interface is extremely customizable. It has easy access to related songs
+ (same artist/album/title), supports multiple genres per song, ratings, and
+ customizable labels. Powerful search system, random mode and mass-tagging
+ dialog. Uses GStreamer, mpg321/ogg123/flac123 or mplayer for playback.
+

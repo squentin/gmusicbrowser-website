@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 02 Oct 2008 01:09:00 +0200
+Source: gmusicbrowser
+Binary: gmusicbrowser
+Architecture: source all
+Version: 1.0.2
+Distribution: jaunty
+Urgency: low
+Maintainer: Quentin Sculo <squentin@free.fr>
+Changed-By: Quentin Sculo <squentin@free.fr>
+Description: 
+ gmusicbrowser - jukebox for large collections of mp3/ogg/flac/mpc files
+Changes: 
+ gmusicbrowser (1.0.2) jaunty; urgency=low
+ .
+   * new version
+Checksums-Sha1: 
+ a746aaefacdcf09d2f9b1deb27ae5f12d09cd147 1032 gmusicbrowser_1.0.2.dsc
+ 56b56f3364f523210d839e570de619cfe11be33d 784184 gmusicbrowser_1.0.2.orig.tar.gz
+ 0d9042080b65ad578266c0cf73241a0670d4bebd 4856 gmusicbrowser_1.0.2.diff.gz
+ 22ab758c6719d5bfd37d88e824b5cf236e5698fc 537098 gmusicbrowser_1.0.2_all.deb
+Checksums-Sha256: 
+ f7939f863a36d1fffde780ea790ee025779bc5dfe802ba4b766bce5df995360c 1032 gmusicbrowser_1.0.2.dsc
+ 3a3ec6e19c76fa68dd3977e727072169b2448ab804f00a46820d14593ffc44cf 784184 gmusicbrowser_1.0.2.orig.tar.gz
+ 4dc779cd7b5378a9f46a4355f69efb5019f4a2e6e4879ca3bab19efbb2c2ced5 4856 gmusicbrowser_1.0.2.diff.gz
+ 1d14660c8d143e62ee02d0c12fa6ff0d186a59f5c9fc6c6eb7476ff5ff6f41ce 537098 gmusicbrowser_1.0.2_all.deb
+Files: 
+ f0d3a785fe59bf429cfbb8fa3724877b 1032 sound optional gmusicbrowser_1.0.2.dsc
+ b5a3839d0e1a55151657d2192a6a8a41 784184 sound optional gmusicbrowser_1.0.2.orig.tar.gz
+ df75db05e8896666e91a0c125dc9bd30 4856 sound optional gmusicbrowser_1.0.2.diff.gz
+ 4eae7a939a315cee355e30d2c6830eeb 537098 sound optional gmusicbrowser_1.0.2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkrGKPkACgkQL+UnWArdgVEimQCfTplB48l9FdW+kb608LLchU9M
+MkoAni74B+Xkc5HecjrASaRYHxCcpTs+
+=UZTw
+-----END PGP SIGNATURE-----

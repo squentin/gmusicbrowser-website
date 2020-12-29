@@ -1,0 +1,38 @@
+[wombalton: pics and Tabs]
+
+#General
+Type		= G
+Title		= gmusicbrowser playing %S by %a from %l
+Default		= Window size=853x762 FPane0 page=genres FPane2 albumpsize=32,albuminfo=1) 
+
+#main layouts
+VBmain     	= HBtop _TBlist
+
+#top area with controls and info
+HBtop		= VBcon 15_AABox1(aa=artist) 7_AABox0(aa=album)
+
+#controls
+VBcon      	= MBmenu HBButtons HBIndic HBTime  HBTitle HBArtist HBAlbum
+
+MBmenu		= MainMenuItem PSortItem PFilterItem QueueItem LSortItem
+HBButtons	= Vol Prev Stop Play Next ChooseRandAlbum Pref Fullscreen
+HBIndic     	= Sort 10Filter Queue 10Pos -Stars
+HBTime      	= LabelTime Length _Scale
+HBTitle		= _Title
+HBArtist	= LockArtist _Artist
+HBAlbum		= LockAlbum _Album  -Date
+
+#bottom part with tabs
+TBlist      	= "Browser" VBBro "Playlist" VBSongs  "Queue" QueueList
+
+#playlist
+VBSongs    	= _SongList(mode=playlsit)
+
+#Browser
+VBBro	        = HBSearch _VPPanes
+HBSearch        = 5_SimpleSearch ResetFilter PlayFilter QueueFilter -Total
+VPPanes		= HPPanes0 _SongTree
+HPPanes0	= FPane0(nb=2) HPPanes
+HPPanes    	= FPane1(nb=3,pages=artist,hide=1,) FPane2(nb=4,pages=album,hide=1)
+
+#####end pics and tabs

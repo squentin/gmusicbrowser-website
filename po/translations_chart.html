@@ -1,0 +1,118 @@
+
+<html>
+  <head>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+	google.load("visualization", "1", {packages:["barchart"]});
+	google.setOnLoadCallback(drawChart);
+	function drawChart() {
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Language');
+	data.addColumn('number', 'translated');
+	data.addColumn('number', 'fuzzy');
+	data.addColumn('number', 'untranslated');
+	data.addRows(23);
+	data.setValue(0, 0, 'ko');
+	data.setValue(1, 0, 'ms_MY');
+	data.setValue(2, 0, 'de');
+	data.setValue(3, 0, 'fr');
+	data.setValue(4, 0, 'ru');
+	data.setValue(5, 0, 'pt');
+	data.setValue(6, 0, 'cs');
+	data.setValue(7, 0, 'sr');
+	data.setValue(8, 0, 'pt_BR');
+	data.setValue(9, 0, 'nl');
+	data.setValue(10, 0, 'it');
+	data.setValue(11, 0, 'es');
+	data.setValue(12, 0, 'lt');
+	data.setValue(13, 0, 'ja');
+	data.setValue(14, 0, 'sv');
+	data.setValue(15, 0, 'fi');
+	data.setValue(16, 0, 'zh_CN');
+	data.setValue(17, 0, 'pl');
+	data.setValue(18, 0, 'zh_TW');
+	data.setValue(19, 0, 'hu');
+	data.setValue(20, 0, 'et');
+	data.setValue(21, 0, 'el');
+	data.setValue(22, 0, 'tr_TR');
+	data.setValue(0, 1, 1615);
+	data.setValue(1, 1, 1596);
+	data.setValue(2, 1, 1596);
+	data.setValue(3, 1, 1561);
+	data.setValue(4, 1, 1447);
+	data.setValue(5, 1, 1447);
+	data.setValue(6, 1, 1444);
+	data.setValue(7, 1, 1437);
+	data.setValue(8, 1, 1408);
+	data.setValue(9, 1, 1404);
+	data.setValue(10, 1, 1383);
+	data.setValue(11, 1, 1357);
+	data.setValue(12, 1, 1218);
+	data.setValue(13, 1, 1187);
+	data.setValue(14, 1, 973);
+	data.setValue(15, 1, 919);
+	data.setValue(16, 1, 738);
+	data.setValue(17, 1, 679);
+	data.setValue(18, 1, 639);
+	data.setValue(19, 1, 329);
+	data.setValue(20, 1, 198);
+	data.setValue(21, 1, 127);
+	data.setValue(22, 1, 17);
+	data.setValue(0, 2, 5);
+	data.setValue(1, 2, 16);
+	data.setValue(2, 2, 16);
+	data.setValue(3, 2, 32);
+	data.setValue(4, 2, 112);
+	data.setValue(5, 2, 112);
+	data.setValue(6, 2, 112);
+	data.setValue(7, 2, 113);
+	data.setValue(8, 2, 137);
+	data.setValue(9, 2, 137);
+	data.setValue(10, 2, 156);
+	data.setValue(11, 2, 173);
+	data.setValue(12, 2, 206);
+	data.setValue(13, 2, 228);
+	data.setValue(14, 2, 347);
+	data.setValue(15, 2, 302);
+	data.setValue(16, 2, 430);
+	data.setValue(17, 2, 448);
+	data.setValue(18, 2, 393);
+	data.setValue(19, 2, 430);
+	data.setValue(20, 2, 282);
+	data.setValue(21, 2, 206);
+	data.setValue(22, 2, 60);
+	data.setValue(0, 3, 3);
+	data.setValue(1, 3, 11);
+	data.setValue(2, 3, 11);
+	data.setValue(3, 3, 30);
+	data.setValue(4, 3, 64);
+	data.setValue(5, 3, 64);
+	data.setValue(6, 3, 67);
+	data.setValue(7, 3, 73);
+	data.setValue(8, 3, 78);
+	data.setValue(9, 3, 82);
+	data.setValue(10, 3, 84);
+	data.setValue(11, 3, 93);
+	data.setValue(12, 3, 199);
+	data.setValue(13, 3, 208);
+	data.setValue(14, 3, 303);
+	data.setValue(15, 3, 402);
+	data.setValue(16, 3, 455);
+	data.setValue(17, 3, 496);
+	data.setValue(18, 3, 591);
+	data.setValue(19, 3, 864);
+	data.setValue(20, 3, 1143);
+	data.setValue(21, 3, 1290);
+	data.setValue(22, 3, 1546);
+
+	var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+	chart.draw(data, {width: 800, height: 400, min: 0, is3D: true, isStacked: true, title: 'Translations on git branch "master" (18 Nov 2020)'});
+	}
+    </script>
+  </head>
+
+  <body>
+    <div id="chart_div"></div>
+  </body>
+</html>
+

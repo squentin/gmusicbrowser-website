@@ -1,0 +1,40 @@
+[itunes-like-plus]
+Type		= G
+Default		= Window size=1120x820 VPfp_list 120 HPfp0 300 VPfp_list 200_550
+VBmain		= HBupper _TBupper
+HBupper		= _VBupper -HBRight
+TBupper		= _"Queue" VBQueueList _"Library" HPfp_list_src _"Context" Context 
+VBupper		= HBIndic _3HBHeader
+HBIndic		= MBmenu 20Sort Filter Queue 10Pos
+HBHeader	= HBButtons _ABInfo
+HBButtons	= Prev(size=dnd) Play(size=dialog) Next(size=dnd) Stop(size=small-toolbar) Vol(size=small-toolbar,button=1) LabelTime Length 30Filler0
+HBRight		= -ArtistPic(hover_layout=ArtistPopup,hover_delay=100,tooltip=%a) -10Cover(hover_layout=CoverPopup,hover_delay=100,tooltip=%l)
+ABInfo		= FRInfo(shadow=etched-out)
+FRInfo		= VBInfo
+VBInfo		= _HBSongInfo _7HBScale
+HBSongInfo	= _VBSongInfo -Filler1
+VBSongInfo	= _2HBTitle _2HBAlbum
+HBTitle		= LockArtist _Title_by -Stars
+HBAlbum		= LockAlbum _Album -Date
+HBScale		= _Scale
+MBmenu		= MainMenuItem PSortItem PFilterItem QueueItem
+VBQueueList	= 3_QueueList(activate=playlist) HBQueueAct
+HBQueueAct	= EditListButtons 10QueueActions
+HPfp_list_src	= FPane3(nb=1,hide=1,pages=savedtree) _VPfp_list
+VPfp_list	= HPfp0 _VBlist
+VBlist		= HBstatus _SongTree
+HBstatus	= SimpleSearch MBlist Refresh ResetFilter PlayFilter QueueFilter -Total
+MBlist		= HistItem LSortItem PlayItem
+HPfp0		= FPane0(nb=2,hide=1,pages=genre) HPfp1
+HPfp1		= FPane1(nb=3,hide=1,pages=artist) FPane2(nb=4,hide=1,pages=album)
+VSize1		= 47 HBHeader
+HSize1		= HBButtons HBRight
+HSize2		= LockArtist LockAlbum Filler1
+VolumeScroll= HBupper
+
+[CoverPopup]
+VBmain		= Cover(minsize=300,maxsize=300,click1=CloseWindow)
+
+[ArtistPopup]
+VBmain		= ArtistPic(minsize=300,maxsize=300,click1=CloseWindow)
+

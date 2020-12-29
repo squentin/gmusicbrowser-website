@@ -1,0 +1,44 @@
+[Garraxi 800x600]
+
+Type=G
+Title		= Gmusicbrowser playing %S by %a
+Default		= 800,600 HPbig 303_540 HPfp 181_204 VPContainer 205_276 FPane0 page=folder
+
+VBmain		= HBupper HBstatus 2_HPbig
+
+HBupper		= VBleft _VBright
+
+#La barra de menu superior y la de botones del player:
+VBleft		= HBIndic HBButtons
+HBIndic		= MBmenu
+MBmenu		= MainMenuItem PSortItem PFilterItem QueueItem LSortItem PlayItem
+HBButtons	= Prev Stop Play Next LabelTime Length _Scale
+
+#Los titulos de la cancion a tocar:
+VBright		= HBTitle HBArtist HBAlbum
+HBTitle		= Filler0 _Title
+HBArtist	= LockArtist _Artist
+HBAlbum		= LockAlbum _Album -Date
+HSize0		= Filler0 LockArtist LockAlbum
+
+#La barra central donde el buscador y el que cuenta el total de canciones:
+HBstatus	= FBox ResetFilter Refresh -Total
+
+#La parte importante de la ventana, donde van el filtro de carpetas, la lista de canciones posibles y la cola de reproduccion:
+HPbig		= HPfp _VPContainer
+
+#La parte izquierda donde va el filtro de carpetas:
+HPfp		= FPane0(nb=1)
+
+#La parte derecha donde van la lista de canciones posibles y la cola de reproduccion:
+VPContainer	= VBlist VBQueue
+
+HBQueueButtons	= EditListButtons(group=1) QueueActions
+
+#La lista de canciones posibles, arriba:
+#VBlist		= Label1(Lista de canciones filtradas desde carpetas o buscador, a la izquierda:                                                                   ) _SongList
+#La cola de reproduccion, abajo:
+#VBQueue		= Label2(Cola de reproducción, la primera canción aparece arriba, después vienen...:                                 ) 5_QueueList(group=1) HBQueueButtons
+
+VBlist		= Label1(Song list, filtered from folders or search box:                                                                                      ) _SongList
+VBQueue		= Label2(Play queue, from top to bottom:                                                                   ) 5_QueueList(group=1) HBQueueButtons

@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>gmusicbrowser - guide</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css">
+</head>
+
+<body id="section_guide">
+
+<div id="header">
+	<h1><img style="width: 48px; height: 48px;" alt="application icon" src="icons/icon.png">gmusicbrowser</h1>
+	<ul>
+	<li id="menu_main">	<a href="/">Main</a></li>
+	<li id="menu_ss">	<a href="screenshots.html">Screenshots</a></li>
+	<li id="menu_download">	<a href="download.html">Download</a></li>
+	<li id="menu_guide">	<a href="guide.html">Guide</a></li>
+	<li id="menu_faq">	<a href="faq.html">FAQ</a></li>
+	<li id="menu_dev">	<a href="devel.html">Development</a></li>
+	<li id="menu_forums">	<a href="https://forum.gmusicbrowser.org">Forums</a></li>
+	<li id="menu_wiki">	<a href="https://wiki.gmusicbrowser.org/">Wiki</a></li>
+	</ul>
+</div>
+
+<div id="content">
+
+
+	Presentation of some nice but not very intuitive features<br>
+	<br>(Note that this page only describes the default layout, other layouts are available, including all-in-one-window layouts, in the "Layouts" tab of the settings dialog)<br>
+<br>
+
+<h3>Player window</h3>
+
+<img alt="screenshot of the small window" src="screenshots/small.png"><br>
+
+<br>
+
+<ul>
+	<li>You can change the volume by using the mouse wheel almost anywhere on the window</li>
+	<li>Sort order indicator (<img style="width: 24px; height: 24px;" alt="ordered icon" src="icons/stock_sort_ascending_24.png"> if ordered,&nbsp;<img style="width: 26px; height: 26px;" alt="shuffle icon" src="icons/gnome-blackjack.png"> if shuffle, <img style="width: 24px; height: 24px;" alt="random icon" src="icons/gmb-random.png"> if random) :<br>
+
+	left-click : toggle between last shuffle/random mode and last ordered mode<br>
+
+	right-click : sort menu : choose a saved random/ordered mode, or edit a custom one</li>
+
+	<li>Filter indicator (<img style="width: 24px; height: 24px;" alt="full library icon" src="icons/stock_book.png"> if no filter, <img style="width: 20px; height: 20px;" alt="filtered icon" src="icons/icon_filter.png"> if playlist filtered,&nbsp;<img style="width: 16px; height: 16px;" alt="static list icon" src="icons/stock_text_left.png"> if static list ) :<br>
+
+	left-click : clear filter<br>
+
+	right-click : filter menu : choose a saved filter, or edit a custom one</li>
+
+	<li>Queue indicator (no icon if no queue, <img style="width: 24px; height: 24px;" alt="queue icon" src="icons/gmb-queue.png"> if there is a queue) :<br>
+
+	left-click : clear queue<br>
+
+	right-click : queue menu : enqueue album/artist, set queue mode, edit queue</li>
+
+
+
+	<li>Rating indicator (<img style="width: 80px; height: 16px;" alt="3 stars rating" src="icons/stars3.png">): display current rating (1 star = 20 %), click to set the rating</li>
+
+	<li>Song title :<br>
+
+<br>
+
+&nbsp;&nbsp;left-click : list song from the album<br>
+
+&nbsp;&nbsp;<img alt="" src="screenshots/album_menu.png" align="top" hspace="35" vspace="2"><br>
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; left-click on a song to select it, middle-click to enqueue it.<br>
+
+<br>
+
+&nbsp;&nbsp;right-click : song menu : edit song tag, list of songs with same title
+
+&nbsp;&nbsp;<img alt="songs with same name" src="screenshots/song_menu.png" hspace="5" vspace="2">
+</li>
+
+<li>Artist name : click to select an artist. If you right-click on the artist you choose, it will display a menu with the list of albums by this artist, and right-clicking on an album to select a song from this album.<br>
+
+	&nbsp;&nbsp;&nbsp; click on the left of the artist name to lock/unlock on this artist (<img style="width: 16px; height: 16px;" alt="lock icon" src="icons/Lock.png">)</li>
+
+<li>Album name : click to select an album from the current artist, If you right-click on the artist you choose, it will allow you to choose a song from this album.<br>
+
+	&nbsp;&nbsp;&nbsp; click on the left of the album name to
+lock/unlock
+on this album (<img style="width: 16px; height: 16px;" alt="lock icon" src="icons/Lock.png">)</li>
+
+<li>Previous song button (<img style="width: 24px; height: 24px;" alt="previous button" src="icons/rhythmbox-previous.png">):<br>
+
+&nbsp;&nbsp;&nbsp; left-click : select previously played song<br>
+
+&nbsp;&nbsp;&nbsp; right-click : list the 5 last played songs
+</li>
+
+<li>Next song button (<img style="width: 24px; height: 24px;" alt="next button" src="icons/rhythmbox-next.png">):<br>
+
+&nbsp;&nbsp;&nbsp; left-click : select next song (according to sort order)<br>
+
+&nbsp;&nbsp;&nbsp; right-click : list the 5 next songs to be played</li>
+
+<li>
+Right-click on the stop or quit button enqueue that action : it will stop/quit only when the current song and the queued songs (if there is any) are finished.
+</li>
+</ul>
+
+<br><br>
+<h3>Browser window</h3>
+(the filters in the browser window have no effect on the playlist)<br>
+
+<br>
+
+<img alt="screenshot of the browser window" src="screenshots/browser2_800.png"><br>
+
+<ul>
+<li>
+main list : display songs matching the selected filters<br>
+double-click on a song to play it now, double middle-click to enqueue it
+</li>
+<li>
+right click on the column headers to add/remove columns<br>
+drag and drop on a column header to change the column position
+</li>
+
+<li>recent filter menu :<br>
+
+&nbsp;allows to easily go back to what you previously browsed<br>
+
+&nbsp;(middle-click on a filter combine this filter with the current filter)</li>
+
+<li>right-side :<br>
+
+the two lists are used to set the primary and the secondary filter<br>
+
+the filter can be saved_filter(s), artist(s), album(s), genre(s), year(s), label(s), folder(s)<br>
+
+the list for the secondary filter, displays only artists/albums/genres/years/labels/folders present in the primary filter<br>
+
+(setting the primary filter reset the secondary filter)<br>
+
+To display picture and/or info of artist/albums, or sort them by year, use the small preferences icon at the bottom or the options submenu of the context menu, it also allows you to switch to the <a href="screenshots/cloud_example.png">cloud view</a>, or (for artists and album), the <a href="screenshots/mosaic_example.png">mosaic view</a>.<br>
+
+Double-click on a artist/album/genre/... to set it as the play filter, double middle click to enqueue it<br>
+</li>
+
+<li>bottom :<br>
+
+Artist/album statistics with picture, left click on picture to see a bigger version<br>
+right-click to get the album/artist context menu where you can notably set the picture, mass-edit the tags of all the album/artist songs...<br>
+The mouse wheel on the artist switch to 2nd (3rd,4th,...) artist when the selected song has multiple artist (the artist names must be separated by ', ' or ' &amp; ' in the song tag)</li>
+
+</ul>
+<br><br>
+<h3>Tray icon and tray tip window</h3>
+If you have the gtk2-trayicon perl bindings installed, gmusicbrowser will put an icon in the tray : <img style="width: 16px; height: 16px;" alt="tray icon" src="icons/trayicon.png">.<br>With it, you can :
+<ul>
+<li>left-click : show/hide the gmusicbrowser windows</li>
+<li>middle-click : Play/Pause</li>
+<li>right-click : Menu with more controls</li>
+<li>wheel : change volume</li>
+</ul>
+In addition gmusicbrowser can display a popup window next to the tray icon when changing song or when the mouse hover over the tray icon. This popup window is fully customizable like the player and browser window. You can change between the few included layouts in the Layouts tab of the settings dialog.<br>
+The tray tip window works exactly like the player window, that means it can be used to select a song from the album by clicking on the song title, or even any song from the library by clicking on the artist name and right-clicking on the chosen artist and album...<br><br>
+Two examples of tray tip layouts :<br>
+<img alt="screenshot of a simple tray tip layout" src="screenshots/traytip_simple.png">
+<img alt="screenshot of a complex tray tip layout" src="screenshots/traytip_full.png">
+<br><br><br><br>
+<h3>Weighted Random mode</h3>
+You can choose/edit a random mode by right-clicking on the sort indicator.<br>
+This screenshot shows a complex random mode with 4 visible rules, that I will explain to try to make it a bit more understandable.<br>
+<div align=center><img alt="screenshot of a weighted random mode" src="screenshots/wrandom_example.png"></div><br>
+<ul><li>The first rule makes the chances of a song being picked depend on the last time it was played. The half-life is set to 15 days, which means that a song which has last been played 15 days ago will have half the chances of being picked (compared to song that has never been played), 30 days ago : 3/4 the chances,  7.5 days : ~0.293 the chances, so a song that has just been played is very unlikely to be picked again the same day.</li>
+<li>The second rule makes it so that a song which has the label 'Bootleg' set has 1/10 the chances of being played compared to song for which this label is not set.</li>
+<li>The third rule makes songs that have been recently added a bit more likely to be picked.</li>
+<li>The fourth rule makes the chances depend on the song rating, in this example a song with a rating of 60 will have 2% more chance of being picked than a song with a rating of 50.</li>
+</ul>
+For each rule, a score between 0 and 1 is computed, if the inverse checkbox is checked, the score is replaced by 1-score. The weight is then used to calculate the final score: final_score=(1-weight)+score*weight so that a with a weight of 0.10, the final score will be between 0.90 and 1, that is it can reduce the chances by at most 10%. That way you can make a rule less important by setting a low weight for this rule.<br>
+For each rule, an example with the current song is displayed, showing the value used in the rule and the final score for this rule.<br>
+The global score for a song is calculated by multiplying all the score obtained by each rules. At the bottom of the dialog, you can see the global score for the song, and the distribution of the scores for the current playlist.<br>
+
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.gmusicbrowser.org/" : "http://stats.gmusicbrowser.org/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.gmusicbrowser.org/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html>

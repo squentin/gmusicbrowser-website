@@ -1,0 +1,37 @@
+[amarok2-like]
+
+#General
+Type            = G
+Title           = Playing %S by %a from %l
+Default         = Window size=800x520 FPane0 albumpsize=32,albuminfo=1
+
+#main layouts
+VBmain          = _VBbottom
+
+#top area with controls and info _AABox0(aa=album)
+#HBtop          = VBcon0 VBcon1 -VBcon2
+
+#controls MBmenu Pos
+VBcon0          = HBButtons1 HBButtons0 _FPane0(nb=1,pages=album,hide=1)
+VBcon1          = HBTitle HBAA _VPPanes0
+VBcon2          = HBIndic HBTime  _SongList
+VSize           = Play Playlist Title Artist Album FLock PlayFilter
+
+#Browser Total _FPane1(nb=2,hide=1,pages=artist)
+VBbottom                = _HPPanes1
+HPPanes1        = _HPPanes0 _VBcon2
+HPPanes0        = _VBcon0 _VBcon1
+VPPanes0        = _Cover _AABox(aa=artist)
+
+#ChooseAlbum Playlist OpenQueue Fullscreen 8Filler Total
+#MBmenu         = MainMenuItem PSortItem PlayItem PFilterItem QueueItem LSortItem
+HBButtons1      = Fullscreen BContext OpenQueue Playlist Choose  Pref
+HBButtons0      = Prev Play Stop Next ChooseRandAlbum Quit
+HBIndic         = FLock ResetFilter 4Sort 4Filter Vol _VolSlider(1,1)
+HBTime          = PlayFilter _Scale
+HBTitle         = _Title LabelTime Length 
+#HBArtist       = LockArtist _Artist
+#HBAlbum        = LockAlbum _Album -Date
+HBAA            = _Artist _Album
+
+

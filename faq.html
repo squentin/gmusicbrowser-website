@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>gmusicbrowser - FAQ</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css">
+</head>
+
+<body id="section_faq">
+
+<div id="header">
+	<h1><img style="width: 48px; height: 48px;" alt="application icon" src="icons/icon.png">gmusicbrowser</h1>
+	<ul>
+	<li id="menu_main">	<a href="/">Main</a></li>
+	<li id="menu_ss">	<a href="screenshots.html">Screenshots</a></li>
+	<li id="menu_download">	<a href="download.html">Download</a></li>
+	<li id="menu_guide">	<a href="guide.html">Guide</a></li>
+	<li id="menu_faq">	<a href="faq.html">FAQ</a></li>
+	<li id="menu_dev">	<a href="devel.html">Development</a></li>
+	<li id="menu_forums">	<a href="https://forum.gmusicbrowser.org">Forums</a></li>
+	<li id="menu_wiki">	<a href="https://wiki.gmusicbrowser.org/">Wiki</a></li>
+	</ul>
+</div>
+
+<div id="content">
+<dl>
+<dt><b>I can't play anything.</b></dt>
+<dd>	You probably need to install some libraries/programs (see the <a href="download.html">download page</a>). Three systems can be used for playback : gstreamer, mplayer and mpg123/ogg123/flac123. The Audio tab in the settings dialog will show you which of these were found, and what file format they support.<br>
+Also, If you're still using a version &lt;0.963, it won't be able to use gstreamer version &gt;=0.10.16 (due to a plugin name change), you should upgrade gmusicbrowser to a newer version.
+</dd>
+<dt><b>How do I get an all-in-one window like in the screenshots ?</b></dt>
+<dd>	Change the "Player window layout" in the "Layouts" tab of the settings dialog. A number of layouts are available, more can be created, see <a href=layout_doc.html>layouts documentation</a>.
+</dd>
+<dt><b>How do I get a tray icon ?</b></dt>
+<dd>	Options for the tray icon can be found in the Layout tab of the settings dialog. In particular you can choose the contents of the window that appear when you hover over the tray icon. Note that it requires a desktop that has an icon tray, and some desktop requires the icon to be white-listed (see <a href="https://forum.gmusicbrowser.org/index.php?topic=558.0">this forum post</a>). 
+</dd>
+<dt><b>How do I move my music to a new folder ?</b></dt>
+<dd>	The best way is probably to use the following command (while gmusicbrowser is not running) to replace the folder names in the tags file :<br>
+<code>perl -pi.premove -e 's#/OLD_FOLDER/#/home/MY_NAME/Music/#g' ~/.config/gmusicbrowser/gmbrc</code><br>replace the folder names to suit your needs.<br>
+Note that by using symbolic links, you can have ~/Music/ always contain your music no matter in what folder or disk it is, and thus avoid having to change the folder in gmusicbrowser or any other program.
+</dd>
+<dt><b>Artists names containing a '&amp;' are truncated.</b></dt>
+<dd>	It's a feature, artist names like "a, b &amp; c" are split into 3 different artists, so you can search all songs featuring artist "a". Of course it's not perfect, there is an option to change/disable this in the Misc. tab of the preference dialog (it requires a restart to take effect). In the future, I will probably change this guess to using multiple artist tags in the file.
+</dd>
+<dt><b>The same album is recognized as 2 different albums</b></dt>
+<dd>	There is currently a small bug that can cause this, if some of the songs have an album_artist set, but some do not, they will be seen as 2 different albums.
+</dd>
+<dt><b>I already have a cover file for my albums, is there an alternative to manually selecting the file for each album ?</b></dt>
+<dd>	When scanning for new songs, if one of the songs contain an embedded picture it should be used. Else if a folder contains only one album and contain pictures, a picture will be chosen automatically based on the filename (unless the cover is already set or you've chosen "no picture" for that album). Filenames containing words from the album title will have a high score, the words cover/front/folder/thumb/thumbnail are a bonus, the words back/cd/inside/booklet a malus. The filename with the highest score will be chosen.<br>
+The auto-selection of covers may be done at any time by selecting 2 or more albums and choosing "Auto-select pictures".
+</dd>
+<dt><b>How do I control gmusicbrowser with global shortcuts or multimedia keys ?</b></dt>
+<dd>	You have to configure your window manager to execute the command <code>gmusicbrowser -cmd PlayPause</code> when the key combination you want is pressed. Replace "PlayPause" by the command you want, to see the list of available commands, run <code>gmusicbrowser -listcmd</code>.<br>
+If you have the DBus perl bindings, you can also control gmusicbrowser though the <a href="https://wiki.gmusicbrowser.org/doku.php?id=dbus_api">DBus interface</a>.<br>
+If you use Gnome &gt;=2.18, you can use the included gnome multimedia keys plugin (needs DBus perl bindings), that will automatically make the Play/Pause, Stop, Previous and Next multimedia keys work.<br>
+<a href="http://xpd259.blogspot.com/2008/10/gnome-keybindings-on-linux.html">This article</a> explains how configure keybindings in metacity (gnome's default window manger).
+</dd>
+<dt><b>How can I see the song lyrics ?</b></dt>
+<dd>	You have to activate the lyrics plugin in the settings dialog. And have a context window open or use a layout which has an integrated context view. You can press 'c' in the default player window to open a context window. You can also use the webcontext plugin to search for lyrics using google.
+</dd>
+<dt><b>How can I see the wikipedia page for the artist ?</b></dt>
+<dd>	You have to activate the webcontext plugin in the settings dialog. And have a context window open or use a layout which has an integrated context view. You can press 'c' in the default player window to open a context window.<br>
+	If the webcontext plugin doesn't appear in the plugin list, it's probably because you don't have the required gtk2-mozembed or gtk2-webkit perl bindings installed (may be found in a package named libgtk2-mozembed-perl or perl-Gtk2-MozEmbed for MozEmbed, perl-Gtk2-WebKit for WebKit), see also this <a href="https://wiki.gmusicbrowser.org/doku.php?id=install:mozembed">wiki page</a>.
+</dd>
+<dt><b>gmusicbrowser crashes as soon as it display an internet page with the mozembed plugin</b></dt>
+<dd>	There is a currently a problem with the gtk2-mozembed perl bindings which may cause gtkmozembed to crash because it cannot find its libraries. Setting LD_LIBRARY_PATH to the mozilla lib path may fix this. For example : <code>LD_LIBRARY_PATH=/usr/lib/mozilla-firefox-2.0.0.3/</code><br>See also this <a href="https://wiki.gmusicbrowser.org/doku.php?id=install:mozembed">wiki page</a>
+</dd>
+<dt><b>The included icons don't fit well with my gtk2 icon theme, how can I change them ?</b></dt>
+<dd>	The icons gmusicbrowser use are installed in <code>/usr/share/gmusicbrowser/pix/</code>, you can replace all the gmb-* icons by putting an icon with the same name in png or svg format in the folder <code>~/.config/gmusicbrowser/icons/</code> . You can also replace the gtk2 icons in the same way, for example, to replace the play icon, name the replacement : <code>~/.config/gmusicbrowser/icons/gtk-media-play.png</code>. See <a href="http://library.gnome.org/devel/gtk/stable/gtk-Stock-Items.html">this page</a> for the list of gtk2 icons with their names.<br>Icon themes are now supported, a gnome-classic and a tango theme are included, more themes can be created by putting icons in a sub-folder of  <code>~/.config/gmusicbrowser/icons/</code> or <code>/usr/share/gmusicbrowser/pix/</code>
+<br>To replace the tray icon, simply put a 24x24 png in ~/.config/gmusicbrowser/icons/trayicon.png.
+<br>See <a href="https://wiki.gmusicbrowser.org/doku.php?id=customization:icons">this page</a> for more informations
+</dd>
+<dt><b>How can I customize the appearance of gmusicbrowser ?</b></dt>
+<dd>	You can create a custom layout (see <a href="layout_doc.html">the documentation</a> and <a href="contrib.html">some contributed layouts</a>). You can also use a gtk theme different from the rest of your system by launching gmusicbrowser like that :<code>GTK2_RC_FILES=REPLACEME/gtk-2.0/gtkrc gmusicbrowser</code>, where REPLACEME is the path to the theme. (system-wide theme are usualy in /usr/share/themes/, user installed theme in ~/.themes/).<br>
+Some parts of gmusicbrowser can also be skinned, see <a href="https://wiki.gmusicbrowser.org/doku.php?id=customization:skins">this page</a> for some documentation.
+</dd>
+<dt><b>How can I customize the SongTree widget ?</b></dt>
+<dd>	You can change the grouping and skin used in the right-click menu of the columns header. The documentation to create new group skins and columns is <a href="https://wiki.gmusicbrowser.org/doku.php?id=customization:songtree">here</a>. Keep in mind that the SongTree is not complete and will be improved in the future, and the documentation needs work.
+</dd>
+<dt><b>How do I create/save a playlist ?</b></dt>
+<dd>	This is what I call static lists. You can create one by dragging a song on the "saved lists" item in the "saved" tab of a filter panel in a browser window. Once created you can add song to it by right-clicking
+on a song. You can edit the list by right-clicking on the list in the "saved" tab and choose edit.<br>
+Layouts with a tabbedlists widget make handling static lists much easier<br>
+If you don't care about the song order of the list (and don't want to put one song multiple times), a probably better way is to create a label (in the labels tab of the settings dialog), and assign the song you want with this label.
+</dd>
+<dt><b>Does gmusicbrowser support cue sheets ?</b></dt>
+<dd>	Not currently, but I plan to.<br>There is a very limited support with this <a href="files/cue.pm">plugin</a>, it adds a context view which displays the cuesheet of the playing file (if it has the same filename with the .cue extension), and allows you to skip to the different tracks. But gmusicbrowser will still see the file as a single song.
+</dd>
+<dt><b>Does gmusicbrowser supports ipods ?</b></dt>
+<dd>	Not currently. You can however use the export plugin to setup a custom menu entry (that will appear in the songs contextual menu) that will copy selected songs to your ipod. For that you will have to install and configure a command-line program like <a href="http://www.cactii.net/~bb/">Podtool</a> or <a href="http://www.gnu.org/software/gnupod/">gnupod</a>, and come up with the correct command-line. Ask me If you have problems doing it.
+</dd>
+<dt><b>What is the difference between shuffle and a non-weighted random mode ?</b></dt>
+<dd>	In shuffle order, all songs are given a random number that is used to sort them. This random number doesn't change until the songs are re-shuffled by selecting shuffle a second time. The advantage is that the songs keeps their relative order, even if you add or remove some. With a non-weighted random mode, songs are randomly picked as needed.
+</dd>
+<dt><b>Why are the filter panels on the right side of the default browser window ?</b></dt>
+<dd>	I initially developed gmusicbrowser on a slow machine. With this disposition the song list doesn't need to be redrawn when resizing the panels, so it's faster.
+</dd>
+<dt><b>Does gmusicbrowser have music visualizations ?</b></dt>
+<dd>	It does, only with gstreamer. But in the tests I've made on my system (64-bit, gstreamer-0.10.9), they were very unstable, some visuals plugins crashed right away, and some after 1~60 minutes. Although they seemed more stable on a 32-bit system. Due to this instability, they are not used in any of the included layouts for now.<br>
+If you want to try for yourself, download <a href=files/test_visuals.layout>this file</a> and put it in ~/.config/gmusicbrowser/layouts/ (see <a href=layout_doc.html>this page</a> for more information on layouts). After restarting gmusicbrowser, choose "test_visuals" for the player window layout in the misc. tab of the settings  dialog. The visuals plugin can be selected by right-clicking on the visuals widget.<br>
+Of course you need at least one gstreamer visuals plugin installed, you also need to have the GStreamer::Interfaces perl module installed.
+</dd>
+<dt><b>Are labels, ratings, play count ... saved in the mp3/ogg/... tags ?</b></dt>
+<dd>	You can enable the saving of ratings and play counts in the tag (using the <a href="http://www.freedesktop.org/wiki/Specifications/free-media-player-specs">fpms standard</a>) in the "Fields" tab of the preferences (Note that it requires a restart, and only affect future changes, to write current ratings and play counts to tags, use the "Update tags" button in the "Tags" tab of the preferences).<br>
+Other fields (labels, skip count, ...) can not currently be saved in tags, though it is easy to add, it is mainly a problem of finding standard tags for that.<br>
+Not saving them in the tags has the advantage that setting labels/ratings for thousands of files is instantaneous, and doesn't require write permission on the files (annoying if the partition containing your music is mounted read-only).
+</dd>
+<dt><b>Where is the configuration and extra song properties (labels, ratings, play count ...) saved ?</b></dt>
+<dd>	Everything is saved in the file ~/.config/gmusicbrowser/gmbrc (was ~/.config/gmusicbrowser/tags in pre 1.1.x versions, or ~/.gmusicbrowser/tags if you have started using gmusicbrowser before v0.963). A few backup versions are kept in the same folder in case something goes wrong. You can use the "-cfg" command-line option to use an alternate location.
+</dd>
+<dt><b>Does it support gapless playback ?</b></dt>
+<dd>	There is an option for it when using gstreamer (preferences-&gt;audio-&gt;gstreamer's advanced options). Note that it might be slightly unstable if you are using an old version of the glib perl bindings. There is also a <a href="https://forum.gmusicbrowser.org/index.php?topic=100.0">little hack to get gapless playback with mplayer</a>.
+</dd>
+<dt><b>Does gmusicbrowser works under windows ?</b></dt>
+<dd>	Almost, but playback and internet connection don't work. Although playback could work with gstreamer. I know gstreamer can be compiled for windows, but I don't know if anyone tried to compile the gstreamer perl bindings on windows, if anybody wants to try, tell me of your success/failure.<br>
+And of course to run gmusicbrowser under windows you need to install perl and the gtk2 libs (<a href="http://gtk2-perl.sourceforge.net/win32/">see this page</a>).
+</dd>
+
+</dl>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.gmusicbrowser.org/" : "http://stats.gmusicbrowser.org/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.gmusicbrowser.org/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</div>
+
+</body>
+</html>

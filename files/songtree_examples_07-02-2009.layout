@@ -1,0 +1,191 @@
+# a few Group and Column examples for the SongTree
+
+{Group cover_and_info_top}
+title=(example) Cover and info on top
+head= pic:h
+vcollapse=head
+left= 20
+tail=2
+title:	text(markup='<b><big>'.pesc($title).'</big></b>',x=pic:x+pic:w)
+year:	text(text=$year.' - ',hide=!$year)
+songs:	text(text=$nbsongs.' songs', y=year:y)
+pack2:	ypack(y=pic:y+2, children=title|year)
+pack1:	xpack(x=title:x+2, children=year|songs)
+pic:	aapic(picsize=128,pad=2)
+
+{Group cover_and_info_top2}
+title=(example) Cover and info on top2
+head= max(pic:h,year:y+year:h)
+vcollapse=head
+left= 20
+tail=2
+title:	text(markup='<b><big>'.pesc($title).'</big></b>',x=pic:x+pic:w)
+year:	text(text=$year.' - ',hide=!$year)
+songs:	text(text=$nbsongs.' songs', y=year:y)
+pack2:	ypack(y=pic:y+2, children=title|year)
+pack1:	xpack(x=title:x+2, children=year|songs)
+pic:	aapic(picsize=optsize,pad=2)
+optsize : OptionNumber(default=60,min=10,max=300,step=10)
+
+{Group cover_and_info_top3}
+title=(example) Cover and info on top3
+head= pic:h+4
+vcollapse=head
+left= 20
+tail=2
+title:	text(markup='<b><big>'.pesc($title).'</big></b>', x=pic:x+pic:w)
+year:	text(text=$year, x=title:x)
+songs:	text(text=$nbsongs.' songs', y=year:y, x=-songs:w)
+pack2:	ypack(y=0, children=title|year)
+pic:	aapic(picsize= pack2:h)
+
+
+{Group cover_and_info_top4}
+title=(example) Cover and info on top4
+head= pic:h+4
+vcollapse=head
+left= 20
+tail=2
+title1:	text( markup= '<b><big>'. pesc($album) .'</big></b>', x=pic:x+pic:w)
+title2:	text( markup= '<b><big>'. pesc($artist).'</big></b>', x=title1:x)
+year:	text( text=$year,			x=title1:x)
+songs:	text( text=$nbsongs.' songs', y=year:y, x=-songs:w)
+pack2:	ypack(y=0, children=title1|title2|year)
+pic:	aapic(picsize= pack2:h)
+line:	line( x1=title1:x, x2=-1, y1=year:y)
+
+{Group cover_and_info_top5}
+title=(example) Cover and info on top5
+head= pic:h+4
+vcollapse=head
+tail=2
+title1:	text( markup='<span font_desc="'.alfont.'" foreground="'.alcolor.'">'. pesc($album) .'</span>', x=pic:x + pic:w+4)
+title2:	text( markup='<span font_desc="'.arfont.'" foreground="'.arcolor.'">'. pesc($artist).'</span>', x=title1:x)
+year:	text( text=$year,			x=title1:x)
+songs:	text( text=$nbsongs.' songs', y=year:y, x=-songs:w)
+pack2:	ypack(y=0, children=title1|title2|year)
+pic:	aapic(picsize= pack2:h)
+line:	line( x1=title1:x, x2=-1, y1=year:y)
+alcolor:	OptionColor(	default='#474799',		name='Album color')
+arcolor:	OptionColor(	default='black',		name='Artist color')
+alfont:		OptionFont(	default='Arial 20',		name='Album font')
+arfont:		OptionFont(	default='Sans Bold Italic 12',	name='Artist font')
+
+{Group cover_and_info_top6}
+title=(example) Cover and info on top6
+head= pic:h+4
+vcollapse=head
+tail=2
+title1:	text( markup='<span font_desc="'.alfont.'" foreground="'.alcolor.'">'. pesc($album) .'</span>', x=pic:x + pic:w+4)
+title2:	text( markup='<span font_desc="'.arfont.'" foreground="'.arcolor.'">'. pesc($artist).'</span>', x=title1:x)
+year:	text( text=$year,			x=title1:x)
+songs:	text( text=$nbsongs.' songs', y=year:y, x=-songs:w)
+pack2:	ypack(y=0, children=title1|title2|year)
+pic:	aapic(picsize= pack2:h)
+stars:	picture(file=ratingpic($rating_avrg), y=songs:y, x=songs:x-stars:w-6)
+line:	line( x1=title1:x, x2=-1, y1=year:y)
+alcolor:	OptionColor(	default='#474799',		name='Album color')
+arcolor:	OptionColor(	default='black',		name='Artist color')
+alfont:		OptionFont(	default='Arial 20',		name='Album font')
+arfont:		OptionFont(	default='Sans Bold Italic 12',	name='Artist font')
+
+
+
+# 2 vertical groups
+
+{Group vertical_title}
+title=(example) Vertical title
+left=30
+title : text(markup='<b><big>'.pesc($title).'</big></b>', rotate=90, h=$_h, y=2,x=4,yalign=0)
+
+{Group vertical_title_cover}
+title=(example) Vertical title & cover
+left=pic:w
+vmin=pic:w
+title : text(markup='<b><big>'.pesc($title).'</big></b>', rotate=90, h=$_h, y=pic:h+4, x=4, yalign=0)
+pic:	aapic(picsize= optsize)
+optsize : OptionNumber(default=30,min=10,max=300,step=10)
+
+
+# 2 simple columns
+
+{Column simple}
+title = (example) simple title
+hreq= text:h+text:y
+songbl= text
+width = 200
+sort = title
+text : text(markup=playmarkup($title))
+
+{Column testBIG}
+title = (example) BIG title
+hreq= text:h+text:y
+songbl= text
+width = 200
+sort = title
+text : text(markup='<b><span size="xx-large">'.pesc($title).'</span></b>', init_markup='<b><span size="xx-large">init</span></b>')
+# the init_markup is there so that the height request of the column will be correct, because the height request is determined at with no song, so $title is empty, and thus its size ignored
+
+
+## a column in multiple lines, made to be displayed without (most?) other columns.
+
+{Column 2lines}
+title = (example) 2 lines
+hreq= title:h+title:y + max(comment:h,rating:h)
+songbl= title|length
+width = 400
+sort = title
+title : text(markup= playmarkup('<big>'.pesc($title).'</big>'), w= -length:w-4,		init_markup='<big> </big>')
+length : text(text=$length, x= -length:w)
+comment : text(markup= '<small>'.pesc($comment).'</small>', y=title:h, 			init_markup='<small> </small>')
+rating : picture(file=ratingpic($rating), x=-rating:w, y=title:h, init_file=ratingpic(0))
+
+#so that length and title  are on the same line
+blalign1: blalign(children=title|length)
+
+{Column 2lines2}
+title = (example) 2 lines2
+hreq= alpic:h
+songbl= title|length
+width = 400
+sort = title
+title:	text(markup= playmarkup('<big>'.pesc($title).'</big>'), x=alpic:w, w= -length:w-4-icolabel:w, init_markup='<big> </big>')
+length:	text(text=$length, x= -length:w)
+comment:text(markup= '<small>'.pesc($comment).'</small>', y=title:h, x=	alpic:w,		init_markup='<small> </small>')
+rating:	picture(file=ratingpic($rating), x=-rating:w, y=title:h, init_file=ratingpic(0))
+alpic:	aapic( picsize= title:h + max(comment:h,rating:h), aa='album', aakey=$album)
+icolabel: icon( x=title:w, h=title:h, icon=$labelicons)
+blalign1: blalign(children=title|length)
+
+{Column 2lines3}
+title = (example) 3 lines3
+hreq= alpic:h
+songbl= title|length
+width = 400
+sort = title
+title:	text(markup= playmarkup('<big>'.pesc($title).'</big>'), x=alpic:w, w= -length:w-4-icolabel:w, init_markup='<big> </big>',ypad=2)
+length:	text(text=$length, x= -length:w,ypad=2)
+album:	text(markup= '<small>'.pesc( $album.if($year,' ('.$year.')').'\n'.$artist ).'</small>', y=title:y+title:h, x=	alpic:w,ypad=2)
+rating:	picture(file=ratingpic($rating), x=-rating:w, y=title:y+title:h, init_file=ratingpic(0))
+alpic:	aapic( picsize= title:y+title:h + max(album:h,rating:h), aa='album', aakey=$album)
+icolabel: icon( x=title:w, h=title:h, y=title:y, icon=$labelicons)
+blalign1: blalign(children=title|length)
+
+{Column 2lines4}
+title = (example) 3 lines4
+hreq= alpic:h
+songbl= title|length
+width = 400
+sort = title
+title:	text(markup= playmarkup('<big>'.pesc($title).'</big>'), x=alpic:w, w= -length:w-4-icolabel:w, init_markup='<big> </big>',ypad=2)
+length:	text(text=$length, x= -length:w,ypad=2)
+album:	text(markup= '<small>'.		if($track,'<span foreground="gray">'. $track. ' </span>').	\
+					pesc($album).							\
+					if($year,' ('.pesc($year).')') . '\n'.				\
+					pesc($artist).							\
+				'</small>',	y= title:y+title:h, x= alpic:w, ypad=2)
+rating:	picture(file=ratingpic($rating), x=-rating:w, y=title:y+title:h, init_file=ratingpic(0))
+alpic:	aapic( picsize= title:y+title:h + max(album:h,rating:h), aa='album', aakey=$album)
+icolabel: icon( x=title:w, h=title:h, y=title:y, icon=$labelicons)
+blalign1: blalign(children=title|length)
+

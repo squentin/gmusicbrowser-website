@@ -1,0 +1,4 @@
+Options -ExecCGI -Includes
+SetHandler default-handler
+#AddType text/plain pl pm
+

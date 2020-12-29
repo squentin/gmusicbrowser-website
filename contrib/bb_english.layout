@@ -1,0 +1,24 @@
+[Tabbed browsing]
+
+Type=G
+Default = Window sticky=1
+HBIndic         = Sort 10Filter Queue 10Pos -Stars
+HBTitle         = Filler0 _Title
+HBArtist        = LockArtist _Artist
+HBAlbum         = LockAlbum _Album -Date
+HBTime          = LabelTime Length _Scale
+VBText          = 2HBTitle 2HBArtist 2HBAlbum
+HBButtons       = Vol Prev Stop Play Next ChooseRandAlbum -Quit -Pref -Playlist
+VBmain          = HBButtons 10HBIndic 20VBchanson 10_HBCover
+HBCover         = 10_Cover(300)
+VBchanson       = VBText 10HBTime
+HBfilt          = Label(Recherche) 5SimpleSearch ResetFilter 
+VBfilt          = HBfilt _SongList(activate=play)
+HBparcourirBonttons = _PlayFilter _QueueFilter
+VBparcourir     = _FPane2(nb=2) HBparcourirBonttons
+HPparcourir     = _FPane1(nb=1) _VBparcourir
+TBbook          = "Browse Library" HPparcourir "Filtered Songs" VBfilt "Queue" QueueList(small=1,bpos=bottom) "Lyrics" Context
+HBmain          = VBmain _TBbook
+HSize0          = 320 VBmain
+VolumeScroll    = Vol
+

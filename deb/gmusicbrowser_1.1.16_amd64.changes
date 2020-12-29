@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 18 Nov 2020 22:40:00 +0200
+Source: gmusicbrowser
+Binary: gmusicbrowser
+Architecture: source all
+Version: 1.1.16
+Distribution: focal
+Urgency: low
+Maintainer: Quentin Sculo <squentin@free.fr>
+Changed-By: Quentin Sculo <squentin@free.fr>
+Description:
+ gmusicbrowser - very customizable jukebox for large collections of music files
+Changes:
+ gmusicbrowser (1.1.16) focal; urgency=low
+ .
+   * new version
+Checksums-Sha1:
+ 170121eca75b1fa6af2342dbe7da5fff371ac9fc 858 gmusicbrowser_1.1.16.dsc
+ 9179dfb7dacdd0ec3453a108d993ef4b75406c35 2342579 gmusicbrowser_1.1.16.tar.gz
+ 5ed2f9ca54b07f4e159e3e47c89c226b85c1df5b 987472 gmusicbrowser_1.1.16_all.deb
+ 9ece21f3ae501cf125a019c3f33fc77155b862a3 5927 gmusicbrowser_1.1.16_amd64.buildinfo
+Checksums-Sha256:
+ c98ead4763aef50d8f41db6e76a549598b802a9ebd9eca9afbb84df5663516ac 858 gmusicbrowser_1.1.16.dsc
+ 514c4294512f76109f644cbc072522d993701004479aadf7287bba2d20806ef4 2342579 gmusicbrowser_1.1.16.tar.gz
+ adda49e91f7b395e04fc3a2ea438901abf647bb091d0aa4fb9b3aaa4624e13c2 987472 gmusicbrowser_1.1.16_all.deb
+ 68ab420718bb0d6096eadc15fb58198832f83e275cbcbeca4f71f6854672b48a 5927 gmusicbrowser_1.1.16_amd64.buildinfo
+Files:
+ 99f4f4613af92c8b2763c9221ec8213b 858 sound optional gmusicbrowser_1.1.16.dsc
+ 17447ffa2bd648d55feaef0015aa3767 2342579 sound optional gmusicbrowser_1.1.16.tar.gz
+ f0b365fed2a9c98a01094014e60748ac 987472 sound optional gmusicbrowser_1.1.16_all.deb
+ d4488906d0050fdf6487c2dd69d18aff 5927 sound optional gmusicbrowser_1.1.16_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iG8EARECAC8WIQTLXRuTHjeeqQCy624v5SdYCt2BUQUCX7WexhEcc3F1ZW50aW5A
+ZnJlZS5mcgAKCRAv5SdYCt2BUdwnAJ4smEayeeUexAHELX5aCH1XSKSkSwCZAers
+nY8gFDCLwtqNF3n/lF5yljc=
+=F+i8
+-----END PGP SIGNATURE-----

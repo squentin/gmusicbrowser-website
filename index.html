@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gmusicbrowser</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css">
+</head>
+
+<body id="section_main">
+
+<div id="header">
+	<h1><img style="width: 48px; height: 48px;" alt="application icon" src="icons/icon.png">gmusicbrowser</h1>
+	<ul>
+	<li id="menu_main">	<a href="/">Main</a></li>
+	<li id="menu_ss">	<a href="screenshots.html">Screenshots</a></li>
+	<li id="menu_download">	<a href="download.html">Download</a></li>
+	<li id="menu_guide">	<a href="guide.html">Guide</a></li>
+	<li id="menu_faq">	<a href="faq.html">FAQ</a></li>
+	<li id="menu_dev">	<a href="devel.html">Development</a></li>
+	<li id="menu_forums">	<a href="https://forum.gmusicbrowser.org">Forums</a></li>
+	<li id="menu_wiki">	<a href="https://wiki.gmusicbrowser.org/">Wiki</a></li>
+	</ul>
+</div>
+
+<ul class="sidethumb">
+	<li><a href="screenshots/gmusicbrowser_tarmac.png"><img src="screenshots/100.gmusicbrowser_tarmac.png" alt="screenshot of the default layout"></a></li>
+	<li><a href="screenshots/QueueLibraryContext.png"><img src="screenshots/100.QueueLibraryContext.png" alt="screenshot of the layout 'Queue, Library & Context'"></a></li>
+	<li><a href="screenshots/tabbed.png"><img src="screenshots/100.tabbed.png" alt="screenshot of the layout 'with tabbedlists'"></a></li>
+	<li><a href="screenshots/songtree_example.png"><img src="screenshots/100.songtree_example.png" alt="screenshot of the SongTree"></a></li>
+	<li><a href="screenshots/player_with_queue.png"><img src="screenshots/100.player_with_queue.png" alt="screenshot of the layout 'with queue'"></a></li>
+	<li><a href="screenshots/SearchAndQueue.png"><img src="screenshots/100.SearchAndQueue.png" alt="screenshot of the layout 'Search & Queue'"></a></li>
+	<li><a href="screenshots/itunelike.png"><img src="screenshots/100.itunelike.png" alt="screenshot of the layout 'itunes-like'"></a></li>
+</ul>
+
+<div id="content">
+	<h3>About</h3>
+gmusicbrowser : A customizable open-source jukebox for large collections.<br>
+by Quentin Sculo (<a href="mailto:squentin&#64;free.fr?Subject=gmusicbrowser%20%3a%20">squentin&#64;free.fr</a>)<br>
+<br>
+
+<h3>requirements</h3>
+
+<ul>
+  <li><a href="http://www.perl.org/">perl</a></li>
+
+  <li><a href="http://www.gtk.org/">gtk+2</a> and <a href="http://gtk2-perl.sourceforge.net/">its perl bindings</a></li>
+
+  <li><a href="http://gstreamer.freedesktop.org/">gstreamer</a> and <a href="http://gtk2-perl.sourceforge.net/">its perl bindings</a>&nbsp; <b>or</b>&nbsp; <a href="http://mpg321.sourceforge.net/">mpg321</a>/<a href="http://www.vorbis.com/">ogg123</a>/<a href="http://flac-tools.sourceforge.net/">flac123</a>/<a href="http://www.alsa-project.org/">amixer</a> <b>or</b>&nbsp; <a href="http://www.mplayerhq.hu/">mplayer</a></li>
+
+<!--
+<li>(optional) the <a href="http://search.cpan.org/dist/Gtk2-MozEmbed/MozEmbed.pm">Gtk2::MozEmbed</a> module or the <a href="http://search.cpan.org/dist/Gtk2-WebKit/">Gtk2::WebKit</a> module. To use the WebContext plugin <small>(used for wikipedia artist page and searching lyrics with google) (Gtk2::MozEmbed may have problems on some systems, see <a href="https://wiki.gmusicbrowser.org/doku.php?id=install:mozembed">this page</a>)</small></li>
+-->
+<li>(optional) the <a href="http://search.cpan.org/perldoc?Net::DBus">Net::DBus</a> module is needed to control gmusicbrowser through DBus or to use the included gnome multimedia keys plugin (for gnome &gt;= 2.18)</li>
+<li>(optional) the <a href="http://search.cpan.org/perldoc?Gtk2::Notify">Gtk2::Notify</a> module is needed to use the notify plugin</li>
+
+</ul>
+
+<br><br><br>
+
+<h3>main features</h3>
+
+<ul>
+  <li>made with big (&gt; 10,000 songs) libraries in mind <small style="font-style: italic;">(currently developed with over 27,000 songs)</small></li>
+  <li>customizable window layouts (see <a href="layout_doc.html">layouts documentation</a>)</li>
+  <li>artist/album lock : easily restrict playlist to current artist/album</li>
+  <li>easy access to songs related to the currently playing song
+   <ul>
+    <li>songs from the same album</li>
+    <li>album(s) from the same artist(s)</li>
+    <li>songs with same title (other versions, covers, ...)</li>
+   </ul>
+  </li>
+  <li>support ogg vorbis, mp3 and flac files (and opus/mpc/ape/m4a with gstreamer, mplayer or mpv)</li>
+  <li>simple mass-tagging and mass-renaming</li>
+  <li>tray icon, with a very customizable tip window, which can be used to control the player</li>
+  <li>very customizable SongTree widget for a pretty list of songs (<a href="screenshots/songtree_example.png">example</a>)</li>
+  <li>support multiple genres for a song</li>
+  <li>support multiple artists for each song by separating them with ', ' or ' &amp; '</li>
+  <li>customizable labels can be set for each song (ex : bootleg, live, -'s favorites, ...)</li>
+  <li>powerful search (nested conditions, can search any field using regular expression or fuzzy search)</li>
+  <li>customizable weighted random mode (based on rating, last time played, label, ...)</li>
+  <li>browse through pictures and pdf in the album's folder</li>
+  <li>The possibility to act as a icecast server, to listen to your music remotely (experimental)</li>
+  <li>plugin system, included plugins :
+   <ul>
+    <li>nowplaying (to update an external program when the playing song changes)</li>
+    <li><a href="http://www.last.fm">last.fm</a></li>
+    <li>find pictures</li>
+    <li>simple lyrics</li>
+    <li>artist or album info</li>
+    <li>customizable desktop widgets</li>
+<!--    <li>WebContext : use the mozilla/webkit engine to display wikipedia artist page and search lyrics with google</li>
+-->
+   </ul>
+  </li>
+</ul>
+
+<br>
+<h3>TODO :</h3>
+<ul>
+  <li>Update this website !</li>
+  <li>handling of static playlists could be improved</li>
+  <li>improve the SongTree widget</li>
+  <li>support wma file format</li>
+  <li>better alternative layouts and more layouts widgets</li>
+  <li>translations (see <a href="translations.html">this page</a> for the translation status, contact me if you are interested in translating to other languages)</li>
+  <li>web-radios</li>
+  <li>skinned layouts (partly done, but still experimental)</li>
+  <li>ipod support</li>
+  <li>lot of small things ...</li>
+</ul>
+<a href="https://wiki.gmusicbrowser.org/doku.php?id=plans">more detailed list</a> in the wiki<br>
+<br>
+
+Feel free to <a href="mailto:squentin&#64;free.fr?Subject=gmusicbrowser%20%3a%20">mail me</a> (in english or french) any comments/suggestions/bugs (please include "gmusicbrowser" or "gmb" in the subject), post them in the <a href="https://forum.gmusicbrowser.org">forums</a>.<br>
+<a id="donate"></a>You can also donate :<br>
+
+Donate in Euros :
+<!-- paypal euro -->
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="Z5PSTE48WAUMN">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="Support This Project (in euro)">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
+<!-- end paypal euro -->
+
+Donate in USD :<br>
+<!-- paypal dollar -->
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="7ZS6V96U2RFXG">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="Support This Project (in dollar)">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
+<!-- end paypal dollar -->
+
+<a href="http://sourceforge.net/donate/index.php?group_id=147463"><img src="https://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project (in USD)" /> </a>
+<br>
+<a href="http://sourceforge.net/projects/gmusicbrowser"><img src="https://sflogo.sourceforge.net/sflogo.php?group_id=147463&type=8" width="80" height="15" border="0" alt="Get gmusicbrowser at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+
+<br><br>
+Or use these affiliate links when shopping at amazon (to buy music or anything else) :<br>
+<a target="_blank" href="https://www.amazon.com/b?_encoding=UTF8&tag=gmusicbrowser-20&linkCode=ur2&linkId=d6b6ad03a36b1428da7f40572cb298f3&camp=1789&creative=9325&node=324381011">Amazon US store</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=gmusicbrowser-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br>
+<a target="_blank" href="https://www.amazon.fr/b?_encoding=UTF8&tag=gmusicbrowser-21&linkCode=ur2&linkId=0a6377c3c97f6406e9354d4252be7ab8&camp=1642&creative=6746&node=206442031">Amazon French store</a><img src="//ir-fr.amazon-adsystem.com/e/ir?t=gmusicbrowser-21&l=ur2&o=8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br>
+<br>
+
+<div id=tagline>Keep your music free, don't buy <a href="http://en.wikipedia.org/wiki/Digital_Rights_Management">DRM</a>'ed music.</div>
+
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.gmusicbrowser.org/" : "http://stats.gmusicbrowser.org/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.gmusicbrowser.org/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html>

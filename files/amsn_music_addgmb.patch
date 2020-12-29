@@ -1,0 +1,78 @@
+diff --git a/infogmusicbrowser b/infogmusicbrowser
+new file mode 100755
+index 0000000..418d603
+--- /dev/null
++++ b/infogmusicbrowser
+@@ -0,0 +1,18 @@
++#!/usr/bin/perl
++use warnings;
++use strict;
++use Net::DBus;
++
++my $bus = Net::DBus->session;
++my $service = $bus->get_service('org.gmusicbrowser');
++my $object = $service->get_object('/org/gmusicbrowser', 'org.gmusicbrowser');
++my $status= $object->Playing ? 'playing' : '';
++print "$status\n";
++
++my $info= $object->CurrentSong;
++$info->{pathfile}= $info->{path} ? $info->{path}.'/'.$info->{file} : '';
++$info->{album_picture}||= '';
++$info->{album_picture}='' if $info->{album_picture}=~m/flac$|mp3$/i;
++print "$info->{$_}\n" for qw/title artist pathfile album_picture album/;
++
++
+diff --git a/music.tcl b/music.tcl
+index 1984e9d..ba5a115 100644
+--- a/music.tcl
++++ b/music.tcl
+@@ -255,6 +255,7 @@ namespace eval ::music {
+ 					"Banshee" [list GetSongBanshee TreatSongBanshee FillFrameComplete] \
+ 					"Decibel" [list GetSongDecibel FillFrameLess] \
+ 					"Exaile" [list GetSongExaile TreatSongExaile FillFrameLess] \
++					"gmusicbrowser" [list GetSongGmusicbrowser TreatSongGmusicbrowser FillFrameComplete] \
+ 					"Juk" [list GetSongJuk TreatSongJuk FillFrameLess] \
+ 					"Juk-KDE4" [list GetSongJuk2 TreatSongJuk2 FillFrameLess] \
+ 					"LastFM" [list GetSongLastFM TreatSongLastFM FillFrameLess] \
+@@ -1203,6 +1204,41 @@ namespace eval ::music {
+ 		return [list $song $art $path "" ""]
+ 	}
+ 
++	##################################################
++	# ::music::TreatSongGmusicbrowser                #
++	# -------------------------------------------    #
++	# Gets the current playing song in Gmusicbrowser #
++	##################################################
++	proc TreatSongGmusicbrowser {} {
++		#Grab the information asynchronously : thanks to Tjikkun
++		after 0 {::music::exec_async [list [file join $::music::musicpluginpath "infogmusicbrowser"]] }
++	}
++
++	##################################################
++	# ::music::GetSongGmusicbrowser                  #
++	# -------------------------------------------    #
++	# Gets the current playing song in Gmusicbrowser #
++	##################################################
++	proc GetSongGmusicbrowser {} {
++		#Split the lines into a list and set the variables as appropriate
++		if { [catch {split $::music::actualsong "\n"} tmplst] } {
++			#actualsong isn't yet defined by asynchronous exec
++			return 0
++		}
++
++		set status [lindex $tmplst 0]
++		set title [lindex $tmplst 1]
++		set artist [lindex $tmplst 2]
++		set path [lindex $tmplst 3]
++		set cover [lindex $tmplst 4]
++		set album [lindex $tmplst 5]
++
++		if {$status ne "playing"} {
++			return 0
++		}
++		return [list $title $artist $path $cover $album]
++	}
++
+ 	###############################################
+ 	# ::music::TreatSongListen                    #
+ 	# ------------------------------------------- #

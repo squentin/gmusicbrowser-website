@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 19 Jan 2014 22:43:00 +0200
+Source: gmusicbrowser
+Binary: gmusicbrowser
+Architecture: source all
+Version: 1.1.11-1
+Distribution: saucy
+Urgency: low
+Maintainer: Quentin Sculo <squentin@free.fr>
+Changed-By: Quentin Sculo <squentin@free.fr>
+Description: 
+ gmusicbrowser - very customizable jukebox for large collections of music files
+Changes: 
+ gmusicbrowser (1.1.11-1) saucy; urgency=low
+ .
+   * fix not being able to remove filters from lists in playlist mode
+Checksums-Sha1: 
+ 574e167b25bf09c81d6d38c137569f556e748fd8 839 gmusicbrowser_1.1.11-1.dsc
+ 9304063c2cbafbace1447031debcdbd252079d41 2127392 gmusicbrowser_1.1.11-1.tar.gz
+ 67df1b424cd65fd6e036bf4bd1296dded8a203fd 1292928 gmusicbrowser_1.1.11-1_all.deb
+Checksums-Sha256: 
+ 84e9ffc114730aca61ecf98e2fbbc03002b0dfb769e26a74833ae0bf4d0df737 839 gmusicbrowser_1.1.11-1.dsc
+ a63dcaa98b503fab140436732310273dbd0436469a1182fd934eb812ddc5c310 2127392 gmusicbrowser_1.1.11-1.tar.gz
+ 1a1ea328ac3f157fe16c5f762d96dfc93b6913af3e1db8cb0549c0c637e4fccd 1292928 gmusicbrowser_1.1.11-1_all.deb
+Files: 
+ ea9c015da0bf624f479acbceb1ab21ff 839 sound optional gmusicbrowser_1.1.11-1.dsc
+ 7a34108d056ca978473d8f5370f3a7d8 2127392 sound optional gmusicbrowser_1.1.11-1.tar.gz
+ e196066b67bb2e1a355473dd0c579560 1292928 sound optional gmusicbrowser_1.1.11-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlLcRzYACgkQL+UnWArdgVFrQgCgvT6H/wQke5Crz4YUxmg28CaI
+CpcAoLOmzCcumvA3WZNy30QVDexIX8Vx
+=/Wip
+-----END PGP SIGNATURE-----

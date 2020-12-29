@@ -1,0 +1,141 @@
+[Z_ICE_V0.2]
+
+###################################################################################################
+#General
+###################################################################################################
+Type=G
+Default		= Window size=1120x820 FPane0 page=genre FPane1 page=artist FPane2 page=album,albumpsize=32,albuminfo=1 QueueList cols=track_titleaa_length_nbplay_rating VPRight 200_550
+
+#Havnt figured out these two>moving to General section..
+HPBottom	= VBLeft _TBRight
+VBmain		= HBmenu 5_HPBottom
+
+
+###################################################################################################
+#TopBar Menu Widget
+###################################################################################################
+
+#Structure
+HBmenu		= MBmenu Playlist(toggle)  Pref ChooseRandAlbum 10Total -Quit 30-Vol
+
+
+#Main menu
+MBmenu		= MainMenuItem SeparatorMenuItem PSortItem PFilterItem QueueItem 
+
+
+
+###################################################################################################
+###################################################################################################
+#Left Side
+###################################################################################################
+###################################################################################################
+###################################################################################################
+
+
+#Structure,Note that the number followed by _ dictates the length of the box
+VBLeft		= VBplayer -_HBContext -HBQueueButtons -_HBQue
+
+
+
+###################################################################################################
+###################################################################################################
+###################################################################################################
+
+
+###################################################################################################
+#Left Side #Top Player Widget-not text part (VBPLAYER)
+###################################################################################################
+
+#Structure
+VBplayer	= HBButtons3 HBText_Cover
+
+#Album Cover
+HBText_Cover	= _VBText 5-Cover
+#Buttons
+HBButtons3	= 5Sort 5Filter Queue 25Pos LabelsIcons -Stars
+
+
+###################################################################################################
+#Left Side #Bottom Player Widget-Text info part (VBPLAYER)
+###################################################################################################
+
+#Structure
+VBText		= HBButtons1 2HBTitle 2HBArtist 2HBAlbum HBTime 
+
+#Player main buttons
+HBButtons1	= Prev Stop Play Next 
+#Player Time bar
+HBTime		= LabelTime Length _Scale
+#Song Title
+HBTitle		= Filler0 _Title
+#Artist info
+HBArtist	= LockArtist _Artist
+#Album info
+HBAlbum		= LockAlbum _Album  -Date
+
+HSize0		= Filler0 LockArtist LockAlbum
+
+
+###################################################################################################
+#Left Side #Bottom Left Pane (HBQueueButtons)
+###################################################################################################
+
+#Bottom Queue list Buttons 
+HBQueueButtons	= EditListButtons(group=1,small=1) 4QueueActions PlayOrderCombo QueueActions
+
+
+###################################################################################################
+#Left Side #Context (lyrics plugin)
+###################################################################################################
+
+#Context box
+HBContext       =  _Context
+
+HBQue           = _QueueList(group=1)
+
+
+
+###################################################################################################
+###################################################################################################
+#Right Side
+###################################################################################################
+###################################################################################################
+###################################################################################################
+#Structure
+TBRight		= _"Library" VPRight 
+
+###################################################################################################
+#Right Side #VPRight 
+###################################################################################################
+#structure
+VPRight		= HPfp0 _VBSongList
+HPfp0	 	= FPane0(nb=1,hide=1) HPfp1
+HPfp1		= FPane1(nb=2,hide=1) FPane2(nb=3,hide=1)
+VBSongList	= HBSongList _SongTree(activate3=EnqueueSelected)
+
+
+###################################################################################################
+#Right Side #Songlist Bar
+###################################################################################################
+#Structure
+HBSongList	= SimpleSearch -FLock -PlayFilter -Refresh -ResetFilter -MBlist
+
+#Songlist bar menu
+MBlist 		= HistItem LSortItem PlayItem
+
+
+
+
+
+###################################################################################################
+#Extra configs
+###################################################################################################
+
+#Where whell is used to change volume  
+VolumeScroll	= VBplayer
+
+#Add fullscreen and rip buttons
+ExtraWidgets	= button HBButtons1(pack=-,relief=none)
+
+#keyboard shortcut configs
+KeyBindings	= f ToggleFullscreenLayout 

@@ -1,0 +1,28 @@
+[simple with big cover]
+Type=G
+Default			= Window size=800x550 FPane1 albumpsize=32
+VolumeScroll		= HPmain
+Title           	= %n. %S - %l (%y) - %a
+
+HPmain			= _VBcontrolbrowser TBlibrary
+HSize0			= 400 TBlibrary
+
+VBcontrolbrowser	= HBcontrolpic _Cover
+ HBcontrolpic		= _VBcontrol 2Filler1 -ArtistPic
+  VBcontrol		= HBbuttons _VBtext _Scale HBtimestars
+   HBbuttons		= Pref Prev Stop Play Next
+   VBtext		= _Title 2HBartist 2HBalbum
+     HBartist		= LockArtist _Artist
+     HBalbum		= LockAlbum _Album - Date
+   HBtimestars		= LabelTime Length -Stars
+
+TBlibrary		= Library VPbrowse Queue VBque Lyrics Context(followselection=1)
+ VPbrowse		= HPartistalbum  VBundersearch
+  HPartistalbum 	= FPane0(hide=1,pages=artist,nb=2) FPane1(hide=1,pages=album,nb=3)
+  VBundersearch		= HBsearch _SongList
+   HBsearch		= _SimpleSearch ResetFilter Sort(button=1) Filter(button=1) MBsortandplay
+    MBsortandplay	= LSortItem PlayItem
+ VBque			= _QueueList(group=1) HBQueueButtons
+  HBQueueButtons	= EditListButtons(group=1) QueueActions
+
+
