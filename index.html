@@ -43,15 +43,17 @@ by Quentin Sculo (<a href="mailto:squentin&#64;free.fr?Subject=gmusicbrowser%20%
 <ul>
   <li><a href="http://www.perl.org/">perl</a></li>
 
-  <li><a href="http://www.gtk.org/">gtk+2</a> and <a href="http://gtk2-perl.sourceforge.net/">its perl bindings</a></li>
+  <li><a href="http://www.gtk.org/">gtk+2</a> and <a href="http://gtk2-perl.sourceforge.net/">its perl bindings</a> (gtk3 version is in beta)</li>
 
-  <li><a href="http://gstreamer.freedesktop.org/">gstreamer</a> and <a href="http://gtk2-perl.sourceforge.net/">its perl bindings</a>&nbsp; <b>or</b>&nbsp; <a href="http://mpg321.sourceforge.net/">mpg321</a>/<a href="http://www.vorbis.com/">ogg123</a>/<a href="http://flac-tools.sourceforge.net/">flac123</a>/<a href="http://www.alsa-project.org/">amixer</a> <b>or</b>&nbsp; <a href="http://www.mplayerhq.hu/">mplayer</a></li>
+  <li><a href="http://gstreamer.freedesktop.org/">gstreamer</a><b>&nbsp; or &nbsp;</b> <a href="http://mpv.io">mpv</a> / <a href="http://www.mplayerhq.hu/">mplayer</a> <b>&nbsp; or &nbsp;</b> <a href="http://mpg321.sourceforge.net/">mpg321</a>/<a href="http://www.vorbis.com/">ogg123</a>/<a href="http://flac-tools.sourceforge.net/">flac123</a>/<a href="http://www.alsa-project.org/">amixer</a></li>
 
 <!--
 <li>(optional) the <a href="http://search.cpan.org/dist/Gtk2-MozEmbed/MozEmbed.pm">Gtk2::MozEmbed</a> module or the <a href="http://search.cpan.org/dist/Gtk2-WebKit/">Gtk2::WebKit</a> module. To use the WebContext plugin <small>(used for wikipedia artist page and searching lyrics with google) (Gtk2::MozEmbed may have problems on some systems, see <a href="https://wiki.gmusicbrowser.org/doku.php?id=install:mozembed">this page</a>)</small></li>
 -->
 <li>(optional) the <a href="http://search.cpan.org/perldoc?Net::DBus">Net::DBus</a> module is needed to control gmusicbrowser through DBus or to use the included gnome multimedia keys plugin (for gnome &gt;= 2.18)</li>
+<!--
 <li>(optional) the <a href="http://search.cpan.org/perldoc?Gtk2::Notify">Gtk2::Notify</a> module is needed to use the notify plugin</li>
+-->
 
 </ul>
 
@@ -60,7 +62,7 @@ by Quentin Sculo (<a href="mailto:squentin&#64;free.fr?Subject=gmusicbrowser%20%
 <h3>main features</h3>
 
 <ul>
-  <li>made with big (&gt; 10,000 songs) libraries in mind <small style="font-style: italic;">(currently developed with over 27,000 songs)</small></li>
+  <li>made with big (&gt; 10,000 songs) libraries in mind <small style="font-style: italic;">(currently developed with over 32,000 songs)</small></li>
   <li>customizable window layouts (see <a href="layout_doc.html">layouts documentation</a>)</li>
   <li>artist/album lock : easily restrict playlist to current artist/album</li>
   <li>easy access to songs related to the currently playing song
@@ -80,7 +82,8 @@ by Quentin Sculo (<a href="mailto:squentin&#64;free.fr?Subject=gmusicbrowser%20%
   <li>powerful search (nested conditions, can search any field using regular expression or fuzzy search)</li>
   <li>customizable weighted random mode (based on rating, last time played, label, ...)</li>
   <li>browse through pictures and pdf in the album's folder</li>
-  <li>The possibility to act as a icecast server, to listen to your music remotely (experimental)</li>
+  <li>custom fields</li>
+  <li>The possibility to act as a icecast server, to listen to your music remotely (very experimental)</li>
   <li>plugin system, included plugins :
    <ul>
     <li>nowplaying (to update an external program when the playing song changes)</li>
@@ -96,20 +99,24 @@ by Quentin Sculo (<a href="mailto:squentin&#64;free.fr?Subject=gmusicbrowser%20%
 </ul>
 
 <br>
-<h3>TODO :</h3>
+<h3>Plans :</h3>
 <ul>
-  <li>Update this website !</li>
+  <li>read-only support for other formats, including videos (in git, only the audio part of videos can be played currently)</li>
+  <li>add options to read/write custom fields from/to tags</li>
+  <li>redesign the weighted random configuration to make it more customizable, support all the fields, and maybe clearer</li>
   <li>handling of static playlists could be improved</li>
   <li>improve the SongTree widget</li>
   <li>support wma file format</li>
   <li>better alternative layouts and more layouts widgets</li>
   <li>translations (see <a href="translations.html">this page</a> for the translation status, contact me if you are interested in translating to other languages)</li>
+  <li>better command system</li>
   <li>web-radios</li>
   <li>skinned layouts (partly done, but still experimental)</li>
-  <li>ipod support</li>
-  <li>lot of small things ...</li>
+  <li>lots and lots of small things ...</li>
 </ul>
+<!--
 <a href="https://wiki.gmusicbrowser.org/doku.php?id=plans">more detailed list</a> in the wiki<br>
+-->
 <br>
 
 Feel free to <a href="mailto:squentin&#64;free.fr?Subject=gmusicbrowser%20%3a%20">mail me</a> (in english or french) any comments/suggestions/bugs (please include "gmusicbrowser" or "gmb" in the subject), post them in the <a href="https://forum.gmusicbrowser.org">forums</a>.<br>
